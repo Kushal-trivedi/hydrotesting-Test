@@ -1,0 +1,7339 @@
+[
+  {
+    "_1": 2,
+    "_3": -5,
+    "_4": -5
+  },
+  "loaderData",
+  {
+    "_5": 6,
+    "_7": 8
+  },
+  "actionData",
+  "errors",
+  "root",
+  {
+    "_1726": 1727,
+    "_1728": 34,
+    "_1729": 14,
+    "_1730": 14,
+    "_1731": 14,
+    "_1732": 34,
+    "_1733": 14,
+    "_1734": 14,
+    "_1735": 14,
+    "_1736": 14,
+    "_1737": -5,
+    "_1738": 1739
+  },
+  "routes/share.$shareId.($action)",
+  {
+    "_9": 10,
+    "_11": 12,
+    "_13": 14,
+    "_15": 16,
+    "_17": 18
+  },
+  "sharedConversationId",
+  "6ac346dc-73c8-83e8-ac1e-da136297125b",
+  "serverResponse",
+  {
+    "_50": 51,
+    "_51": 52
+  },
+  "moderationMode",
+  false,
+  "meta",
+  {
+    "_25": 26,
+    "_27": 28,
+    "_29": 30,
+    "_31": 32,
+    "_33": 34,
+    "_35": 34,
+    "_36": 34,
+    "_37": 14,
+    "_38": -5,
+    "_39": 40
+  },
+  "shareReceivePerformance",
+  {
+    "_19": 20,
+    "_21": 22,
+    "_23": 24
+  },
+  "loaderDurationMs",
+  293.40941100008786,
+  "apiStartMs",
+  0.0095210000872612,
+  "apiDurationMs",
+  270.358709000051,
+  "pageTitle",
+  "Explain Hydrotest Assignment",
+  "ogTitle",
+  "Check out this chat",
+  "ogDescription",
+  "Here's a chat someone thought you'd want to see.",
+  "ogImage",
+  {
+    "_41": 42,
+    "_43": 44,
+    "_45": 46,
+    "_47": 48,
+    "_49": 42
+  },
+  "isBetterMetatagsEnabled",
+  true,
+  "hasStoredOgCopy",
+  "hasConversationShareOgImageTemplate",
+  "hasImagegenConversationOgImageVariant",
+  "ogImageQueryParam",
+  "xMetadataPolicy",
+  "complete_x_card_v1",
+  "url",
+  "https://ogimg.chatgpt.com/conversation/6ac346dc-73c8-83e8-ac1e-da136297125b/response_multicolor_v1.png",
+  "width",
+  1200,
+  "height",
+  630,
+  "alt",
+  "Preview of shared ChatGPT conversation",
+  "secureUrl",
+  "type",
+  "data",
+  {
+    "_53": 26,
+    "_54": 55,
+    "_56": 57,
+    "_58": 59,
+    "_60": 10,
+    "_61": 14,
+    "_62": 63,
+    "_64": 65,
+    "_66": 67,
+    "_68": 69,
+    "_70": 14,
+    "_71": 14,
+    "_72": 73,
+    "_74": 75,
+    "_76": 14,
+    "_77": 14,
+    "_78": 79,
+    "_80": 81,
+    "_82": 28,
+    "_83": 30,
+    "_84": 34,
+    "_85": 86,
+    "_87": 14,
+    "_88": 81,
+    "_89": 90,
+    "_91": 92,
+    "_93": 94,
+    "_95": 14,
+    "_96": 34,
+    "_97": 98,
+    "_99": 100,
+    "_101": 40,
+    "_102": 14
+  },
+  "title",
+  "create_time",
+  1791182556.45866,
+  "update_time",
+  1791182557.57781,
+  "moderation_results",
+  [],
+  "conversation_id",
+  "is_archived",
+  "safe_urls",
+  [
+    1720,
+    1721,
+    1722,
+    1723,
+    1724,
+    1725
+  ],
+  "blocked_urls",
+  [],
+  "default_model_slug",
+  "auto",
+  "disabled_tool_ids",
+  [],
+  "is_temporary_chat",
+  "is_do_not_remember",
+  "memory_scope",
+  "global_enabled",
+  "context_scopes",
+  [
+    1719
+  ],
+  "sugar_item_visible",
+  "is_study_mode",
+  "mapping",
+  {
+    "_1165": 1179,
+    "_1156": 1180,
+    "_1147": 1181,
+    "_1139": 1182,
+    "_1130": 1183,
+    "_1121": 1184,
+    "_932": 1185,
+    "_912": 1186,
+    "_903": 1187,
+    "_894": 1188,
+    "_886": 1189,
+    "_877": 1190,
+    "_853": 1191,
+    "_837": 1192,
+    "_827": 1193,
+    "_817": 1194,
+    "_806": 1195,
+    "_797": 1196,
+    "_744": 1197,
+    "_731": 1198,
+    "_722": 1199,
+    "_563": 1200,
+    "_550": 1201,
+    "_541": 1202,
+    "_508": 1203,
+    "_491": 1204,
+    "_479": 1205,
+    "_457": 1206,
+    "_152": 1207,
+    "_81": 1208
+  },
+  "current_node",
+  "98dd4971-d5e7-4137-9c01-aeea75435c95",
+  "og_title",
+  "og_description",
+  "is_public",
+  "linear_conversation",
+  [
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147
+  ],
+  "has_user_editable_context",
+  "highlighted_message_id",
+  "continue_conversation_url",
+  "https://chatgpt.com/share/6ac346dc-73c8-83e8-ac1e-da136297125b/continue",
+  "model",
+  {
+    "_108": 109,
+    "_110": 111,
+    "_53": 112,
+    "_113": 114,
+    "_115": 116
+  },
+  "moderation_state",
+  {
+    "_103": 14,
+    "_104": 14,
+    "_105": 14,
+    "_106": 14,
+    "_107": 14
+  },
+  "is_indexable",
+  "is_better_metatags_enabled",
+  "backing_conversation_id",
+  "6ac342f6-a144-83ee-adf9-5bf0681108ae",
+  "og_image_variant",
+  "response_multicolor_v1",
+  "x_metadata_policy",
+  "is_potion_share",
+  "has_been_moderated",
+  "has_been_blocked",
+  "has_been_accepted",
+  "has_been_auto_blocked",
+  "has_been_auto_moderated",
+  "slug",
+  "gpt-5-6",
+  "max_tokens",
+  34834,
+  "GPT-5.6 Luna",
+  "description",
+  "Our latest and most advanced model",
+  "tags",
+  [
+    117
+  ],
+  "history_off_approved",
+  {
+    "_148": 1165,
+    "_153": 1178
+  },
+  {
+    "_148": 1156,
+    "_149": 1164,
+    "_151": 1165,
+    "_153": 1166
+  },
+  {
+    "_148": 1147,
+    "_149": 1155,
+    "_151": 1156,
+    "_153": 1157
+  },
+  {
+    "_148": 1139,
+    "_149": 1146,
+    "_151": 1147,
+    "_153": 1148
+  },
+  {
+    "_148": 1130,
+    "_149": 1138,
+    "_151": 1139,
+    "_153": 1140
+  },
+  {
+    "_148": 1121,
+    "_149": 1129,
+    "_151": 1130,
+    "_153": 1131
+  },
+  {
+    "_148": 932,
+    "_149": 1120,
+    "_151": 1121,
+    "_153": 1122
+  },
+  {
+    "_148": 912,
+    "_149": 931,
+    "_151": 932,
+    "_153": 933
+  },
+  {
+    "_148": 903,
+    "_149": 911,
+    "_151": 912,
+    "_153": 913
+  },
+  {
+    "_148": 894,
+    "_149": 902,
+    "_151": 903,
+    "_153": 904
+  },
+  {
+    "_148": 886,
+    "_149": 893,
+    "_151": 894,
+    "_153": 895
+  },
+  {
+    "_148": 877,
+    "_149": 885,
+    "_151": 886,
+    "_153": 887
+  },
+  {
+    "_148": 853,
+    "_149": 876,
+    "_151": 877,
+    "_153": 878
+  },
+  {
+    "_148": 837,
+    "_149": 852,
+    "_151": 853,
+    "_153": 854
+  },
+  {
+    "_148": 827,
+    "_149": 836,
+    "_151": 837,
+    "_153": 838
+  },
+  {
+    "_148": 817,
+    "_149": 826,
+    "_151": 827,
+    "_153": 828
+  },
+  {
+    "_148": 806,
+    "_149": 816,
+    "_151": 817,
+    "_153": 818
+  },
+  {
+    "_148": 797,
+    "_149": 805,
+    "_151": 806,
+    "_153": 807
+  },
+  {
+    "_148": 744,
+    "_149": 796,
+    "_151": 797,
+    "_153": 798
+  },
+  {
+    "_148": 731,
+    "_149": 743,
+    "_151": 744,
+    "_153": 745
+  },
+  {
+    "_148": 722,
+    "_149": 730,
+    "_151": 731,
+    "_153": 732
+  },
+  {
+    "_148": 563,
+    "_149": 721,
+    "_151": 722,
+    "_153": 723
+  },
+  {
+    "_148": 550,
+    "_149": 562,
+    "_151": 563,
+    "_153": 564
+  },
+  {
+    "_148": 541,
+    "_149": 549,
+    "_151": 550,
+    "_153": 551
+  },
+  {
+    "_148": 508,
+    "_149": 540,
+    "_151": 541,
+    "_153": 542
+  },
+  {
+    "_148": 491,
+    "_149": 507,
+    "_151": 508,
+    "_153": 509
+  },
+  {
+    "_148": 479,
+    "_149": 490,
+    "_151": 491,
+    "_153": 492
+  },
+  {
+    "_148": 457,
+    "_149": 478,
+    "_151": 479,
+    "_153": 480
+  },
+  {
+    "_148": 152,
+    "_149": 456,
+    "_151": 457,
+    "_153": 458
+  },
+  {
+    "_148": 81,
+    "_149": 150,
+    "_151": 152,
+    "_153": 154
+  },
+  "id",
+  "message",
+  {
+    "_148": 81,
+    "_155": 156,
+    "_54": 157,
+    "_56": 158,
+    "_159": 160,
+    "_161": 162,
+    "_163": 34,
+    "_164": 165,
+    "_166": 167,
+    "_168": 169,
+    "_170": 171
+  },
+  "parent",
+  "d00a5aa1-fed8-46fb-ad93-8c1197d0e824",
+  "children",
+  [],
+  "author",
+  {
+    "_453": 454,
+    "_166": 455
+  },
+  1791182447.86862,
+  1791182492.188622,
+  "content",
+  {
+    "_448": 449,
+    "_450": 451
+  },
+  "status",
+  "finished_successfully",
+  "end_turn",
+  "weight",
+  1,
+  "metadata",
+  {
+    "_172": 173,
+    "_174": 34,
+    "_175": 176,
+    "_177": 178,
+    "_179": 109,
+    "_180": 181,
+    "_182": 183,
+    "_184": 185,
+    "_186": 34,
+    "_187": 188,
+    "_189": 190,
+    "_191": 192,
+    "_193": 192,
+    "_194": 109,
+    "_66": 67,
+    "_195": 34,
+    "_196": 152,
+    "_197": 198,
+    "_199": 10
+  },
+  "recipient",
+  "all",
+  "channel",
+  "final",
+  "finish_details",
+  {
+    "_50": 444,
+    "_445": 446
+  },
+  "is_complete",
+  "citations",
+  [],
+  "story_events",
+  [],
+  "resolved_model_slug",
+  "code_blocks",
+  {
+    "_210": 211,
+    "_212": 213,
+    "_214": 215,
+    "_216": 217,
+    "_218": 219,
+    "_220": 221,
+    "_222": 223,
+    "_224": 225,
+    "_226": 227,
+    "_228": 229,
+    "_230": 231,
+    "_232": 233,
+    "_234": 235,
+    "_236": 237,
+    "_238": 239,
+    "_240": 241,
+    "_242": 243,
+    "_244": 245,
+    "_246": 247,
+    "_248": 249,
+    "_250": 251,
+    "_252": 253,
+    "_254": 255,
+    "_256": 257,
+    "_258": 259,
+    "_260": 261,
+    "_262": 263,
+    "_264": 265,
+    "_266": 267,
+    "_268": 269,
+    "_270": 271,
+    "_272": 273,
+    "_274": 275,
+    "_276": 277,
+    "_278": 279,
+    "_280": 281,
+    "_282": 283,
+    "_284": 285,
+    "_286": 287,
+    "_288": 289,
+    "_290": 291,
+    "_292": 293,
+    "_294": 295,
+    "_296": 297,
+    "_298": 299,
+    "_300": 301,
+    "_302": 303,
+    "_304": 305,
+    "_306": 307,
+    "_308": 309,
+    "_310": 311,
+    "_312": 313,
+    "_314": 315,
+    "_316": 317,
+    "_318": 319,
+    "_320": 321,
+    "_322": 323,
+    "_324": 325,
+    "_326": 327,
+    "_328": 329,
+    "_330": 331,
+    "_332": 333,
+    "_334": 335,
+    "_336": 337,
+    "_338": 339,
+    "_340": 341,
+    "_342": 343,
+    "_344": 345,
+    "_346": 347,
+    "_348": 349,
+    "_350": 351,
+    "_352": 353,
+    "_354": 355,
+    "_356": 357,
+    "_358": 359,
+    "_360": 361,
+    "_362": 363
+  },
+  "search_result_groups",
+  [],
+  "cot_version",
+  "v5",
+  "conversation_followup_suggestions_eligible",
+  "request_id",
+  "26b2d973-79d2-4786-97bf-0529774a0a75",
+  "message_type",
+  "next",
+  "turn_exchange_id",
+  "b5654805-67f6-4a9a-9d83-095d453b6e88",
+  "working_turn_id",
+  "model_slug",
+  "can_save",
+  "parent_id",
+  "content_references",
+  [
+    200
+  ],
+  "shared_conversation_id",
+  {
+    "_50": 201,
+    "_202": 203,
+    "_204": 205,
+    "_206": 207,
+    "_47": 203,
+    "_208": 209
+  },
+  "followup_a",
+  "matched_text",
+  "walk you through the actual code **file by file in simple language**",
+  "start_idx",
+  29815,
+  "end_idx",
+  29883,
+  "prompt_text",
+  "Walk me through the actual code file by file in simple language",
+  "0",
+  {
+    "_148": 443,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "1",
+  {
+    "_148": 442,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "2",
+  {
+    "_148": 441,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "3",
+  {
+    "_148": 440,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "4",
+  {
+    "_148": 439,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "5",
+  {
+    "_148": 438,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "6",
+  {
+    "_148": 437,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "7",
+  {
+    "_148": 436,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "8",
+  {
+    "_148": 435,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "9",
+  {
+    "_148": 434,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "10",
+  {
+    "_148": 433,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "11",
+  {
+    "_148": 432,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "12",
+  {
+    "_148": 431,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "13",
+  {
+    "_148": 430,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "14",
+  {
+    "_148": 429,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "15",
+  {
+    "_148": 428,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "16",
+  {
+    "_148": 427,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "17",
+  {
+    "_148": 426,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "18",
+  {
+    "_148": 425,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "19",
+  {
+    "_148": 424,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "20",
+  {
+    "_148": 423,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "21",
+  {
+    "_148": 422,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "22",
+  {
+    "_148": 421,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "23",
+  {
+    "_148": 420,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "24",
+  {
+    "_148": 419,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "25",
+  {
+    "_148": 418,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "26",
+  {
+    "_148": 417,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "27",
+  {
+    "_148": 416,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "28",
+  {
+    "_148": 415,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "29",
+  {
+    "_148": 414,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "30",
+  {
+    "_148": 413,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "31",
+  {
+    "_148": 412,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "32",
+  {
+    "_148": 411,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "33",
+  {
+    "_148": 410,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "34",
+  {
+    "_148": 409,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "35",
+  {
+    "_148": 408,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "36",
+  {
+    "_148": 407,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "37",
+  {
+    "_148": 406,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "38",
+  {
+    "_148": 405,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "39",
+  {
+    "_148": 404,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "40",
+  {
+    "_148": 403,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "41",
+  {
+    "_148": 402,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "42",
+  {
+    "_148": 401,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "43",
+  {
+    "_148": 400,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "44",
+  {
+    "_148": 399,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "45",
+  {
+    "_148": 398,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "46",
+  {
+    "_148": 397,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "47",
+  {
+    "_148": 396,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "48",
+  {
+    "_148": 395,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "49",
+  {
+    "_148": 394,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "50",
+  {
+    "_148": 393,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "51",
+  {
+    "_148": 392,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "52",
+  {
+    "_148": 391,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "53",
+  {
+    "_148": 390,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "54",
+  {
+    "_148": 389,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "55",
+  {
+    "_148": 388,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "56",
+  {
+    "_148": 387,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "57",
+  {
+    "_148": 386,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "58",
+  {
+    "_148": 385,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "59",
+  {
+    "_148": 384,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "60",
+  {
+    "_148": 383,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "61",
+  {
+    "_148": 382,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "62",
+  {
+    "_148": 381,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "63",
+  {
+    "_148": 380,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "64",
+  {
+    "_148": 379,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "65",
+  {
+    "_148": 378,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "66",
+  {
+    "_148": 377,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "67",
+  {
+    "_148": 376,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "68",
+  {
+    "_148": 375,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "69",
+  {
+    "_148": 374,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "70",
+  {
+    "_148": 373,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "71",
+  {
+    "_148": 372,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "72",
+  {
+    "_148": 371,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "73",
+  {
+    "_148": 370,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "74",
+  {
+    "_148": 369,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "75",
+  {
+    "_148": 368,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "76",
+  {
+    "_148": 364,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "hwj9t5",
+  "edited",
+  "previewable",
+  "preview_language",
+  "3x7qe9",
+  "1yklbm",
+  "2a1iuw",
+  "zyq6jk",
+  "kl8m8i",
+  "4qqfvl",
+  "dma2xt",
+  "8pu5ak",
+  "ejzd88",
+  "c8ysg9",
+  "xpsuhe",
+  "yen4aj",
+  "l5ewff",
+  "95sv36",
+  "ozzr50",
+  "n38c9b",
+  "tokom4",
+  "b3lunv",
+  "ytz9iz",
+  "wo06wk",
+  "elimwd",
+  "aonovw",
+  "dwnrob",
+  "likyj3",
+  "dgk20d",
+  "8w8eh3",
+  "frultj",
+  "of5ha7",
+  "jrbopk",
+  "5qxby8",
+  "a9os3w",
+  "vgemiu",
+  "tbdecm",
+  "nl02ya",
+  "5b0mj0",
+  "3vqrrb",
+  "536g7f",
+  "crp5l1",
+  "9b34ev",
+  "nyzdim",
+  "eh1425",
+  "r8jgw6",
+  "blc7qm",
+  "b021zd",
+  "gdhkfo",
+  "swcfzo",
+  "2cbltf",
+  "rcdavg",
+  "egp1dl",
+  "wpxtza",
+  "34pslf",
+  "pj4ada",
+  "1e30as",
+  "hf7klg",
+  "wia5n0",
+  "1zx21d",
+  "eik84s",
+  "dfxevz",
+  "vc86f7",
+  "9grl3m",
+  "6lrscx",
+  "u9a6n7",
+  "ggayq2",
+  "leqvgb",
+  "2oh81n",
+  "xsgvw9",
+  "qpabsc",
+  "n68fh7",
+  "ladr5f",
+  "o4bb1e",
+  "d65d2r",
+  "0am7qj",
+  "y08scp",
+  "4cl3d4",
+  "oln4vz",
+  "sdksgh",
+  "stop",
+  "stop_tokens",
+  [
+    447
+  ],
+  200002,
+  "content_type",
+  "text",
+  "parts",
+  [
+    452
+  ],
+  "Yes. Since you are going to give the requirements to **Antigravity** to actually build the application, the best approach is to give it a **complete implementation specification**, not just the original assignment.\n\nOne correction first: **you do not need an API key for your own Flask API.** An API key is only needed if your application calls some external service that requires authentication. For this assignment, we can build the entire application locally without any external API key.\n\nI recommend:\n\n```text\nFrontend: HTML + CSS + JavaScript\nBackend: Python + Flask\nDatabase: SQLite\nAPI: REST API\nORM: SQLAlchemy\nValidation: Flask/Pydantic or application-level validation\nTesting: pytest\nDemo data: Seed script\n```\n\nThis is much more realistic for you to understand than starting Flutter from zero.\n\n---\n\n# 1. First understand what Flask API means\n\n**Flask** is a Python framework used to create web applications and APIs.\n\nFor example:\n\n```python\nfrom flask import Flask\n\napp = Flask(__name__)\n\n@app.get(\"/api/hello\")\ndef hello():\n    return {\"message\": \"Hello\"}\n```\n\nWhen Flask is running:\n\n```text\nhttp://127.0.0.1:5000/api/hello\n```\n\nA browser or frontend can call that URL and Flask returns:\n\n```json\n{\n    \"message\": \"Hello\"\n}\n```\n\nSo:\n\n```text\nHTML/JavaScript\n       ↓\nHTTP Request\n       ↓\nFlask API\n       ↓\nPython code\n       ↓\nDatabase\n```\n\n---\n\n# 2. What is an API key?\n\nAn API key is basically a secret/token used when your application accesses **another service**.\n\nFor example:\n\n```text\nYour application\n       ↓\nGoogle Maps API\n       ↓\nAPI KEY\n```\n\nBut our Hydrotesting application doesn't need Google Maps, OpenAI, Firebase, payment APIs, etc.\n\nTherefore:\n\n### We should NOT invent an API key.\n\nThe local application can work like:\n\n```text\nBrowser\n   ↓\nFlask API\n   ↓\nSQLite\n```\n\nNo external API key required.\n\nWe should still use `.env` for configuration such as:\n\n```text\nSECRET_KEY=change-this-for-local-development\nDATABASE_URL=sqlite:///hydrotest.db\n```\n\nAnd:\n\n```text\n.env\n```\n\nmust be excluded from Git.\n\n---\n\n# 3. Overall application architecture\n\nTell Antigravity to build this:\n\n```text\n                    HYDROTEST MANAGEMENT SYSTEM\n\n                             Browser\n                                │\n                                ▼\n                    ┌────────────────────┐\n                    │  HTML/CSS/JS UI    │\n                    └─────────┬──────────┘\n                              │\n                         HTTP / JSON\n                              │\n                              ▼\n                    ┌────────────────────┐\n                    │    Flask REST API  │\n                    ├────────────────────┤\n                    │ Routes             │\n                    │ Validation         │\n                    │ Business Logic     │\n                    │ Error Handling     │\n                    └─────────┬──────────┘\n                              │\n                              ▼\n                    ┌────────────────────┐\n                    │ SQLAlchemy ORM     │\n                    └─────────┬──────────┘\n                              │\n                              ▼\n                    ┌────────────────────┐\n                    │ SQLite Database    │\n                    └────────────────────┘\n```\n\n---\n\n# 4. Main functionality\n\nThe application needs four major areas.\n\n### A. Dashboard\n\nShow:\n\n- Total Assets\n- Valid Tests\n- Due Within 30 Days\n- Overdue\n- Failed\n- Pending\n\n### B. Asset Management\n\nAllow:\n\n- Create asset\n- List assets\n- Search assets\n- Filter assets\n- Edit asset\n- View asset\n- Sort by next due date\n\n### C. Hydrotest Management\n\nAllow:\n\n- Create hydrotest\n- View hydrotest\n- Update hydrotest\n- Link hydrotest to asset\n- Pass / Fail / Pending\n- Notes\n- Report reference\n\n### D. Validation\n\nHandle:\n\n- Required fields\n- Invalid dates\n- Duplicate asset IDs\n- Invalid status/result\n- Non-existent asset\n- Invalid hydrotest relationship\n\n---\n\n# 5. Database design\n\nUse SQLite because it is extremely easy to run locally and doesn't require installing MongoDB/PostgreSQL.\n\n### `assets`\n\n```text\nid\nasset_id\nstation\nasset_type\nserial_number\ntest_date\nnext_due_date\nstatus\ncreated_at\nupdated_at\n```\n\n### `hydrotest_records`\n\n```text\nid\nasset_id\ntest_date\nperformed_by\nresult\nnotes\nreport_reference\ncreated_at\nupdated_at\n```\n\nRelationship:\n\n```text\nAsset\n  │\n  ├── Hydrotest #1\n  ├── Hydrotest #2\n  ├── Hydrotest #3\n  └── Hydrotest #4\n```\n\nSo:\n\n**One asset → many hydrotest records**\n\n---\n\n# 6. Important database relationship\n\nDon't duplicate the complete asset information inside every hydrotest.\n\nInstead:\n\n```text\nAsset:\nAST-001\n```\n\nHydrotest:\n\n```text\nasset_id = AST-001\n```\n\nThat connects the two.\n\nIn SQLAlchemy:\n\n```python\nclass Asset(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    asset_id = db.Column(db.String(50), unique=True, nullable=False)\n\n    hydrotests = db.relationship(\n        \"HydrotestRecord\",\n        backref=\"asset\",\n        lazy=True\n    )\n```\n\nConceptually:\n\n```text\nassets.id\n     ↑\n     │\nhydrotest_records.asset_id\n```\n\n---\n\n# 7. API structure\n\nThese are the APIs from the assignment.\n\n### Create Asset\n\n```http\nPOST /api/hydrotests/assets\n```\n\nRequest:\n\n```json\n{\n  \"asset_id\": \"AST-001\",\n  \"station\": \"Rajkot Demo Station\",\n  \"asset_type\": \"Storage Tank\",\n  \"serial_number\": \"SN-1001\",\n  \"test_date\": \"2026-10-01\",\n  \"next_due_date\": \"2027-10-01\",\n  \"status\": \"Active\"\n}\n```\n\nResponse:\n\n```json\n{\n  \"message\": \"Asset created successfully\",\n  \"asset\": {\n    \"id\": 1,\n    \"asset_id\": \"AST-001\"\n  }\n}\n```\n\nStatus:\n\n```text\n201 Created\n```\n\n---\n\n# 8. Get assets\n\n```http\nGET /api/hydrotests/assets\n```\n\nResponse:\n\n```json\n{\n  \"data\": [\n    {\n      \"asset_id\": \"AST-001\",\n      \"station\": \"Rajkot Demo Station\",\n      \"asset_type\": \"Storage Tank\",\n      \"status\": \"Active\"\n    }\n  ]\n}\n```\n\n---\n\n# 9. Filtering\n\nSupport query parameters.\n\nExample:\n\n```http\nGET /api/hydrotests/assets?station=Rajkot\n```\n\nor:\n\n```http\nGET /api/hydrotests/assets?asset_type=Storage%20Tank\n```\n\nor:\n\n```http\nGET /api/hydrotests/assets?status=Active\n```\n\nor:\n\n```http\nGET /api/hydrotests/assets?due_from=2026-10-01&due_to=2026-10-31\n```\n\nMultiple filters should be combinable.\n\nExample:\n\n```text\nstation=Rajkot\n+\nasset_type=Tank\n+\nstatus=Active\n```\n\n---\n\n# 10. Sorting\n\nThe assignment specifically says:\n\n> sort by next-due date.\n\nDefault should preferably be:\n\n```text\nearliest due date first\n```\n\nExample:\n\n```text\nAST-003 → 10 Oct\nAST-001 → 20 Oct\nAST-007 → 15 Nov\nAST-004 → 20 Dec\n```\n\n---\n\n# 11. Create Hydrotest\n\n```http\nPOST /api/hydrotests/records\n```\n\nRequest:\n\n```json\n{\n  \"asset_id\": \"AST-001\",\n  \"test_date\": \"2026-10-01\",\n  \"performed_by\": \"ABC Testing Services\",\n  \"result\": \"Pass\",\n  \"notes\": \"No leakage detected\",\n  \"report_reference\": \"reports/AST-001-2026-10-01.pdf\"\n}\n```\n\nAllowed results:\n\n```text\nPass\nFail\nPending\n```\n\n---\n\n# 12. Get hydrotest\n\n```http\nGET /api/hydrotests/records/{id}\n```\n\nExample:\n\n```http\nGET /api/hydrotests/records/1\n```\n\n---\n\n# 13. Update hydrotest\n\n```http\nPATCH /api/hydrotests/records/{id}\n```\n\nExample:\n\n```json\n{\n  \"result\": \"Pass\",\n  \"notes\": \"Retested successfully\"\n}\n```\n\nImportant:\n\n```text\ncreated_at\n```\n\nmust stay unchanged.\n\nOnly:\n\n```text\nupdated_at\n```\n\nchanges.\n\n---\n\n# 14. Dashboard API\n\n```http\nGET /api/hydrotests/summary\n```\n\nReturn:\n\n```json\n{\n  \"total_assets\": 8,\n  \"valid_tests\": 5,\n  \"due_soon\": 2,\n  \"overdue\": 1,\n  \"failed\": 2,\n  \"pending\": 1\n}\n```\n\nAlso return useful due/overdue items if possible:\n\n```json\n{\n  \"total_assets\": 8,\n  \"valid_tests\": 5,\n  \"due_soon\": 2,\n  \"overdue\": 1,\n  \"failed\": 2,\n  \"pending\": 1,\n  \"due_soon_items\": [],\n  \"overdue_items\": []\n}\n```\n\n---\n\n# 15. Date logic\n\nThis is very important.\n\nUse the **current date**, not a hardcoded date.\n\n### Overdue\n\n```python\nnext_due_date < today\n```\n\n### Due within 30 days\n\n```python\ntoday <= next_due_date <= today + 30 days\n```\n\n### Valid\n\n```python\nnext_due_date > today + 30 days\n```\n\nBe careful around today's date and boundaries.\n\nFor example, if today is:\n\n```text\n2026-10-05\n```\n\nThen:\n\n```text\n2026-10-05 → due soon\n2026-10-20 → due soon\n2026-11-04 → due soon\n2026-11-05 → due soon\n2026-11-06 → not due soon\n```\n\nAssuming \"within 30 days\" includes the 30th day.\n\n---\n\n# 16. Validation rules\n\n### Asset ID\n\nRequired and unique.\n\n```text\nAST-001\n```\n\nCannot have two assets with the same ID.\n\nIf duplicate:\n\n```http\n409 Conflict\n```\n\nResponse:\n\n```json\n{\n  \"error\": \"Asset ID AST-001 already exists\"\n}\n```\n\n---\n\n### Station\n\nRequired.\n\n---\n\n### Asset type\n\nRequired.\n\n---\n\n### Test date\n\nRequired and valid ISO date:\n\n```text\nYYYY-MM-DD\n```\n\n---\n\n### Next due date\n\nRequired.\n\nMust satisfy:\n\n```text\nnext_due_date >= test_date\n```\n\nIf not:\n\n```json\n{\n  \"error\": \"Next due date cannot be earlier than test date\"\n}\n```\n\n---\n\n### Status\n\nUse controlled values.\n\nFor example:\n\n```text\nActive\nInactive\nUnder Maintenance\n```\n\nDocument these as an assumption because the original assignment does not define exact asset-status values.\n\n---\n\n### Hydrotest result\n\nOnly:\n\n```text\nPass\nFail\nPending\n```\n\n---\n\n# 17. Error handling\n\nUse proper HTTP status codes.\n\n| Situation | Status |\n|---|---:|\n| Successful GET | 200 |\n| Created | 201 |\n| Invalid input | 400 |\n| Not found | 404 |\n| Duplicate asset | 409 |\n| Server error | 500 |\n\nDon't return vague errors like:\n\n```text\nSomething went wrong\n```\n\nGive useful messages.\n\n---\n\n# 18. UI design\n\nThe UI does **not** need to be fancy.\n\nIt should be clean and professional.\n\n### Sidebar\n\n```text\nHydroTest Manager\n\nDashboard\nAssets\nHydrotests\n```\n\n### Dashboard\n\nCards:\n\n```text\n┌──────────────┐\n│ Total Assets │\n│      8       │\n└──────────────┘\n\n┌──────────────┐\n│ Valid Tests  │\n│      5       │\n└──────────────┘\n\n┌──────────────┐\n│ Due Soon     │\n│      2       │\n└──────────────┘\n\n┌──────────────┐\n│ Overdue      │\n│      1       │\n└──────────────┘\n\n┌──────────────┐\n│ Failed       │\n│      2       │\n└──────────────┘\n\n┌──────────────┐\n│ Pending      │\n│      1       │\n└──────────────┘\n```\n\nThen show:\n\n```text\nDue Soon\n---------------------------\nAST-002   18 Oct 2026\nAST-004   25 Oct 2026\n\nOverdue\n---------------------------\nAST-003   20 Sep 2026\n```\n\n---\n\n# 19. Asset page\n\nTable:\n\n```text\nAsset ID | Station | Type | Status | Next Due | Actions\n```\n\nExample:\n\n```text\nAST-001 | Rajkot | Tank | Active | 20 Oct | View Edit\nAST-002 | Surat  | Tank | Active | 18 Oct | View Edit\n```\n\nButtons:\n\n```text\n+ Add Asset\n```\n\nSearch box:\n\n```text\nSearch asset...\n```\n\nFilters:\n\n```text\nStation ▼\nAsset Type ▼\nStatus ▼\nDue From\nDue To\n```\n\n---\n\n# 20. Add Asset page\n\nForm:\n\n```text\nAsset ID *\nStation *\nAsset Type *\nSerial / Reference Number *\nTest Date *\nNext Due Date *\nStatus *\n\n[Cancel] [Create Asset]\n```\n\nFrontend validation should happen before submitting.\n\nBut **backend validation must also happen**.\n\n---\n\n# 21. Hydrotest page\n\nTable:\n\n```text\nAsset ID | Test Date | Performed By | Result | Notes\n```\n\nResult should have visual status:\n\n```text\nPASS\nFAIL\nPENDING\n```\n\nAgain, don't over-design it.\n\n---\n\n# 22. Report file\n\nThe assignment says:\n\n> report filename or safe demo file reference\n\nSo **don't build a complicated document-management system**.\n\nFor the MVP, store something like:\n\n```text\nreports/AST-001-test-2026-10-01.pdf\n```\n\nThe demo can contain fictional report references.\n\nIf actual upload is implemented, validate:\n\n- filename\n- extension\n- file size\n- safe generated filename\n- storage directory\n\nNever allow arbitrary paths from users.\n\n---\n\n# 23. Project folder structure\n\nAsk Antigravity to create something like:\n\n```text\nhydrotest-management/\n│\n├── app/\n│   ├── __init__.py\n│   ├── config.py\n│   ├── extensions.py\n│   │\n│   ├── models/\n│   │   ├── asset.py\n│   │   └── hydrotest.py\n│   │\n│   ├── routes/\n│   │   ├── asset_routes.py\n│   │   ├── hydrotest_routes.py\n│   │   └── summary_routes.py\n│   │\n│   ├── services/\n│   │   ├── asset_service.py\n│   │   ├── hydrotest_service.py\n│   │   └── summary_service.py\n│   │\n│   ├── schemas/\n│   │   ├── asset_schema.py\n│   │   └── hydrotest_schema.py\n│   │\n│   ├── templates/\n│   │   └── ...\n│   │\n│   └── static/\n│       ├── css/\n│       └── js/\n│\n├── tests/\n│   ├── test_assets.py\n│   ├── test_hydrotests.py\n│   ├── test_summary.py\n│   └── test_validation.py\n│\n├── seed/\n│   └── seed_data.py\n│\n├── reports/\n│   └── demo/\n│\n├── .env.example\n├── .gitignore\n├── requirements.txt\n├── README.md\n├── run.py\n└── LICENSE\n```\n\nThis is much better than putting everything in one `app.py`.\n\n---\n\n# 24. Seed data\n\nThe assignment requires:\n\n**at least 8 fictional assets**\n\nand\n\n**12 fictional hydrotest records.**\n\nMake sure the data deliberately covers:\n\n```text\nPass\nFail\nPending\nDue Soon\nOverdue\nValid\n```\n\nDon't just randomly generate data.\n\nThe dashboard should visibly demonstrate every category.\n\n---\n\n# 25. Testing\n\nAt minimum, implement tests for:\n\n```text\n✓ Create asset\n✓ Get assets\n✓ Update asset\n✓ Duplicate asset\n✓ Missing required field\n✓ Invalid date\n✓ Next due before test date\n✓ Create hydrotest\n✓ Invalid hydrotest result\n✓ Hydrotest with nonexistent asset\n✓ Overdue calculation\n✓ Due-soon calculation\n✓ Dashboard counts\n✓ Update timestamps\n```\n\nRun:\n\n```bash\npytest\n```\n\nThe README should explain that command.\n\n---\n\n# 26. Environment configuration\n\nCreate:\n\n```text\n.env.example\n```\n\nwith:\n\n```text\nFLASK_ENV=development\nSECRET_KEY=replace-with-a-local-secret\nDATABASE_URL=sqlite:///hydrotest.db\n```\n\nThe actual:\n\n```text\n.env\n```\n\nshould **not** be committed.\n\n`.gitignore`:\n\n```text\n.env\n*.db\n__pycache__/\n.pytest_cache/\n.venv/\n```\n\n---\n\n# 27. Do NOT add unnecessary things\n\nTell Antigravity explicitly:\n\nDon't add:\n\n- Authentication unless needed\n- Payment systems\n- Cloud deployment\n- Real FuelFlux data\n- Real customer data\n- External API integrations\n- Complicated microservices\n- Kubernetes\n- Docker unless useful\n- Flutter\n- React unless genuinely needed\n- AI features\n\nThe assignment is a **small technical assessment**, not an enterprise product.\n\n---\n\n# 28. What you need to understand before the interview\n\nYou don't need to memorize all the code.\n\nYou need to understand this:\n\n```text\n                    USER\n                      ↓\n                 Web Browser\n                      ↓\n                HTML / JS UI\n                      ↓\n                 HTTP Request\n                      ↓\n                Flask REST API\n                      ↓\n          ┌───────────┴───────────┐\n          ↓                       ↓\n     Validation              Business Logic\n          │                       │\n          └───────────┬───────────┘\n                      ↓\n                 SQLAlchemy\n                      ↓\n                  SQLite DB\n                      ↓\n                 JSON Response\n                      ↓\n                 Web Browser\n```\n\nAnd you should be able to explain:\n\n> **\"The frontend doesn't directly access the database. It calls the Flask REST API. Flask validates the request, applies business rules, uses SQLAlchemy to interact with SQLite, and returns a JSON response to the frontend.\"**\n\nThat is the central technical concept.\n\n---\n\n# 29. COMPLETE PROMPT FOR ANTIGRAVITY\n\nYou can give the following to Antigravity. I've written it as an implementation specification so it knows what to build rather than merely explaining the assignment.\n\n:::writing{variant=\"document\" id=\"58321\" title=\"Antigravity Implementation Specification — Hydrotest Management System\"}\n# Build a Complete Hydrotest Management & Inspection Workflow Application\n\nBuild a complete, locally runnable technical-assessment application based on the requirements below.\n\n## 1. Goal\n\nCreate a small but fully functional Hydrotest Management System for fictional/demo data only.\n\nThe application must allow users to:\n\n1. Register and manage assets/equipment.\n2. Record hydrotest records against assets.\n3. Track Pass, Fail, and Pending results.\n4. Track test dates and next-due dates.\n5. Identify tests that are due within 30 days.\n6. Identify overdue tests.\n7. Search and filter assets.\n8. Sort assets by next-due date.\n9. View dashboard summary counts.\n10. Update records while preserving created_at and updating updated_at.\n11. Handle duplicate identifiers safely.\n12. Provide useful validation and error messages.\n13. Include automated tests.\n14. Include fictional seed data.\n15. Include complete README/setup instructions.\n\nDo NOT use FuelFlux production systems, credentials, databases, customer information, or real confidential data.\n\nUse only synthetic/demo data.\n\n---\n\n# 2. Technology Stack\n\nUse this stack:\n\n- Python 3.11+\n- Flask\n- Flask-SQLAlchemy / SQLAlchemy\n- SQLite for local development\n- HTML\n- CSS\n- Vanilla JavaScript\n- REST JSON API\n- pytest for automated tests\n- python-dotenv for environment configuration\n\nDo NOT use Flutter.\n\nDo NOT require any external paid service.\n\nDo NOT require an external API key.\n\nThe application must work completely locally.\n\n---\n\n# 3. Important API Key Clarification\n\nThis application does not need an external API key.\n\nDo not invent or hardcode any external API credentials.\n\nUse `.env` only for local configuration such as:\n\nFLASK_ENV=development\nSECRET_KEY=replace-with-local-secret\nDATABASE_URL=sqlite:///hydrotest.db\n\nCreate `.env.example`.\n\nNever commit `.env`.\n\n---\n\n# 4. Architecture\n\nUse this architecture:\n\nBrowser\n→ HTML/CSS/JavaScript\n→ Flask REST API\n→ validation/business logic\n→ SQLAlchemy\n→ SQLite\n\nSeparate:\n\n- routes\n- models\n- services/business logic\n- validation/schemas\n- configuration\n- frontend\n- tests\n\nDo not put the entire application into one Python file.\n\n---\n\n# 5. Main UI\n\nCreate a clean, professional, simple web interface.\n\nNavigation:\n\n- Dashboard\n- Assets\n- Hydrotests\n\n## Dashboard\n\nDisplay:\n\n- Total Assets\n- Valid Tests\n- Due Within 30 Days\n- Overdue\n- Failed\n- Pending\n\nAlso display:\n\n### Due Soon table\n\nColumns:\n\n- Asset ID\n- Station\n- Asset Type\n- Next Due Date\n- Days Remaining\n\n### Overdue table\n\nColumns:\n\n- Asset ID\n- Station\n- Asset Type\n- Next Due Date\n- Days Overdue\n\nUse clear visual status indicators.\n\n---\n\n# 6. Asset Management\n\nCreate an Assets page.\n\nTable columns:\n\n- Asset ID\n- Station/Site\n- Asset Type\n- Serial/Reference Number\n- Test Date\n- Next Due Date\n- Status\n- Actions\n\nActions:\n\n- View\n- Edit\n\nProvide:\n\n- Add Asset button\n- Search\n- Station filter\n- Asset type filter\n- Status filter\n- Due-date range filter\n- Sort by next-due date\n\nDefault sort should preferably be earliest next-due date first.\n\n---\n\n# 7. Asset Create/Edit Form\n\nFields:\n\n- Asset ID\n- Station/Site\n- Asset Type\n- Serial/Reference Number\n- Test Date\n- Next Due Date\n- Status\n\nRequired fields:\n\n- Asset ID\n- Station/Site\n- Asset Type\n- Serial/Reference Number\n- Test Date\n- Next Due Date\n- Status\n\nUse controlled asset status values.\n\nBecause the original assignment does not define exact asset-status values, document the following as an assumption:\n\n- Active\n- Inactive\n- Under Maintenance\n\nDo not claim these are official FuelFlux/company policies.\n\n---\n\n# 8. Asset Validation\n\nRules:\n\n1. Asset ID is required.\n2. Asset ID must be unique.\n3. Station is required.\n4. Asset type is required.\n5. Serial/reference number is required.\n6. Test date must be valid.\n7. Next-due date must be valid.\n8. Next-due date cannot be earlier than test date.\n9. Status must be one of the allowed controlled values.\n\nDuplicate Asset ID must return HTTP 409 Conflict.\n\nExample:\n\n{\n  \"error\": \"Asset ID AST-001 already exists\"\n}\n\nInvalid date example:\n\n{\n  \"error\": \"Next due date cannot be earlier than test date\"\n}\n\n---\n\n# 9. Hydrotest Management\n\nCreate a Hydrotests page.\n\nFields:\n\n- Asset\n- Test Date\n- Performed By / Provider\n- Result\n- Notes\n- Report Filename / Safe Demo Reference\n\nAllowed results:\n\n- Pass\n- Fail\n- Pending\n\nA hydrotest must be linked to an existing asset.\n\nIf the asset does not exist, return HTTP 404.\n\n---\n\n# 10. Hydrotest APIs\n\nImplement:\n\nPOST /api/hydrotests/records\n\nGET /api/hydrotests/records/{id}\n\nPATCH /api/hydrotests/records/{id}\n\nAlso provide a useful list endpoint:\n\nGET /api/hydrotests/records\n\nThe list endpoint may support filtering by result and asset.\n\n---\n\n# 11. Asset APIs\n\nImplement exactly:\n\nPOST /api/hydrotests/assets\n\nGET /api/hydrotests/assets\n\nAlso provide an update endpoint for assets, for example:\n\nPATCH /api/hydrotests/assets/{id}\n\nA GET-by-ID endpoint may also be provided.\n\n---\n\n# 12. Dashboard API\n\nImplement:\n\nGET /api/hydrotests/summary\n\nReturn JSON similar to:\n\n{\n  \"total_assets\": 8,\n  \"valid_tests\": 5,\n  \"due_soon\": 2,\n  \"overdue\": 1,\n  \"failed\": 2,\n  \"pending\": 1,\n  \"due_soon_items\": [],\n  \"overdue_items\": []\n}\n\nThe frontend dashboard must obtain these values through the API rather than hardcoding them.\n\n---\n\n# 13. Date Business Logic\n\nUse the actual current date.\n\nDo NOT hardcode today's date.\n\nOverdue:\n\nnext_due_date < today\n\nDue within 30 days:\n\ntoday <= next_due_date <= today + 30 days\n\nValid/not due soon:\n\nnext_due_date > today + 30 days\n\nInclude the exact boundary of 30 days in the due-soon category.\n\nUse date-only comparison consistently and document the behavior.\n\n---\n\n# 14. Database Design\n\nUse SQLite with SQLAlchemy.\n\n## Asset table\n\nFields:\n\n- id\n- asset_id\n- station\n- asset_type\n- serial_number\n- test_date\n- next_due_date\n- status\n- created_at\n- updated_at\n\nasset_id must have a unique database constraint.\n\n## HydrotestRecord table\n\nFields:\n\n- id\n- asset_id foreign key\n- test_date\n- performed_by\n- result\n- notes\n- report_reference\n- created_at\n- updated_at\n\nRelationship:\n\nOne Asset → Many HydrotestRecord objects.\n\nDo not duplicate complete asset information inside each hydrotest record.\n\n---\n\n# 15. Timestamp Behavior\n\nWhen creating a record:\n\ncreated_at = current timestamp\nupdated_at = current timestamp\n\nWhen updating:\n\ncreated_at MUST remain unchanged.\n\nupdated_at MUST change.\n\nAdd automated tests for this.\n\nUse UTC timestamps where practical and document the decision.\n\n---\n\n# 16. Report/File Handling\n\nFor the MVP, use safe fictional report references rather than building a complicated document-management system.\n\nExamples:\n\nreports/demo/AST-001-test-2026-10-01.pdf\n\nDo not allow arbitrary filesystem paths from user input.\n\nIf file upload is implemented, use generated/sanitized filenames and validate file type and size.\n\nNo real documents should be included.\n\n---\n\n# 17. API HTTP Status Codes\n\nUse appropriate status codes:\n\n200 - successful GET/update\n201 - successful creation\n400 - invalid request/validation error\n404 - resource not found\n409 - duplicate/conflict\n500 - unexpected server error\n\nReturn JSON error responses with useful messages.\n\n---\n\n# 18. Seed Data\n\nCreate at least:\n\n8 fictional assets\n\n12 fictional hydrotest records\n\nThe seed data MUST intentionally cover:\n\n- Pass\n- Fail\n- Pending\n- Valid\n- Due within 30 days\n- Overdue\n\nUse fictional names such as:\n\n- AST-001\n- AST-002\n- AST-003\n- Rajkot Demo Station\n- Ahmedabad Demo Station\n- Surat Demo Station\n\nDo not use real company/customer information.\n\nCreate a simple seed command/script.\n\nExample:\n\npython seed/seed_data.py\n\nRunning the seed script repeatedly should not create uncontrolled duplicate data. Make it idempotent or clearly reset/reseed the demo database.\n\n---\n\n# 19. Frontend Workflow\n\n## Dashboard\n\nOn page load:\n\nGET /api/hydrotests/summary\n\nRender the returned counts.\n\n## Assets\n\nOn page load:\n\nGET /api/hydrotests/assets\n\nRender table.\n\nWhen filters change:\n\nCall the API with query parameters.\n\nExample:\n\nGET /api/hydrotests/assets?station=Rajkot&status=Active\n\nWhen user clicks Add Asset:\n\nOpen asset form.\n\nWhen submitted:\n\nPOST /api/hydrotests/assets\n\nIf successful:\n\n- show success message\n- close/navigate back\n- refresh asset list/dashboard\n\nIf failed:\n\n- show API error message clearly\n\n## Edit Asset\n\nLoad existing data.\n\nSubmit PATCH.\n\nPreserve created_at.\n\nRefresh UI.\n\n## Hydrotest\n\nUser selects an existing asset.\n\nSubmit:\n\nPOST /api/hydrotests/records\n\nRefresh dashboard/list.\n\n---\n\n# 20. API Example\n\nCreate asset:\n\nPOST /api/hydrotests/assets\n\nRequest:\n\n{\n  \"asset_id\": \"AST-001\",\n  \"station\": \"Rajkot Demo Station\",\n  \"asset_type\": \"Storage Tank\",\n  \"serial_number\": \"SN-1001\",\n  \"test_date\": \"2026-10-01\",\n  \"next_due_date\": \"2027-10-01\",\n  \"status\": \"Active\"\n}\n\nResponse:\n\n{\n  \"message\": \"Asset created successfully\",\n  \"asset\": {\n    \"id\": 1,\n    \"asset_id\": \"AST-001\"\n  }\n}\n\n---\n\n# 21. Search/Filter API\n\nSupport:\n\nstation\n\nasset_type\n\nstatus\n\ndue_from\n\ndue_to\n\nsearch\n\nsort by next_due_date\n\nFilters should be combinable.\n\nExample:\n\nGET /api/hydrotests/assets?station=Rajkot&asset_type=Tank&status=Active\n\n---\n\n# 22. Testing\n\nUse pytest.\n\nCreate tests for:\n\n1. Create valid asset\n2. Get assets\n3. Update asset\n4. Duplicate asset ID\n5. Missing required field\n6. Invalid status\n7. Invalid test date\n8. Next due before test date\n9. Create valid hydrotest\n10. Hydrotest with nonexistent asset\n11. Invalid hydrotest result\n12. Get hydrotest\n13. Update hydrotest\n14. Overdue calculation\n15. Due-within-30-days calculation\n16. Dashboard counts\n17. created_at remains unchanged after update\n18. updated_at changes after update\n\nAll tests must be runnable with:\n\npytest\n\n---\n\n# 23. Error Handling\n\nImplement centralized API error handling where practical.\n\nDo not expose Python stack traces to normal API users in production-style responses.\n\nUse consistent JSON errors:\n\n{\n  \"error\": \"Human-readable message\"\n}\n\nFor validation:\n\n{\n  \"error\": \"Validation failed\",\n  \"details\": [\n    \"Asset ID is required\",\n    \"Next due date cannot be earlier than test date\"\n  ]\n}\n\n---\n\n# 24. Security\n\nThis is a demo/local assessment.\n\nStill follow basic security practices:\n\n- No secrets in source code.\n- No .env committed.\n- Provide .env.example.\n- No real data.\n- No arbitrary filesystem paths.\n- Validate user input.\n- Use database constraints.\n- Do not expose internal stack traces.\n- Do not use production credentials.\n- Do not connect to FuelFlux systems.\n\n---\n\n# 25. README\n\nCreate a professional README containing:\n\n1. Project overview\n2. Features\n3. Architecture\n4. Technology stack\n5. Prerequisites\n6. Installation\n7. Virtual environment setup\n8. Environment variables\n9. Database setup\n10. Seed data\n11. Run commands\n12. API documentation/examples\n13. Test commands\n14. Assumptions\n15. Limitations\n16. Security considerations\n17. Future improvements\n18. AI/tool usage disclosure\n\nExample setup:\n\npython -m venv .venv\n\nWindows:\n\n.venv\\Scripts\\activate\n\nInstall:\n\npip install -r requirements.txt\n\nSeed:\n\npython seed/seed_data.py\n\nRun:\n\npython run.py\n\nTest:\n\npytest\n\nDocument the exact commands that actually work.\n\n---\n\n# 26. API Documentation\n\nProvide either:\n\n- a simple API documentation page, or\n- a well-organized README API section.\n\nDocument:\n\nMethod\nEndpoint\nPurpose\nRequest body\nResponse\nStatus codes\n\nExample:\n\nPOST /api/hydrotests/assets\n\nGET /api/hydrotests/assets\n\nPOST /api/hydrotests/records\n\nGET /api/hydrotests/records/{id}\n\nPATCH /api/hydrotests/records/{id}\n\nGET /api/hydrotests/summary\n\n---\n\n# 27. Project Quality\n\nPrioritize:\n\n- readable code\n- modular architecture\n- clear naming\n- type hints where useful\n- reusable services\n- clean error handling\n- database constraints\n- automated tests\n- maintainability\n\nDo not over-engineer.\n\nThe goal is a small assessment-quality application that is complete and understandable.\n\n---\n\n# 28. Demo Preparation\n\nThe final application should be easy to demonstrate in 3–5 minutes.\n\nRecommended demo flow:\n\n1. Open dashboard.\n2. Show seeded assets and summary counts.\n3. Open Assets.\n4. Filter by station/status.\n5. Add a new asset.\n6. Show validation by entering an invalid next-due date.\n7. Create a hydrotest.\n8. Show Pass/Fail/Pending.\n9. Show due-soon and overdue records.\n10. Edit a record.\n11. Run tests.\n\nMake sure all of these actually work.\n\n---\n\n# 29. Screenshots\n\nPrepare screenshots for:\n\n1. Dashboard\n2. Asset list/filter\n3. Add asset form\n4. Hydrotest form/list\n5. Validation error\n6. Due/overdue dashboard\n\n---\n\n# 30. Important: Do Not Fake Functionality\n\nEvery displayed dashboard number must come from the database/API.\n\nDo not hardcode:\n\n\"8 assets\"\n\nor:\n\n\"2 overdue\"\n\ninto the frontend.\n\nThe dashboard must calculate the values from actual seeded database records.\n\nLikewise:\n\n- Asset list must come from API.\n- Hydrotest list must come from API.\n- Create/edit must persist to database.\n- Filters must actually filter.\n- Due/overdue logic must actually work.\n- Tests must actually execute.\n\n---\n\n# 31. Final Deliverables\n\nProduce:\n\n1. Complete source code\n2. requirements.txt\n3. .env.example\n4. .gitignore\n5. SQLite/local database setup\n6. Seed data\n7. Automated tests\n8. README\n9. API examples\n10. Screenshots\n11. Short demo instructions\n\nThe application must run locally from a clean environment using documented commands.\n\nBefore considering the task complete, test the full workflow from a clean setup.\n\nAlso provide a short list of assumptions and limitations rather than inventing company-specific policies.\n:::\n\n### One more important thing for you\n\nWhen Antigravity finishes, **don't just submit whatever it generates**. Your interview can become much easier if you understand your own project.\n\nAt minimum, be able to explain these 10 things:\n\n1. **What is Flask?**\n2. **What is a REST API?**\n3. **What does GET/POST/PATCH mean?**\n4. **How does frontend communicate with Flask?**\n5. **How does Flask communicate with SQLite?**\n6. **What is SQLAlchemy?**\n7. **What is a database relationship/foreign key?**\n8. **How does the due/overdue calculation work?**\n9. **Why do we use `.env` and `.gitignore`?**\n10. **What tests did you write and why?**\n\nAnd remember: **you don't need an API key for this project.** If Antigravity starts adding OpenAI, Firebase, Google Maps, or some other external API key unnecessarily, tell it to remove it unless there's a specific reason.\n\nIf you give me the **Antigravity-generated project/code after it builds it**, I can then walk you through the actual code **file by file in simple language**, so you can explain the project confidently in the 8 PM interview.",
+  "role",
+  "assistant",
+  {},
+  {
+    "_148": 152,
+    "_155": 459,
+    "_54": 460,
+    "_56": 460,
+    "_159": 461,
+    "_161": 162,
+    "_163": 14,
+    "_164": 165,
+    "_166": 462,
+    "_168": 169
+  },
+  "df4df02d-2f19-4e06-8608-425a07600e37",
+  [
+    81
+  ],
+  {
+    "_453": 454,
+    "_166": 477
+  },
+  1791182447.859697,
+  {
+    "_448": 475,
+    "_159": 476
+  },
+  {
+    "_463": 464,
+    "_465": 466,
+    "_467": 468,
+    "_469": 470,
+    "_471": 472,
+    "_184": 185,
+    "_186": 14,
+    "_187": 188,
+    "_189": 190,
+    "_191": 192,
+    "_193": 192,
+    "_179": 109,
+    "_194": 109,
+    "_66": 67,
+    "_195": 14,
+    "_196": 473,
+    "_474": 34,
+    "_199": 10
+  },
+  "reasoning_status",
+  "reasoning_ended",
+  "finished_duration_sec",
+  0,
+  "reasoning_start_time",
+  1791182446.9098358,
+  "reasoning_end_time",
+  1791182447.8534558,
+  "reasoning_recap_type",
+  "hide_all",
+  "4167134c-4e5f-43ed-84a2-7c3fbb327855",
+  "hide_inline_actions",
+  "reasoning_recap",
+  "Worked for a second",
+  {},
+  {
+    "_148": 457,
+    "_155": 481,
+    "_54": 482,
+    "_56": 482,
+    "_159": 483,
+    "_161": 162,
+    "_164": 165,
+    "_166": 484,
+    "_168": 169
+  },
+  "6032a02d-a556-4231-aebf-f57c9de80b3f",
+  [
+    152
+  ],
+  {
+    "_453": 488,
+    "_166": 489
+  },
+  1791182447.205485,
+  {
+    "_448": 449,
+    "_450": 486
+  },
+  {
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 188,
+    "_189": 190,
+    "_191": 192,
+    "_193": 192,
+    "_194": 109,
+    "_66": 67,
+    "_196": 479,
+    "_199": 10,
+    "_195": 14
+  },
+  "is_visually_hidden_from_conversation",
+  [
+    487
+  ],
+  "",
+  "system",
+  {},
+  {
+    "_148": 479,
+    "_155": 493,
+    "_54": 494,
+    "_56": 495,
+    "_159": 496,
+    "_161": 162,
+    "_164": 165,
+    "_166": 497,
+    "_168": 169
+  },
+  "0cfdcda9-8ce8-422f-9940-b6897a008974",
+  [
+    457
+  ],
+  {
+    "_453": 505,
+    "_166": 506
+  },
+  1791182445.727,
+  1791182492.375216,
+  {
+    "_448": 449,
+    "_450": 503
+  },
+  {
+    "_498": 499,
+    "_187": 188,
+    "_500": -5,
+    "_191": 192,
+    "_193": 192,
+    "_199": 10,
+    "_195": 14
+  },
+  "serialization_metadata",
+  {
+    "_501": 502
+  },
+  "message_source",
+  "custom_symbol_offsets",
+  [],
+  [
+    504
+  ],
+  "i will give the project detail to antigravity to build thing so give me all thing which we should develop properly first explain how we import flask api what is that how we import api key and give overall detail structure so other model understand and take action to build the app in this term  ",
+  "user",
+  {},
+  {
+    "_148": 491,
+    "_155": 510,
+    "_54": 511,
+    "_56": 512,
+    "_159": 513,
+    "_161": 162,
+    "_163": 34,
+    "_164": 165,
+    "_166": 514,
+    "_168": 169,
+    "_170": 171
+  },
+  "8d2cdcf3-af7a-441e-b81e-9072ea5919b9",
+  [
+    479
+  ],
+  {
+    "_453": 454,
+    "_166": 539
+  },
+  1791182266.704612,
+  1791182273.605981,
+  {
+    "_448": 449,
+    "_450": 537
+  },
+  {
+    "_172": 515,
+    "_174": 34,
+    "_175": 516,
+    "_177": 517,
+    "_179": 109,
+    "_180": 518,
+    "_182": 519,
+    "_184": 185,
+    "_186": 34,
+    "_187": 520,
+    "_189": 190,
+    "_191": 521,
+    "_193": 521,
+    "_194": 109,
+    "_66": 67,
+    "_195": 34,
+    "_196": 508,
+    "_199": 10
+  },
+  {
+    "_50": 444,
+    "_445": 536
+  },
+  [],
+  [],
+  {
+    "_210": 522,
+    "_212": 523,
+    "_214": 524,
+    "_216": 525,
+    "_218": 526,
+    "_220": 527,
+    "_222": 528
+  },
+  [],
+  "5778a425-a950-4289-97a2-704121830d86",
+  "3115b3be-e52f-4b01-b3f3-303497652840",
+  {
+    "_148": 535,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 534,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 533,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 532,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 531,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 530,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 529,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "ae9hji",
+  "w2wlf0",
+  "ho0yxh",
+  "9wkgkx",
+  "6hgm7x",
+  "p77xws",
+  "ezo9uf",
+  [
+    447
+  ],
+  [
+    538
+  ],
+  "That's completely fine. **Do not try to build this in Flutter today** if you're at 0 level. The assignment explicitly says the stack is **suggested, not mandatory**, and even says **API-only implementation is acceptable**.\n\nFor you, I'd recommend understanding/building it as a **Python + FastAPI + database + very simple web UI** project. That matches your Python knowledge much better.\n\n### Your project can be:\n\n```text\nPython\n   ↓\nFastAPI\n   ↓\nSQLite / PostgreSQL\n   ↓\nSimple HTML interface\n```\n\nYou don't need Flutter.\n\n### What you would actually build\n\n**1. Assets**\n\n```text\nAdd Asset\nList Assets\nEdit Asset\nSearch / Filter\n```\n\n**2. Hydrotests**\n\n```text\nAdd Hydrotest\nView Hydrotest\nUpdate Hydrotest\nPass / Fail / Pending\n```\n\n**3. Dashboard**\n\n```text\nTotal Assets: 8\nValid: 5\nDue Soon: 2\nOverdue: 1\nFailed: 2\nPending: 1\n```\n\n**4. API**\n\n```text\nPOST   /api/hydrotests/assets\nGET    /api/hydrotests/assets\nPOST   /api/hydrotests/records\nGET    /api/hydrotests/records/{id}\nPATCH  /api/hydrotests/records/{id}\nGET    /api/hydrotests/summary\n```\n\n**5. Database**\n\nTwo main tables:\n\n```text\nASSETS\n ├── id\n ├── asset_id\n ├── station\n ├── asset_type\n ├── serial_number\n ├── test_date\n ├── next_due_date\n ├── status\n ├── created_at\n └── updated_at\n\nHYDROTESTS\n ├── id\n ├── asset_id\n ├── test_date\n ├── performed_by\n ├── result\n ├── notes\n └── report_reference\n```\n\nAnd:\n\n```text\nOne Asset\n    ↓\nMany Hydrotests\n```\n\n### Most importantly\n\nYou don't need to tell them:\n\n> \"I don't know Flutter.\"\n\nInstead, if they ask why you didn't use Flutter:\n\n> **\"The assignment says the suggested stack is not mandatory, so I chose a stack that allowed me to focus on implementing the complete workflow correctly. I used Python/FastAPI for the API and a lightweight interface for the demonstration.\"**\n\nThat's a reasonable engineering decision.\n\nAnd because **your technical interview is today at 8 PM**, I would focus on making sure you can explain **Python → FastAPI → API → database → UI → testing**, rather than spending hours learning Flutter from zero.",
+  {},
+  {
+    "_148": 508,
+    "_155": 543,
+    "_54": 544,
+    "_56": 544,
+    "_159": 545,
+    "_161": 162,
+    "_164": 165,
+    "_166": 546,
+    "_168": 169
+  },
+  "017a3e2d-8ae6-4d7d-a59d-d1a188cc988d",
+  [
+    491
+  ],
+  {
+    "_453": 488,
+    "_166": 548
+  },
+  1791182266.673745,
+  {
+    "_448": 449,
+    "_450": 547
+  },
+  {
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 520,
+    "_189": 190,
+    "_191": 521,
+    "_193": 521,
+    "_194": 109,
+    "_66": 67,
+    "_196": 541,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 541,
+    "_155": 552,
+    "_54": 553,
+    "_56": 554,
+    "_159": 555,
+    "_161": 162,
+    "_164": 165,
+    "_166": 556,
+    "_168": 169
+  },
+  "608e15d3-c6f7-48d6-b24c-9a5e68f08c79",
+  [
+    508
+  ],
+  {
+    "_453": 505,
+    "_166": 561
+  },
+  1791182264.731,
+  1791182273.884942,
+  {
+    "_448": 449,
+    "_450": 559
+  },
+  {
+    "_498": 557,
+    "_187": 520,
+    "_500": -5,
+    "_191": 521,
+    "_193": 521,
+    "_199": 10,
+    "_195": 14
+  },
+  {
+    "_501": 558
+  },
+  [],
+  [
+    560
+  ],
+  "no i dont want to develop in flutter because i have no any knowlege about that 0 level about flutter ",
+  {},
+  {
+    "_148": 550,
+    "_155": 565,
+    "_54": 566,
+    "_56": 567,
+    "_159": 568,
+    "_161": 162,
+    "_163": 34,
+    "_164": 165,
+    "_166": 569,
+    "_168": 169,
+    "_170": 171
+  },
+  "4fd8f97c-5088-4802-bf3c-4c301e4a3f63",
+  [
+    541
+  ],
+  {
+    "_453": 454,
+    "_166": 720
+  },
+  1791182218.671773,
+  1791182240.362149,
+  {
+    "_448": 449,
+    "_450": 718
+  },
+  {
+    "_172": 570,
+    "_174": 34,
+    "_175": 571,
+    "_177": 572,
+    "_179": 109,
+    "_180": 573,
+    "_182": 574,
+    "_184": 185,
+    "_186": 34,
+    "_187": 575,
+    "_189": 190,
+    "_191": 576,
+    "_193": 576,
+    "_194": 109,
+    "_66": 67,
+    "_195": 34,
+    "_196": 563,
+    "_199": 10
+  },
+  {
+    "_50": 444,
+    "_445": 717
+  },
+  [],
+  [],
+  {
+    "_210": 577,
+    "_212": 578,
+    "_214": 579,
+    "_216": 580,
+    "_218": 581,
+    "_220": 582,
+    "_222": 583,
+    "_224": 584,
+    "_226": 585,
+    "_228": 586,
+    "_230": 587,
+    "_232": 588,
+    "_234": 589,
+    "_236": 590,
+    "_238": 591,
+    "_240": 592,
+    "_242": 593,
+    "_244": 594,
+    "_246": 595,
+    "_248": 596,
+    "_250": 597,
+    "_252": 598,
+    "_254": 599,
+    "_256": 600,
+    "_258": 601,
+    "_260": 602,
+    "_262": 603,
+    "_264": 604,
+    "_266": 605,
+    "_268": 606,
+    "_270": 607,
+    "_272": 608,
+    "_274": 609,
+    "_276": 610,
+    "_278": 611,
+    "_280": 612,
+    "_282": 613,
+    "_284": 614,
+    "_286": 615,
+    "_288": 616,
+    "_290": 617,
+    "_292": 618,
+    "_294": 619,
+    "_296": 620,
+    "_298": 621,
+    "_300": 622,
+    "_302": 623,
+    "_304": 624,
+    "_306": 625,
+    "_308": 626,
+    "_310": 627,
+    "_312": 628,
+    "_314": 629,
+    "_316": 630,
+    "_318": 631,
+    "_320": 632,
+    "_322": 633,
+    "_324": 634,
+    "_326": 635,
+    "_328": 636,
+    "_330": 637,
+    "_332": 638,
+    "_334": 639,
+    "_336": 640,
+    "_338": 641,
+    "_340": 642,
+    "_342": 643,
+    "_344": 644,
+    "_346": 645,
+    "_348": 646
+  },
+  [],
+  "550e381f-c329-48bb-8d38-6ad2ba2d09f2",
+  "e7504f76-df39-4a56-8c1a-113deb6eeb77",
+  {
+    "_148": 716,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 715,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 714,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 713,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 712,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 711,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 710,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 709,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 708,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 707,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 706,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 705,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 704,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 703,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 702,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 701,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 700,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 699,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 698,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 697,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 696,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 695,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 694,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 693,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 692,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 691,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 690,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 689,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 688,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 687,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 686,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 685,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 684,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 683,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 682,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 681,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 680,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 679,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 678,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 677,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 676,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 675,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 674,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 673,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 672,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 671,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 670,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 669,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 668,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 667,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 666,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 665,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 664,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 663,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 662,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 661,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 660,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 659,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 658,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 657,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 656,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 655,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 654,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 653,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 652,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 651,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 650,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 649,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 648,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 647,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "p06598",
+  "wz5tct",
+  "uh65n0",
+  "g04gi2",
+  "wmxq7l",
+  "o8kcsk",
+  "ijr6w7",
+  "08mbst",
+  "nlvg5p",
+  "qamelk",
+  "dy8gsi",
+  "vevmqg",
+  "4pwo8f",
+  "yy91lg",
+  "4gyy4m",
+  "gdqms4",
+  "1i5obq",
+  "k9ng2o",
+  "wgjxr8",
+  "f2lbai",
+  "n7okps",
+  "hve757",
+  "17mhrk",
+  "cqanrp",
+  "4t68kf",
+  "kn9pac",
+  "gjdigr",
+  "m2dbj0",
+  "sn8iyq",
+  "3cljcp",
+  "iclgv9",
+  "3dkh62",
+  "nzy4rr",
+  "klpwzi",
+  "7kwwj7",
+  "7spif6",
+  "9m5z4v",
+  "zo2ama",
+  "hwjgxm",
+  "7bc9gz",
+  "l3ejiy",
+  "o2my3r",
+  "2wqz8z",
+  "v2jyfw",
+  "hp8y5u",
+  "bo2389",
+  "ungche",
+  "7q3s4f",
+  "38hatz",
+  "2g2e5y",
+  "cayka4",
+  "a6k03f",
+  "3oyj93",
+  "yjzbbn",
+  "grr7dd",
+  "tzjxnv",
+  "v31weq",
+  "6c1z5z",
+  "db9f9q",
+  "39m8up",
+  "rnkviv",
+  "r6urw3",
+  "a25bgp",
+  "5dn7vm",
+  "qffwak",
+  "99ssnq",
+  "f8e191",
+  "v5bl00",
+  "gjcfar",
+  "hb8hnm",
+  [
+    447
+  ],
+  [
+    719
+  ],
+  "Absolutely. The best way to understand this assignment is to look at it **as a developer**, from UI → API → backend → database, rather than as a hydrotesting problem.\n\nThink of the whole application as this:\n\n```text\nFlutter UI\n   ↓\nAPI Request\n   ↓\nBackend / API\n   ↓\nValidation + Business Logic\n   ↓\nDatabase\n   ↓\nAPI Response\n   ↓\nFlutter UI\n```\n\nLet's use **one example** throughout: creating an asset.\n\n---\n\n# 1. First: How do you think about the UI?\n\nBefore writing code, think about **what the user needs to do**.\n\nThe assignment says:\n\n> Register an asset, record a hydrotest, track validity, and identify tests due soon/overdue.\n\nSo we convert that into screens.\n\n```text\nDashboard\n   │\n   ├── Assets\n   │     ├── Asset List\n   │     ├── Add Asset\n   │     └── Edit Asset\n   │\n   └── Hydrotests\n         ├── Hydrotest List\n         ├── Add Hydrotest\n         └── Hydrotest Details\n```\n\n### User workflow\n\nSuppose the user opens the application.\n\n### Step 1\n\nThey see:\n\n```text\nDashboard\n\nTotal Assets: 8\nValid: 5\nDue Soon: 2\nOverdue: 1\nFailed: 2\nPending: 1\n```\n\nThey click:\n\n**Assets**\n\n↓\n\nThey see:\n\n```text\nTANK-001    Rajkot    Tank\nTANK-002    Surat     Tank\nTANK-003    Ahmedabad Cylinder\n```\n\nThey click:\n\n**+ Add Asset**\n\n↓\n\nForm:\n\n```text\nAsset ID\nStation\nAsset Type\nSerial Number\nTest Date\nNext Due Date\nStatus\n\n[Save]\n```\n\nThat is your **UI workflow**.\n\n---\n\n# 2. What happens when they press Save?\n\nThis is where the API comes in.\n\nThe Flutter application should generally **not directly talk to the database**.\n\nInstead:\n\n```text\nFlutter\n   ↓\nAPI\n   ↓\nBackend\n   ↓\nDatabase\n```\n\nWhy?\n\nBecause the backend controls:\n\n- validation\n- authentication\n- business rules\n- database access\n- security\n\n---\n\n# 3. What is an API?\n\nAPI is basically a **communication bridge** between your application and backend.\n\nFor example:\n\n```text\nFlutter:\n\"Hey backend, please create this asset.\"\n\nBackend:\n\"Okay, I'll validate it and save it.\"\n\nBackend:\n\"Done. Here's the result.\"\n```\n\nTechnically:\n\n```text\nFlutter\n   ↓\nHTTP Request\n   ↓\nPOST /api/hydrotests/assets\n   ↓\nBackend\n   ↓\nDatabase\n```\n\n---\n\n# 4. What does POST mean?\n\nHTTP has different methods.\n\nThe important ones here are:\n\n| Method | Meaning |\n|---|---|\n| GET | Get data |\n| POST | Create data |\n| PATCH | Update data |\n| DELETE | Delete data |\n\nFor example:\n\n```text\nPOST /api/hydrotests/assets\n```\n\nmeans:\n\n> \"Create a new asset.\"\n\n---\n\n# 5. What does the request look like?\n\nFlutter sends JSON.\n\nFor example:\n\n```json\n{\n  \"asset_id\": \"TANK-001\",\n  \"station\": \"Rajkot\",\n  \"asset_type\": \"Tank\",\n  \"serial_number\": \"SN-1001\",\n  \"test_date\": \"2026-10-01\",\n  \"next_due_date\": \"2027-10-01\",\n  \"status\": \"Active\"\n}\n```\n\nThis is the **request body**.\n\n---\n\n# 6. What happens in the backend?\n\nSuppose you're using Python + FastAPI.\n\nConceptually:\n\n```python\n@app.post(\"/api/hydrotests/assets\")\ndef create_asset(asset):\n    # validate\n    # check duplicate\n    # save to database\n    # return response\n```\n\nThe backend receives the JSON.\n\nThen it checks:\n\n### Check 1\n\nIs Asset ID present?\n\n```text\nasset_id == empty?\n```\n\nIf yes:\n\n```text\n400 Bad Request\n```\n\n---\n\n### Check 2\n\nDoes the asset already exist?\n\n```text\nTANK-001 already exists?\n```\n\nIf yes:\n\n```text\n409 Conflict\n```\n\n---\n\n### Check 3\n\nIs the date valid?\n\n```text\nnext_due_date >= test_date\n```\n\nIf:\n\n```text\ntest_date = 10 Oct\nnext_due = 5 Oct\n```\n\nreject it.\n\n---\n\n### Check 4\n\nIf everything is valid:\n\n```text\nSave to database\n```\n\n---\n\n# 7. Now understand the database\n\nThe database is basically where your application's permanent data lives.\n\nFor example, your `assets` table/collection might contain:\n\n```text\nassets\n------------------------------------------------\nid\nasset_id\nstation\nasset_type\nserial_number\ntest_date\nnext_due_date\nstatus\ncreated_at\nupdated_at\n```\n\nOne record could be:\n\n```text\nid: 123\nasset_id: TANK-001\nstation: Rajkot\nasset_type: Tank\nserial_number: SN-1001\ntest_date: 2026-10-01\nnext_due_date: 2027-10-01\nstatus: Active\ncreated_at: ...\nupdated_at: ...\n```\n\n---\n\n# 8. SQL vs MongoDB\n\nThey suggested:\n\n> MongoDB or another documented database.\n\nYou could use SQL or MongoDB.\n\n### SQL\n\nYou might have:\n\n```text\nassets table\n```\n\nand:\n\n```text\nhydrotests table\n```\n\nRelationship:\n\n```text\nassets\n   1\n   │\n   │\n   many\n   ↓\nhydrotests\n```\n\nOne asset can have multiple tests.\n\nFor example:\n\n```text\nTANK-001\n   │\n   ├── Test 2024 → Pass\n   ├── Test 2025 → Pass\n   └── Test 2026 → Pass\n```\n\nThis is a very important database concept.\n\n---\n\n# 9. Why does Hydrotest have asset_id?\n\nBecause the system needs to know:\n\n> \"Which asset did this test belong to?\"\n\nFor example:\n\n```text\nHydrotest\n------------------------\nid: HT-001\nasset_id: TANK-001\ntest_date: 2026-10-01\nperformed_by: ABC Testing\nresult: Pass\nnotes: No leakage\n```\n\nThe `asset_id` connects the test to the asset.\n\n---\n\n# 10. Now let's follow ONE complete request\n\nThis is the most useful thing for your interview.\n\nUser enters:\n\n```text\nAsset ID: TANK-001\nStation: Rajkot\nType: Tank\nSerial: SN-1001\nTest Date: 01-10-2026\nNext Due: 01-10-2027\nStatus: Active\n```\n\nand presses **Save**.\n\n### Step 1 — Flutter\n\nFlutter collects the form values.\n\n```dart\nfinal asset = {\n  \"asset_id\": \"TANK-001\",\n  \"station\": \"Rajkot\",\n  \"asset_type\": \"Tank\",\n  \"serial_number\": \"SN-1001\",\n  \"test_date\": \"2026-10-01\",\n  \"next_due_date\": \"2027-10-01\",\n  \"status\": \"Active\"\n};\n```\n\n---\n\n### Step 2 — Flutter sends API request\n\n```dart\nhttp.post(\n  Uri.parse(\"$baseUrl/api/hydrotests/assets\"),\n  headers: {\n    \"Content-Type\": \"application/json\",\n  },\n  body: jsonEncode(asset),\n);\n```\n\nConceptually:\n\n```text\nFlutter\n   │\n   │ POST\n   ↓\n/api/hydrotests/assets\n```\n\n---\n\n### Step 3 — Backend receives it\n\nFastAPI receives:\n\n```json\n{\n  \"asset_id\": \"TANK-001\",\n  \"station\": \"Rajkot\",\n  ...\n}\n```\n\n---\n\n### Step 4 — Backend validates\n\n```text\nAsset ID present?             YES\nStation present?              YES\nDate valid?                   YES\nNext due >= test date?        YES\nStatus valid?                 YES\nDuplicate asset?              NO\n```\n\nEverything is okay.\n\n---\n\n### Step 5 — Backend saves\n\n```text\nDATABASE\n    ↓\nassets\n    ↓\nTANK-001\n```\n\n---\n\n### Step 6 — Backend responds\n\nFor example:\n\n```json\n{\n  \"message\": \"Asset created successfully\",\n  \"asset_id\": \"TANK-001\"\n}\n```\n\nHTTP:\n\n```text\n201 Created\n```\n\n---\n\n### Step 7 — Flutter receives response\n\nFlutter sees:\n\n```text\nSuccess\n```\n\nand can show:\n\n```text\n✓ Asset created successfully\n```\n\nThen navigate back to:\n\n```text\nAsset List\n```\n\n---\n\n# 11. Now understand GET\n\nSuppose the user opens **Asset List**.\n\nFlutter needs data.\n\nSo:\n\n```text\nGET /api/hydrotests/assets\n```\n\nBackend asks database:\n\n```text\nGive me all assets.\n```\n\nDatabase returns:\n\n```text\nTANK-001\nTANK-002\nTANK-003\n```\n\nBackend converts it into JSON:\n\n```json\n[\n  {\n    \"asset_id\": \"TANK-001\",\n    \"station\": \"Rajkot\"\n  },\n  {\n    \"asset_id\": \"TANK-002\",\n    \"station\": \"Surat\"\n  }\n]\n```\n\nFlutter receives it.\n\nThen:\n\n```text\nJSON\n ↓\nDart Model\n ↓\nList\n ↓\nListView\n```\n\nand the user sees:\n\n```text\nTANK-001   Rajkot\nTANK-002   Surat\n```\n\n---\n\n# 12. Why do we create Dart Models?\n\nInstead of using raw JSON everywhere:\n\n```dart\ndata[\"asset_id\"]\n```\n\nwe create:\n\n```dart\nclass Asset {\n  final String assetId;\n  final String station;\n  final String assetType;\n\n  Asset({\n    required this.assetId,\n    required this.station,\n    required this.assetType,\n  });\n}\n```\n\nThen:\n\n```text\nAPI JSON\n   ↓\nAsset.fromJson()\n   ↓\nAsset object\n   ↓\nUI\n```\n\nThis makes the code cleaner and type-safe.\n\n---\n\n# 13. Now understand PATCH\n\nSuppose:\n\n```text\nTANK-001\n```\n\nhas:\n\n```text\nStation = Rajkot\n```\n\nUser changes it to:\n\n```text\nStation = Ahmedabad\n```\n\nWe don't need to create a new asset.\n\nFlutter sends:\n\n```text\nPATCH /api/hydrotests/assets/TANK-001\n```\n\nwith:\n\n```json\n{\n  \"station\": \"Ahmedabad\"\n}\n```\n\nBackend updates that record.\n\nImportant:\n\n```text\ncreated_at → DON'T CHANGE\nupdated_at → CHANGE\n```\n\nThat's why the assignment specifically mentions timestamps.\n\n---\n\n# 14. Dashboard is basically calculated data\n\nThe dashboard doesn't necessarily need a completely separate database table.\n\nIt can be calculated from existing records.\n\nFor example:\n\n```text\nDatabase\n   ↓\nAssets + Hydrotests\n   ↓\nBackend calculates\n   ↓\nSummary API\n   ↓\nFlutter Dashboard\n```\n\nAPI:\n\n```text\nGET /api/hydrotests/summary\n```\n\nResponse:\n\n```json\n{\n  \"total_assets\": 8,\n  \"valid_tests\": 5,\n  \"due_soon\": 2,\n  \"overdue\": 1,\n  \"failed\": 2,\n  \"pending\": 1\n}\n```\n\nFlutter displays those numbers.\n\n---\n\n# 15. How does backend determine \"overdue\"?\n\nThis is **business logic**.\n\nSuppose today:\n\n```text\n2026-10-05\n```\n\nDatabase:\n\n```text\nnext_due_date = 2026-09-20\n```\n\nBackend checks:\n\n```python\nif next_due_date < today:\n    status = \"overdue\"\n```\n\nSo:\n\n```text\n20 Sep < 5 Oct\n```\n\nTherefore:\n\n```text\nOVERDUE\n```\n\n---\n\n# 16. Due within 30 days\n\nBackend could conceptually do:\n\n```python\nif today <= next_due_date <= today + 30 days:\n    status = \"due_soon\"\n```\n\nExample:\n\n```text\nToday:      5 Oct\nDue date:  20 Oct\n\nDifference = 15 days\n```\n\nTherefore:\n\n```text\nDUE SOON\n```\n\n---\n\n# 17. Where should this logic live?\n\nThis is a **very good interview question**.\n\nDon't put all business logic inside Flutter.\n\nFor a system like this:\n\n```text\nFlutter\n   ↓\nDisplay data\n   ↓\nBackend\n   ↓\nBusiness rules\n   ↓\nDatabase\n```\n\nThe backend should be responsible for important rules such as:\n\n- duplicate asset IDs\n- date validation\n- allowed statuses\n- due/overdue calculations\n- database consistency\n\nFlutter can still do basic form validation for better user experience.\n\nSo ideally:\n\n```text\nFlutter validation\n       +\nBackend validation\n```\n\nBackend validation is the final authority.\n\n---\n\n# 18. Complete architecture\n\nNow put everything together:\n\n```text\n                    USER\n                     │\n                     ↓\n              ┌─────────────┐\n              │   Flutter   │\n              │     UI      │\n              └──────┬──────┘\n                     │\n                     ↓\n              ┌─────────────┐\n              │ API Service │\n              └──────┬──────┘\n                     │\n                  HTTP/JSON\n                     │\n                     ↓\n              ┌─────────────┐\n              │   FastAPI   │\n              │   Backend   │\n              └──────┬──────┘\n                     │\n              ┌──────┴──────┐\n              ↓             ↓\n        Validation      Business Logic\n              │             │\n              └──────┬──────┘\n                     ↓\n              ┌─────────────┐\n              │  Database   │\n              └─────────────┘\n```\n\nThat is basically the **entire technical architecture** they're asking you to understand.\n\n---\n\n# 19. How YOU should explain it in the interview\n\nIf they ask:\n\n### \"How would you implement this?\"\n\nDon't start talking about random Flutter widgets.\n\nStart with:\n\n> \"I would first identify two main entities: Asset and Hydrotest. An asset can have multiple hydrotest records. I would expose REST APIs for creating, listing and updating assets and hydrotests. Flutter would communicate with those APIs through an API service layer. The backend would handle validation, duplicate checking and business rules such as due and overdue calculations. The database would persist the assets and hydrotest records. On the Flutter side, I would have a dashboard, asset list, asset form and hydrotest form, with proper loading, success and error states.\"\n\nThat answer shows **you understand the system**, not just Flutter syntax.\n\n---\n\n## The key mental model to remember\n\nWhenever you see a requirement like this:\n\n> \"Create an asset\"\n\nThink:\n\n```text\nUI\n ↓\nForm\n ↓\nAPI POST\n ↓\nBackend validation\n ↓\nDatabase INSERT\n ↓\nAPI response\n ↓\nFlutter updates UI\n```\n\nWhen you see:\n\n> \"Show assets\"\n\nThink:\n\n```text\nUI opens\n ↓\nAPI GET\n ↓\nBackend\n ↓\nDatabase SELECT\n ↓\nJSON\n ↓\nDart Model\n ↓\nListView\n```\n\nWhen you see:\n\n> \"Update asset\"\n\nThink:\n\n```text\nEdit screen\n ↓\nPATCH\n ↓\nBackend validation\n ↓\nDatabase UPDATE\n ↓\nupdatedAt changes\n ↓\nUI refresh\n```\n\nWhen you see:\n\n> \"Show overdue\"\n\nThink:\n\n```text\nDatabase next_due_date\n ↓\nBackend compares with today's date\n ↓\noverdue records\n ↓\nJSON\n ↓\nFlutter dashboard/list\n```\n\n**If you understand these four flows, you understand the technical core of this assignment.**",
+  {},
+  {
+    "_148": 563,
+    "_155": 724,
+    "_54": 725,
+    "_56": 725,
+    "_159": 726,
+    "_161": 162,
+    "_164": 165,
+    "_166": 727,
+    "_168": 169
+  },
+  "affcd0b2-ea80-479b-89ef-f5cebddda225",
+  [
+    550
+  ],
+  {
+    "_453": 488,
+    "_166": 729
+  },
+  1791182218.666045,
+  {
+    "_448": 449,
+    "_450": 728
+  },
+  {
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 575,
+    "_189": 190,
+    "_191": 576,
+    "_193": 576,
+    "_194": 109,
+    "_66": 67,
+    "_196": 722,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 722,
+    "_155": 733,
+    "_54": 734,
+    "_56": 735,
+    "_159": 736,
+    "_161": 162,
+    "_164": 165,
+    "_166": 737,
+    "_168": 169
+  },
+  "9063d98c-f5cd-464e-8925-f218adef444e",
+  [
+    563
+  ],
+  {
+    "_453": 505,
+    "_166": 742
+  },
+  1791182217.171,
+  1791182240.672377,
+  {
+    "_448": 449,
+    "_450": 740
+  },
+  {
+    "_498": 738,
+    "_187": 575,
+    "_500": -5,
+    "_191": 576,
+    "_193": 576,
+    "_199": 10,
+    "_195": 14
+  },
+  {
+    "_501": 739
+  },
+  [],
+  [
+    741
+  ],
+  "so you can explain the thecnicla point of you so i can understand the api therm how to implement in code how database work with the code how we think about ui workflow ",
+  {},
+  {
+    "_148": 731,
+    "_155": 746,
+    "_54": 747,
+    "_56": 748,
+    "_159": 749,
+    "_161": 162,
+    "_163": 34,
+    "_164": 165,
+    "_166": 750,
+    "_168": 169,
+    "_170": 171
+  },
+  "cbe4ffab-52c9-425e-9430-0470fc3a9c33",
+  [
+    722
+  ],
+  {
+    "_453": 454,
+    "_166": 795
+  },
+  1791182093.166301,
+  1791182104.01058,
+  {
+    "_448": 449,
+    "_450": 793
+  },
+  {
+    "_172": 751,
+    "_174": 34,
+    "_175": 752,
+    "_197": 753,
+    "_177": 754,
+    "_179": 109,
+    "_180": 755,
+    "_182": 756,
+    "_184": 185,
+    "_186": 34,
+    "_187": 757,
+    "_189": 190,
+    "_191": 758,
+    "_193": 758,
+    "_194": 109,
+    "_66": 67,
+    "_195": 34,
+    "_196": 744,
+    "_199": 10
+  },
+  {
+    "_50": 444,
+    "_445": 792
+  },
+  [],
+  [
+    783
+  ],
+  [],
+  {
+    "_210": 759,
+    "_212": 760,
+    "_214": 761,
+    "_216": 762,
+    "_218": 763,
+    "_220": 764,
+    "_222": 765,
+    "_224": 766,
+    "_226": 767,
+    "_228": 768,
+    "_230": 769,
+    "_232": 770
+  },
+  [],
+  "be669f77-7ec2-4935-97ca-9b6b0ecdafb9",
+  "d42f8f2e-0087-4a33-988b-1d5c38fa277c",
+  {
+    "_148": 782,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 781,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 780,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 779,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 778,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 777,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 776,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 775,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 774,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 773,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 772,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 771,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "ezadx3",
+  "91elpy",
+  "0dpm2g",
+  "d62l95",
+  "3mcswe",
+  "7lxase",
+  "oi6mi7",
+  "2itm4o",
+  "ac212i",
+  "mo50z4",
+  "02ou64",
+  "jf1keo",
+  {
+    "_202": 784,
+    "_785": -5,
+    "_204": 466,
+    "_206": 786,
+    "_62": 787,
+    "_788": 789,
+    "_47": -5,
+    "_208": -5,
+    "_50": 790,
+    "_791": 14
+  },
+  "message_reaction👍",
+  "prefix",
+  20,
+  [],
+  "refs",
+  [],
+  "hidden",
+  "invalid",
+  [
+    447
+  ],
+  [
+    794
+  ],
+  "message_reaction👍\n\nSure. Forget the technical terms for a moment. **This project is basically an equipment/testing tracking system.**\n\n## What does this project actually do?\n\nImagine a company has **many tanks/equipment** at different stations.\n\nEvery tank needs to undergo a **hydrotest** periodically to make sure it is safe.\n\nThe application keeps track of:\n\n> **Which equipment exists → when it was tested → who tested it → whether it passed → when it needs testing again.**\n\n### Simple real-world example\n\nSuppose the company has:\n\n```text\nAsset ID: TANK-001\nStation: Rajkot\nType: Storage Tank\n```\n\nIt gets hydrotested:\n\n```text\nTest Date: 1 October 2026\nPerformed By: ABC Testing Company\nResult: PASS\nNext Due: 1 October 2027\n```\n\nThe application stores all of this.\n\nThen, when October 2027 gets close, the application tells the company:\n\n> ⚠️ **TANK-001 is due for hydrotesting within 30 days.**\n\nIf the due date has already passed:\n\n> 🔴 **TANK-001 is overdue.**\n\nIf the test failed:\n\n> ❌ **TANK-001 — Hydrotest Failed**\n\nIf the test hasn't been completed yet:\n\n> 🟡 **TANK-001 — Pending**\n\n---\n\n# So what screens/features does the project have?\n\nThink of the application like this:\n\n```text\n                 HYDROTEST MANAGEMENT\n                         │\n          ┌──────────────┴──────────────┐\n          ↓                             ↓\n      ASSET REGISTER              DASHBOARD\n          │                             │\n     Add Asset                    Total Assets\n     Edit Asset                   Valid Tests\n     View Assets                  Due Soon\n          │                       Overdue\n          ↓                       Failed\n    HYDROTEST RECORD              Pending\n          │\n     Test Date\n     Provider\n     Result\n     Notes\n     Report\n```\n\n## 1. Asset Register\n\nThis is basically a list of all equipment.\n\nExample:\n\n| Asset ID | Station | Type | Status | Next Due |\n|---|---|---|---|---|\n| TANK-001 | Rajkot | Tank | Active | 20 Oct 2026 |\n| TANK-002 | Surat | Tank | Active | 15 Dec 2026 |\n| TANK-003 | Ahmedabad | Cylinder | Active | 20 Sep 2026 |\n\nThe user can:\n\n- Add an asset\n- Edit an asset\n- View assets\n- Search assets\n- Filter assets\n- Sort by due date\n\n---\n\n# 2. Record a Hydrotest\n\nWhen an asset is tested, the user records the test.\n\nFor example:\n\n```text\nAsset: TANK-001\n\nTest Date:\n01-10-2026\n\nPerformed By:\nABC Testing Services\n\nResult:\nPASS\n\nNotes:\nNo leakage detected\n\nReport:\nTANK-001-report.pdf\n```\n\nSo the system remembers the history of testing.\n\n---\n\n# 3. Dashboard\n\nThis is probably the most important UI.\n\nIt gives management a quick overview:\n\n```text\n┌───────────────────────────────────┐\n│       HYDROTEST DASHBOARD         │\n├───────────────────────────────────┤\n│                                   │\n│ Total Assets          8           │\n│                                   │\n│ Valid Tests           5           │\n│                                   │\n│ Due Within 30 Days    2           │\n│                                   │\n│ Overdue               1           │\n│                                   │\n│ Failed                2           │\n│                                   │\n│ Pending               2           │\n│                                   │\n└───────────────────────────────────┘\n```\n\nThe purpose is to let someone immediately see:\n\n**\"Do I have any equipment that needs attention?\"**\n\n---\n\n# 4. Search and Filter\n\nSuppose there are 500 assets.\n\nThe user doesn't want to look through all 500.\n\nThey can search/filter:\n\n```text\nStation: Rajkot\nAsset Type: Tank\nStatus: Active\nDue Date: Next 30 days\n```\n\nThen the application shows only relevant records.\n\n---\n\n# 5. The most important logic\n\nThe application needs to automatically understand whether something is overdue.\n\nSuppose today is:\n\n**5 October 2026**\n\n### Due soon\n\nNext due:\n\n**20 October 2026**\n\nThat's 15 days away.\n\n```text\n5 Oct → 20 Oct\n       15 days\n```\n\nTherefore:\n\n**DUE SOON**\n\n### Overdue\n\nNext due:\n\n**20 September 2026**\n\n```text\n20 Sep < 5 Oct\n```\n\nTherefore:\n\n**OVERDUE**\n\n### Valid\n\nNext due:\n\n**20 December 2026**\n\nThat's more than 30 days away.\n\nTherefore:\n\n**VALID**\n\n---\n\n# 6. What happens behind the scenes?\n\nEven though the user sees a Flutter/React-style application, there is normally a backend.\n\nThink:\n\n```text\n          USER\n           ↓\n       Flutter UI\n           ↓\n        API\n           ↓\n       Backend\n           ↓\n        Database\n```\n\nFor example, when the user presses:\n\n**\"Add Asset\"**\n\nFlutter sends:\n\n```text\nPOST /api/hydrotests/assets\n```\n\nwith data such as:\n\n```json\n{\n  \"asset_id\": \"TANK-001\",\n  \"station\": \"Rajkot\",\n  \"asset_type\": \"Tank\",\n  \"serial_number\": \"SN-1001\"\n}\n```\n\nThe backend validates it and saves it in the database.\n\n---\n\n# 7. What are they actually evaluating?\n\nThe company isn't really testing whether you understand **hydrotesting**.\n\nThey're testing whether you can take a requirement like:\n\n> \"Track equipment testing and tell us when testing is due.\"\n\nand turn it into a working software system.\n\nTheir evaluation is basically:\n\n```text\nCan you understand the requirement?       25%\nCan you write good architecture/code?    20%\nCan you design data correctly?            15%\nCan you test it?                          15%\nIs it usable?                             10%\nCan you document it?                      10%\nDid you handle security properly?         5%\n```\n\n---\n\n## In ONE sentence\n\nIf they ask you **\"What does your project do?\"**, say:\n\n> **\"It's a Hydrotest Management System that registers equipment, records hydrotest results, tracks test validity and next-due dates, and provides a dashboard to identify valid, upcoming, overdue, failed, and pending tests.\"**\n\nThat's the **core idea of the entire assignment**.\n\nAnd importantly, **you don't need to understand the industrial hydrotesting process deeply** to understand this software project. The software is essentially a **CRUD + validation + date tracking + dashboard application**.",
+  {},
+  {
+    "_148": 744,
+    "_155": 799,
+    "_54": 800,
+    "_56": 800,
+    "_159": 801,
+    "_161": 162,
+    "_164": 165,
+    "_166": 802,
+    "_168": 169
+  },
+  "747a7484-dd28-4cb8-834c-93339f4ee77e",
+  [
+    731
+  ],
+  {
+    "_453": 488,
+    "_166": 804
+  },
+  1791182093.137332,
+  {
+    "_448": 449,
+    "_450": 803
+  },
+  {
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 757,
+    "_189": 190,
+    "_191": 758,
+    "_193": 758,
+    "_194": 109,
+    "_66": 67,
+    "_196": 797,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 797,
+    "_155": 808,
+    "_54": 809,
+    "_56": 809,
+    "_159": 810,
+    "_161": 162,
+    "_164": 165,
+    "_166": 811,
+    "_168": 169
+  },
+  "41a197f6-6c11-41bc-9843-073f2af22df0",
+  [
+    744
+  ],
+  {
+    "_453": 454,
+    "_166": 815
+  },
+  1791182093.118642,
+  {
+    "_448": 813,
+    "_814": 487
+  },
+  {
+    "_485": 34,
+    "_184": 185,
+    "_191": 758,
+    "_193": 758,
+    "_196": 806,
+    "_199": 10,
+    "_812": 34
+  },
+  "is_redacted",
+  "model_editable_context",
+  "model_set_context",
+  {},
+  {
+    "_148": 806,
+    "_155": 819,
+    "_54": 820,
+    "_56": 820,
+    "_159": 821,
+    "_161": 162,
+    "_163": 34,
+    "_164": 466,
+    "_166": 822,
+    "_168": 169
+  },
+  "65430cb3-65e4-425f-996e-65a30ea550fa",
+  [
+    797
+  ],
+  {
+    "_453": 488,
+    "_166": 825
+  },
+  1791182093.108057,
+  {
+    "_448": 449,
+    "_450": 824
+  },
+  {
+    "_823": 34,
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 757,
+    "_189": 190,
+    "_191": 758,
+    "_193": 758,
+    "_194": 109,
+    "_66": 67,
+    "_196": 817,
+    "_199": 10,
+    "_195": 14
+  },
+  "rebase_developer_message",
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 817,
+    "_155": 829,
+    "_54": 830,
+    "_56": 830,
+    "_159": 831,
+    "_161": 162,
+    "_163": 34,
+    "_164": 466,
+    "_166": 832,
+    "_168": 169
+  },
+  "5ad79da3-ce01-45f9-a47d-1a9fc09055a2",
+  [
+    806
+  ],
+  {
+    "_453": 488,
+    "_166": 835
+  },
+  1791182093.091779,
+  {
+    "_448": 449,
+    "_450": 834
+  },
+  {
+    "_833": 34,
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 757,
+    "_189": 190,
+    "_191": 758,
+    "_193": 758,
+    "_194": 109,
+    "_66": 67,
+    "_196": 827,
+    "_199": 10,
+    "_195": 14
+  },
+  "rebase_system_message",
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 827,
+    "_155": 839,
+    "_54": 840,
+    "_56": 841,
+    "_159": 842,
+    "_161": 162,
+    "_164": 165,
+    "_166": 843,
+    "_168": 169
+  },
+  "a6f06156-4ed6-41fc-af2f-82b3f9ef4766",
+  [
+    817
+  ],
+  {
+    "_453": 505,
+    "_166": 851
+  },
+  1791182091.086,
+  1791182104.666779,
+  {
+    "_448": 449,
+    "_450": 849
+  },
+  {
+    "_498": 844,
+    "_187": 757,
+    "_500": -5,
+    "_191": 758,
+    "_193": 758,
+    "_845": 846,
+    "_199": 10,
+    "_195": 14
+  },
+  {
+    "_501": 848
+  },
+  "reactions",
+  {
+    "_454": 847
+  },
+  "👍",
+  [],
+  [
+    850
+  ],
+  "give me brief about this project and show mw what this project exectlay did ",
+  {},
+  {
+    "_148": 837,
+    "_155": 855,
+    "_54": 856,
+    "_56": 857,
+    "_159": 858,
+    "_161": 162,
+    "_163": 34,
+    "_164": 165,
+    "_166": 859,
+    "_168": 169,
+    "_170": 171
+  },
+  "d63ec084-0282-4052-80b9-dd9a4198864c",
+  [
+    827
+  ],
+  {
+    "_453": 454,
+    "_166": 875
+  },
+  1791181773.416088,
+  1791181782.834547,
+  {
+    "_448": 449,
+    "_450": 873
+  },
+  {
+    "_172": 860,
+    "_174": 34,
+    "_175": 861,
+    "_197": 862,
+    "_177": 863,
+    "_179": 109,
+    "_864": 865,
+    "_180": 866,
+    "_182": 867,
+    "_184": 185,
+    "_186": 34,
+    "_187": 868,
+    "_189": 190,
+    "_191": 869,
+    "_193": 869,
+    "_194": 109,
+    "_66": 67,
+    "_195": 34,
+    "_196": 853,
+    "_199": 10
+  },
+  {
+    "_50": 444,
+    "_445": 872
+  },
+  [],
+  [],
+  [],
+  "paragen_ui_treatment",
+  "mobile_full_width_v1",
+  {
+    "_210": 870
+  },
+  [],
+  "13ea3ff6-21b5-4995-9778-101dd04daf29",
+  "14b63b84-9bfb-4985-a4f8-2e2c79a2dad7",
+  {
+    "_148": 871,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "dmu5kg",
+  [
+    447
+  ],
+  [
+    874
+  ],
+  "Yes — **the assignment asks for a working application**, not just theory. But there is an important detail:\n\n> They say **“simple working interface is preferred”**, and **“UI or API-only implementation”** is acceptable.\n\nSo you **do not strictly need to build it in Flutter**. Their suggested stack is:\n\n- Python + FastAPI\n- MongoDB or another database\n- React/Next.js or simple UI\n\nThey say **suggested, not mandatory**.\n\n### But your situation is important\n\nYou told me you **don't know Flutter well**, so I would **not recommend trying to build a full Flutter application from scratch today before the interview**.\n\nFor the interview, you should be honest:\n\n> “My primary background is Flutter, but for this assignment I focused on understanding the business workflow and API/data model. I haven't worked extensively with this exact backend stack yet.”\n\nDon't claim that you built something you cannot explain.\n\n### What they may actually expect\n\nThe assignment is designed to evaluate:\n\n```text\nBusiness requirement\n       ↓\nData model\n       ↓\nAPI\n       ↓\nValidation\n       ↓\nDatabase\n       ↓\nUI\n       ↓\nTesting\n```\n\nThey aren't necessarily testing whether you already know Hydrotesting.\n\n### If they ask: \"Did you complete the assignment?\"\n\nIf you haven't built it, **don't say yes**.\n\nSay:\n\n> “I reviewed the assignment carefully and understood the workflow, validation rules, dashboard requirements and API structure. My stronger area is Flutter, while this assignment also requires backend and database work, so I would like to discuss how I would approach the implementation.”\n\nThat is much safer than pretending.\n\n---\n\n### And one thing I want to correct from my previous answer\n\nI gave you a lot of possible technical questions, but **if the company expects the submitted assignment to be completed before the interview, the interview can absolutely be based on your actual implementation**.\n\nThey can open your repository and ask:\n\n- Why did you choose this architecture?\n- Show me where validation happens.\n- Why did you choose MongoDB?\n- Show me your API.\n- What happens when an asset ID is duplicated?\n- Show me your due-date logic.\n- Why did you use this Flutter state-management approach?\n- What tests did you write?\n- What would you improve?\n\nSo **don't build something you can't explain**.\n\nIf you want, I can help you make a **very simple working version of this assignment step-by-step today**, using a technology you can actually understand, and prepare you for the questions they can ask about it.",
+  {},
+  {
+    "_148": 853,
+    "_155": 879,
+    "_54": 880,
+    "_159": 881,
+    "_161": 162,
+    "_164": 165,
+    "_166": 882,
+    "_168": 169
+  },
+  "3bef30d4-cc99-424a-8392-b21c685cbb6c",
+  [
+    837
+  ],
+  {
+    "_453": 488,
+    "_166": 884
+  },
+  1791181773.018594,
+  {
+    "_448": 449,
+    "_450": 883
+  },
+  {
+    "_485": 34,
+    "_179": 109,
+    "_864": 865,
+    "_184": 185,
+    "_187": 868,
+    "_189": 190,
+    "_191": 869,
+    "_193": 869,
+    "_194": 109,
+    "_66": 67,
+    "_196": 877,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 877,
+    "_155": 888,
+    "_54": 889,
+    "_159": 890,
+    "_161": 162,
+    "_164": 165,
+    "_166": 891,
+    "_168": 169
+  },
+  "0d27c25e-b9af-4cad-9e25-eee9a8a64aa2",
+  [
+    853
+  ],
+  {
+    "_453": 454,
+    "_166": 892
+  },
+  1791181776.720184,
+  {
+    "_448": 813,
+    "_814": 487
+  },
+  {
+    "_485": 34,
+    "_184": 185,
+    "_191": 869,
+    "_193": 869,
+    "_196": 886,
+    "_199": 10,
+    "_812": 34
+  },
+  {},
+  {
+    "_148": 886,
+    "_155": 896,
+    "_54": 897,
+    "_159": 898,
+    "_161": 162,
+    "_163": 34,
+    "_164": 466,
+    "_166": 899,
+    "_168": 169
+  },
+  "54ee6238-9fa5-4a89-84a4-9e02b68ed486",
+  [
+    877
+  ],
+  {
+    "_453": 488,
+    "_166": 901
+  },
+  1791181776.71818,
+  {
+    "_448": 449,
+    "_450": 900
+  },
+  {
+    "_823": 34,
+    "_485": 34,
+    "_179": 109,
+    "_864": 865,
+    "_184": 185,
+    "_187": 868,
+    "_189": 190,
+    "_191": 869,
+    "_193": 869,
+    "_194": 109,
+    "_66": 67,
+    "_196": 894,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 894,
+    "_155": 905,
+    "_54": 906,
+    "_159": 907,
+    "_161": 162,
+    "_163": 34,
+    "_164": 466,
+    "_166": 908,
+    "_168": 169
+  },
+  "4618eee3-a6cd-4306-934e-aca955363280",
+  [
+    886
+  ],
+  {
+    "_453": 488,
+    "_166": 910
+  },
+  1791181775.056451,
+  {
+    "_448": 449,
+    "_450": 909
+  },
+  {
+    "_833": 34,
+    "_485": 34,
+    "_179": 109,
+    "_864": 865,
+    "_184": 185,
+    "_187": 868,
+    "_189": 190,
+    "_191": 869,
+    "_193": 869,
+    "_194": 109,
+    "_66": 67,
+    "_196": 903,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 903,
+    "_155": 914,
+    "_54": 915,
+    "_56": 916,
+    "_159": 917,
+    "_161": 162,
+    "_164": 165,
+    "_166": 918,
+    "_168": 169
+  },
+  "1eb897bf-321b-442a-ba51-8f22bfdebe5d",
+  [
+    894
+  ],
+  {
+    "_453": 505,
+    "_166": 930
+  },
+  1791181771.76,
+  1791181783.310493,
+  {
+    "_448": 449,
+    "_450": 928
+  },
+  {
+    "_498": 919,
+    "_187": 868,
+    "_500": -5,
+    "_191": 869,
+    "_193": 869,
+    "_864": 865,
+    "_920": 921,
+    "_922": 837,
+    "_199": 10,
+    "_195": 14
+  },
+  {
+    "_501": 927
+  },
+  "paragen_variants_info",
+  {
+    "_50": 923,
+    "_923": 924,
+    "_925": 926,
+    "_864": 865,
+    "_60": 98
+  },
+  "paragen_variant_choice",
+  "num_variants_in_stream",
+  2,
+  "display_treatment",
+  "skippable",
+  [],
+  [
+    929
+  ],
+  "they ask for fully functional application right i dont know about flutter ",
+  {},
+  {
+    "_148": 912,
+    "_155": 934,
+    "_54": 935,
+    "_56": 936,
+    "_159": 937,
+    "_161": 162,
+    "_163": 34,
+    "_164": 165,
+    "_166": 938,
+    "_168": 169,
+    "_170": 171
+  },
+  "ac696a3a-4762-4061-ba13-770508e11bc5",
+  [
+    903
+  ],
+  {
+    "_453": 454,
+    "_166": 1119
+  },
+  1791181626.917317,
+  1791181655.81953,
+  {
+    "_448": 449,
+    "_450": 1117
+  },
+  {
+    "_172": 939,
+    "_174": 34,
+    "_175": 940,
+    "_197": 941,
+    "_177": 942,
+    "_179": 109,
+    "_180": 943,
+    "_182": 944,
+    "_184": 185,
+    "_186": 34,
+    "_187": 945,
+    "_189": 190,
+    "_191": 946,
+    "_193": 946,
+    "_194": 109,
+    "_66": 67,
+    "_195": 34,
+    "_196": 932,
+    "_199": 10
+  },
+  {
+    "_50": 444,
+    "_445": 1116
+  },
+  [],
+  [
+    1113
+  ],
+  [],
+  {
+    "_210": 947,
+    "_212": 948,
+    "_214": 949,
+    "_216": 950,
+    "_218": 951,
+    "_220": 952,
+    "_222": 953,
+    "_224": 954,
+    "_226": 955,
+    "_228": 956,
+    "_230": 957,
+    "_232": 958,
+    "_234": 959,
+    "_236": 960,
+    "_238": 961,
+    "_240": 962,
+    "_242": 963,
+    "_244": 964,
+    "_246": 965,
+    "_248": 966,
+    "_250": 967,
+    "_252": 968,
+    "_254": 969,
+    "_256": 970,
+    "_258": 971,
+    "_260": 972,
+    "_262": 973,
+    "_264": 974,
+    "_266": 975,
+    "_268": 976,
+    "_270": 977,
+    "_272": 978,
+    "_274": 979,
+    "_276": 980,
+    "_278": 981,
+    "_280": 982,
+    "_282": 983,
+    "_284": 984,
+    "_286": 985,
+    "_288": 986,
+    "_290": 987,
+    "_292": 988,
+    "_294": 989,
+    "_296": 990,
+    "_298": 991,
+    "_300": 992,
+    "_302": 993,
+    "_304": 994,
+    "_306": 995,
+    "_308": 996,
+    "_310": 997,
+    "_312": 998,
+    "_314": 999,
+    "_316": 1000,
+    "_318": 1001,
+    "_320": 1002,
+    "_322": 1003,
+    "_324": 1004,
+    "_326": 1005,
+    "_328": 1006,
+    "_330": 1007,
+    "_332": 1008,
+    "_334": 1009,
+    "_336": 1010,
+    "_338": 1011,
+    "_340": 1012,
+    "_342": 1013,
+    "_344": 1014,
+    "_346": 1015,
+    "_348": 1016,
+    "_350": 1017,
+    "_352": 1018,
+    "_354": 1019,
+    "_356": 1020,
+    "_358": 1021,
+    "_360": 1022,
+    "_362": 1023,
+    "_1024": 1025,
+    "_1026": 1027,
+    "_1028": 1029,
+    "_1030": 1031
+  },
+  [],
+  "3627d542-f5ef-4439-93c5-57989832fec0",
+  "fdba9ef2-d726-4a1e-bca8-165da2c3abd4",
+  {
+    "_148": 1112,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1111,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1110,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1109,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1108,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1107,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1106,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1105,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1104,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1103,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1102,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1101,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1100,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1099,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1098,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1097,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1096,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1095,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1094,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1093,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1092,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1091,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1090,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1089,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1088,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1087,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1086,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1085,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1084,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1083,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1082,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1081,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1080,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1079,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1078,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1077,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1076,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1075,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1074,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1073,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1072,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1071,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1070,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1069,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1068,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1067,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1066,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1065,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1064,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1063,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1062,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1061,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1060,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1059,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1058,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1057,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1056,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1055,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1054,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1053,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1052,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1051,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1050,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1049,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1048,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1047,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1046,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1045,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1044,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1043,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1042,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1041,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1040,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1039,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1038,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1037,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1036,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "77",
+  {
+    "_148": 1035,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "78",
+  {
+    "_148": 1034,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "79",
+  {
+    "_148": 1033,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "80",
+  {
+    "_148": 1032,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  "a621ur",
+  "u9z235",
+  "p2rcac",
+  "6hanqf",
+  "ff2yjc",
+  "slcje5",
+  "hi7amm",
+  "65ar2i",
+  "jhxz8m",
+  "5x3f87",
+  "4i2inc",
+  "c48hbc",
+  "za4qi2",
+  "k5ht9o",
+  "j5unhl",
+  "3v2mxw",
+  "ymvwrq",
+  "3pt8wr",
+  "bhu9wy",
+  "1mbsku",
+  "hrdjge",
+  "28hzj1",
+  "7u32qc",
+  "3zcp8c",
+  "xtioej",
+  "kr9tuw",
+  "jbpurd",
+  "1omsjo",
+  "c27jck",
+  "ydehuh",
+  "y17wn3",
+  "t7y1ev",
+  "unajax",
+  "5ckimj",
+  "xkjbuk",
+  "r7ayly",
+  "ukoi8y",
+  "yd9r3c",
+  "xn30ku",
+  "2padz8",
+  "0756fi",
+  "2bgvyq",
+  "chi29f",
+  "t1sj3f",
+  "9whe76",
+  "8fsnkw",
+  "vquwbl",
+  "p5lhrj",
+  "jm5v0v",
+  "8y4jd0",
+  "b9ug1k",
+  "v270h0",
+  "xowjzt",
+  "kjcipq",
+  "b4cgrl",
+  "tqx0yi",
+  "oqrk3i",
+  "6iag90",
+  "3if22r",
+  "y9dr2f",
+  "w1f73y",
+  "170x6k",
+  "tjepz5",
+  "qx38yb",
+  "5pz3hf",
+  "xwvpwu",
+  "626nja",
+  "nv7n37",
+  "a3zr86",
+  "y8k1th",
+  "arrsnz",
+  "hcakgq",
+  "e5gipz",
+  "qe1h7m",
+  "txzl96",
+  "mo2pa4",
+  "dbcmmk",
+  "viivmn",
+  "jns1pl",
+  "uygpxm",
+  "wxlu8p",
+  {
+    "_202": 784,
+    "_785": -5,
+    "_204": 466,
+    "_206": 786,
+    "_62": 1114,
+    "_788": 1115,
+    "_47": -5,
+    "_208": -5,
+    "_50": 790,
+    "_791": 14
+  },
+  [],
+  [],
+  [
+    447
+  ],
+  [
+    1118
+  ],
+  "message_reaction👍\n\nYes. This assignment is basically telling you **what kind of technical discussion they may have tonight**. Since your background is Flutter, they may not expect you to become a Hydrotesting expert. They are mainly checking whether you can **understand a business requirement, design a small application, validate data, build APIs/UI, and explain your technical decisions**.\n\n### What they are really asking you to build\n\nThink of it as a simple **Hydrotest Inspection Management App**.\n\nThe flow is:\n\n**Asset → Hydrotest → Result → Validity → Dashboard/Follow-up**\n\nFor example:\n\n> Tank `TANK-001` at Station A  \n> Hydrotest performed on `01-09-2026`  \n> Result = Pass  \n> Next due = `01-09-2027`\n\nThe system should tell the user:\n\n- How many assets exist?\n- Which tests are valid?\n- Which tests are due within 30 days?\n- Which are overdue?\n- Which failed?\n- Which are still pending?\n\n---\n\n# 1. Most important interview point: Understand the business workflow\n\nThey may ask:\n\n**\"Explain this assignment in your own words.\"**\n\nA good answer:\n\n> \"The assignment is to develop a Hydrotesting Management module where we can register equipment or assets, record hydrotest information against each asset, track whether the test passed or failed, calculate or store the next due date, and provide a dashboard showing valid, due-soon, overdue, failed, and pending tests. The system should also support searching, filtering, updating records, validation, duplicate handling, timestamps, and automated testing.\"\n\nThat's probably one of the **most important answers to prepare**.\n\n---\n\n# 2. What is an Asset?\n\nAn asset is the equipment being tested.\n\nExample:\n\n```text\nAsset ID: AST-001\nStation: Rajkot Station\nAsset Type: Storage Tank\nSerial Number: TANK-1001\nTest Date: 01-09-2026\nNext Due Date: 01-09-2027\nStatus: Active\n```\n\nThey may ask:\n\n### \"What fields would you store for an asset?\"\n\nAnswer:\n\n> Asset ID, station/site, asset type, serial/reference number, test date, validity or next-due date, status, created timestamp, and updated timestamp.\n\n---\n\n# 3. What is a Hydrotest Record?\n\nA hydrotest record represents an actual test performed on an asset.\n\nExample:\n\n```text\nAsset: AST-001\nTest Date: 01-09-2026\nPerformed By: ABC Testing Services\nResult: Pass\nNotes: No leakage detected\nReport: report_AST001.pdf\n```\n\nImportant relationship:\n\n```text\nAsset\n  |\n  └── Hydrotest Record\n          |\n          ├── Test Date\n          ├── Provider\n          ├── Result\n          ├── Notes\n          └── Report\n```\n\nOne asset can potentially have **multiple hydrotest records over time**.\n\nThis is a good interview point.\n\n---\n\n# 4. Status vs Result — don't confuse them\n\nThis is something they could test.\n\n### Hydrotest Result\n\nThe assignment specifically gives:\n\n```text\nPass\nFail\nPending\n```\n\nThis describes the **test result**.\n\n### Asset Status\n\nAsset status is a different concept.\n\nFor example:\n\n```text\nActive\nInactive\nUnder Maintenance\n```\n\nSo don't automatically treat:\n\n```text\nPass = Active\nFail = Inactive\n```\n\nunless you explicitly define that business rule.\n\nIf they ask:\n\n> \"What would you do if the requirement doesn't clearly define status values?\"\n\nSay:\n\n> \"I would document my assumption instead of inventing company policy. I would use controlled enum values and clearly mention the assumption in the README.\"\n\nThis directly matches their requirement.\n\n---\n\n# 5. Validation — VERY important\n\nThey explicitly mention validation, so prepare this well.\n\nFor example:\n\n### Required fields\n\nYou shouldn't allow:\n\n```text\nAsset ID = empty\nStation = empty\nTest Date = empty\n```\n\nYou return a useful error.\n\nFor example:\n\n```json\n{\n  \"error\": \"Asset ID is required\"\n}\n```\n\n---\n\n### Date validation\n\nThey specifically say:\n\n> next-due date not earlier than test date\n\nWrong:\n\n```text\nTest Date: 10/09/2026\nNext Due: 05/09/2026\n```\n\nCorrect:\n\n```text\nTest Date: 10/09/2026\nNext Due: 10/09/2027\n```\n\nYou should reject the first one.\n\n---\n\n# 6. Duplicate identifiers\n\nThey specifically mention:\n\n> Handle duplicate identifiers sensibly and explain the chosen rule.\n\nThis means:\n\nWhat happens if someone creates:\n\n```text\nAsset ID = AST-001\n```\n\nand `AST-001` already exists?\n\nYou shouldn't create another one blindly.\n\nYou could make `asset_id` unique.\n\nThen return something like:\n\n```text\n409 Conflict\nAsset AST-001 already exists.\n```\n\nInterview answer:\n\n> \"I would enforce uniqueness at the database level and also validate it at the API level. If a duplicate asset ID is submitted, I would return a 409 Conflict response with a clear message.\"\n\nThat's a **strong backend interview answer**.\n\n---\n\n# 7. Dashboard logic — VERY important\n\nThey want:\n\n```text\nTotal Assets\nValid Tests\nDue Within 30 Days\nOverdue\nFailed\nPending\n```\n\nYou should understand how each is calculated.\n\n### Total Assets\n\nNumber of registered assets.\n\n```text\nCOUNT(assets)\n```\n\n### Failed\n\nHydrotest result:\n\n```text\nFail\n```\n\n### Pending\n\nHydrotest result:\n\n```text\nPending\n```\n\n### Overdue\n\nIf:\n\n```text\nnext_due_date < today\n```\n\nthen:\n\n```text\nOVERDUE\n```\n\n### Due within 30 days\n\nIf:\n\n```text\ntoday <= next_due_date <= today + 30 days\n```\n\nthen:\n\n```text\nDUE SOON\n```\n\nThis date logic is likely something they can ask you to explain.\n\n---\n\n# 8. Example you should be able to calculate\n\nSuppose today is:\n\n**5 October 2026**\n\nAsset:\n\n```text\nNext Due Date = 20 October 2026\n```\n\nDifference:\n\n```text\n15 days\n```\n\nTherefore:\n\n**Due within 30 days**\n\n---\n\nAnother:\n\n```text\nNext Due = 20 September 2026\n```\n\nSince:\n\n```text\n20 Sep < 5 Oct\n```\n\nIt is:\n\n**Overdue**\n\n---\n\nAnother:\n\n```text\nNext Due = 20 November 2026\n```\n\nThat's more than 30 days away, so:\n\n**Valid / not due soon**\n\n---\n\n# 9. Search and filtering\n\nThey want users to find records.\n\nFilters:\n\n```text\nStation\nAsset Type\nStatus\nDue-date range\n```\n\nExample:\n\n```text\nStation = Rajkot\nAsset Type = Tank\nStatus = Active\n```\n\nThen show matching assets.\n\nThey also want:\n\n> sort by next-due date\n\nSo the closest due date should appear first.\n\nExample:\n\n```text\n20 Oct 2026\n25 Oct 2026\n05 Nov 2026\n15 Dec 2026\n```\n\n---\n\n# 10. API knowledge you should prepare\n\nEven though you're a Flutter developer, this assignment specifically gives API endpoints.\n\nYou should understand what each HTTP method means.\n\n### POST\n\nCreate something.\n\n```http\nPOST /api/hydrotests/assets\n```\n\nMeans:\n\n> Create a new asset.\n\n---\n\n### GET\n\nRetrieve data.\n\n```http\nGET /api/hydrotests/assets\n```\n\nMeans:\n\n> Get/list assets.\n\n---\n\n### PATCH\n\nPartially update an existing record.\n\n```http\nPATCH /api/hydrotests/records/{id}\n```\n\nMeans:\n\n> Update the specified hydrotest record.\n\n---\n\n### GET by ID\n\n```http\nGET /api/hydrotests/records/{id}\n```\n\nMeans:\n\n> Get one specific hydrotest record.\n\n---\n\n### Dashboard\n\n```http\nGET /api/hydrotests/summary\n```\n\nReturns something like:\n\n```json\n{\n  \"total_assets\": 8,\n  \"valid_tests\": 6,\n  \"due_soon\": 2,\n  \"overdue\": 1,\n  \"failed\": 2,\n  \"pending\": 1\n}\n```\n\n---\n\n# 11. Since you are a Flutter candidate — THIS is important\n\nI think this is where you should focus most.\n\nThey may ask:\n\n> \"How would you implement this in Flutter?\"\n\nYou can explain the architecture.\n\nA simple Flutter architecture:\n\n```text\nFlutter UI\n   ↓\nScreens\n   ↓\nProvider / Riverpod / Bloc\n   ↓\nRepository\n   ↓\nAPI Service\n   ↓\nREST API\n   ↓\nDatabase\n```\n\nFor example:\n\n```text\nDashboardScreen\nAssetListScreen\nAssetDetailsScreen\nAddAssetScreen\nHydrotestFormScreen\n```\n\n---\n\n# 12. Flutter screens you could design\n\n### Dashboard\n\nCards:\n\n```text\nTotal Assets       8\n\nValid Tests        6\n\nDue Soon           2\n\nOverdue            1\n\nFailed             2\n\nPending            1\n```\n\n### Asset List\n\n```text\nAST-001 | Tank | Rajkot | Pass\nAST-002 | Tank | Ahmedabad | Fail\nAST-003 | Cylinder | Surat | Pending\n```\n\nWith:\n\n```text\nSearch\nFilter\nSort\n```\n\n### Add Asset\n\nForm:\n\n```text\nAsset ID\nStation\nAsset Type\nSerial Number\nTest Date\nNext Due Date\nStatus\n\n[Save]\n```\n\n### Hydrotest\n\n```text\nAsset\nTest Date\nPerformed By\nResult\nNotes\nReport\n\n[Save]\n```\n\n---\n\n# 13. Flutter API call\n\nYou should know the basic idea.\n\nFor example, using the `http` package:\n\n```dart\nfinal response = await http.get(\n  Uri.parse('$baseUrl/api/hydrotests/assets'),\n);\n```\n\nThen decode JSON:\n\n```dart\nfinal data = jsonDecode(response.body);\n```\n\nYou don't need to memorize exact code for the interview, but understand:\n\n```text\nFlutter\n   ↓\nHTTP request\n   ↓\nBackend API\n   ↓\nJSON response\n   ↓\nDart model\n   ↓\nUI\n```\n\n---\n\n# 14. JSON → Dart Model\n\nThis is another likely Flutter question.\n\nAPI might return:\n\n```json\n{\n  \"asset_id\": \"AST-001\",\n  \"station\": \"Rajkot\",\n  \"asset_type\": \"Tank\",\n  \"status\": \"Active\"\n}\n```\n\nFlutter model:\n\n```dart\nclass Asset {\n  final String assetId;\n  final String station;\n  final String assetType;\n  final String status;\n\n  Asset({\n    required this.assetId,\n    required this.station,\n    required this.assetType,\n    required this.status,\n  });\n}\n```\n\nYou should understand why models are useful:\n\n> They convert API JSON data into strongly typed Dart objects that are easier and safer to use in the application.\n\n---\n\n# 15. File/report handling\n\nThey ask for:\n\n> report filename or safe demo file reference\n\nDon't overcomplicate this.\n\nFor the assignment, you could simply store:\n\n```text\nreport_AST001.pdf\n```\n\nrather than actually uploading confidential files.\n\nImportant security point:\n\n**Never allow arbitrary filesystem paths from the user.**\n\nBad:\n\n```text\nC:\\Users\\Someone\\secret-file.pdf\n```\n\nBetter:\n\n```text\nreports/report_AST001.pdf\n```\n\nor a generated safe file identifier.\n\n---\n\n# 16. Timestamps\n\nThey specifically say:\n\n> preserving created/updated timestamps\n\nSuppose you create:\n\n```text\ncreatedAt = 05 Oct 2026 10:00\nupdatedAt = 05 Oct 2026 10:00\n```\n\nLater you update the record:\n\n```text\ncreatedAt = 05 Oct 2026 10:00\nupdatedAt = 05 Oct 2026 14:00\n```\n\n**createdAt must NOT change.**\n\nOnly:\n\n```text\nupdatedAt\n```\n\nchanges.\n\nThis is a common backend/database concept.\n\n---\n\n# 17. Database design\n\nIf they ask:\n\n> \"How would you design the database?\"\n\nYou can explain two main collections/tables.\n\n### Assets\n\n```text\nAsset\n----------------\nid\nassetId\nstation\nassetType\nserialNumber\ntestDate\nnextDueDate\nstatus\ncreatedAt\nupdatedAt\n```\n\n### Hydrotests\n\n```text\nHydrotest\n----------------\nid\nassetId\ntestDate\nperformedBy\nresult\nnotes\nreportReference\ncreatedAt\nupdatedAt\n```\n\nRelationship:\n\n```text\nAssets\n  1\n  |\n  |\n  many\nHydrotests\n```\n\nOne asset → many tests.\n\n---\n\n# 18. Why MongoDB was suggested?\n\nThey say:\n\n> MongoDB or another documented database\n\nMongoDB is suitable because the data can naturally be represented as documents.\n\nBut **you don't have to use MongoDB**.\n\nIf you're stronger with another database, you can explain why you selected it.\n\nFor example:\n\n> \"I would choose PostgreSQL if I wanted strong relational constraints and clear relationships between assets and hydrotest records.\"\n\nThat's a perfectly reasonable technical answer.\n\n---\n\n# 19. Testing — don't ignore this\n\nThey give **15 points** for testing.\n\nThey may ask:\n\n> \"What would you test?\"\n\nPrepare these examples.\n\n### Test 1 — Create valid asset\n\n```text\nInput: valid asset\nExpected: 201 Created\n```\n\n### Test 2 — Missing Asset ID\n\n```text\nInput: assetId = empty\nExpected: validation error\n```\n\n### Test 3 — Invalid date\n\n```text\nTest date = 10 Oct\nNext due = 5 Oct\n\nExpected:\nValidation error\n```\n\n### Test 4 — Duplicate asset\n\n```text\nCreate AST-001\nCreate AST-001 again\n\nExpected:\n409 Conflict\n```\n\n### Test 5 — Overdue\n\n```text\nnextDueDate < today\n\nExpected:\noverdue\n```\n\n### Test 6 — Due soon\n\n```text\nnextDueDate <= today + 30 days\n\nExpected:\ndue soon\n```\n\n### Test 7 — Failed\n\n```text\nresult = Fail\n\nExpected:\nfailed count increases\n```\n\n---\n\n# 20. Error handling\n\nThey specifically say:\n\n> useful error messages\n\nDon't just return:\n\n```text\nError\n```\n\nBetter:\n\n```json\n{\n  \"error\": \"next_due_date cannot be earlier than test_date\"\n}\n```\n\nFor duplicate:\n\n```json\n{\n  \"error\": \"Asset ID AST-001 already exists\"\n}\n```\n\nFor missing asset:\n\n```json\n{\n  \"error\": \"Asset AST-999 was not found\"\n}\n```\n\n---\n\n# 21. Security — only 5 points, but know it\n\nThey specifically say:\n\n> No committed secrets\n\nSo don't put:\n\n```text\nDB_PASSWORD=123456\n```\n\ninside GitHub.\n\nInstead:\n\n`.env`\n\n```text\nDATABASE_URL=...\n```\n\nand `.env.example`\n\n```text\nDATABASE_URL=your_database_url_here\n```\n\nGit should contain:\n\n```text\n.env.example\n```\n\nbut not:\n\n```text\n.env\n```\n\nAnd add `.env` to `.gitignore`.\n\n---\n\n# 22. Synthetic data\n\nThey repeatedly emphasize:\n\n> fictional/demo data\n\nThis means they **do not want you accessing FuelFlux's real systems or customer data**.\n\nYou can create:\n\n```text\nAST-001\nAST-002\nAST-003\n...\n```\n\nwith fake stations:\n\n```text\nRajkot Demo Station\nAhmedabad Demo Station\nSurat Demo Station\n```\n\nNo real confidential data.\n\n---\n\n# 23. Why they gave 8 assets and 12 records\n\nThis is deliberate.\n\nThey want your seed data to demonstrate **different situations**.\n\nYou should have:\n\n```text\n8 assets\n\n12 hydrotest records\n```\n\ncovering:\n\n```text\nPASS\nFAIL\nPENDING\nDUE SOON\nOVERDUE\n```\n\nFor example:\n\n| Asset | Result | Due |\n|---|---|---|\n| AST-001 | Pass | Valid |\n| AST-002 | Pass | Due soon |\n| AST-003 | Fail | Overdue |\n| AST-004 | Pending | Due soon |\n| AST-005 | Pass | Overdue |\n| AST-006 | Fail | Valid |\n| AST-007 | Pass | Valid |\n| AST-008 | Pending | Valid |\n\nThe point is to prove your dashboard actually works.\n\n---\n\n# 24. Architecture question — very likely\n\nThey may ask:\n\n> \"How would you structure the project?\"\n\nFor Flutter, you can say:\n\n```text\nlib/\n│\n├── core/\n│   ├── constants/\n│   ├── network/\n│   └── errors/\n│\n├── models/\n│   ├── asset.dart\n│   └── hydrotest.dart\n│\n├── services/\n│   └── api_service.dart\n│\n├── repositories/\n│   ├── asset_repository.dart\n│   └── hydrotest_repository.dart\n│\n├── providers/\n│   └── ...\n│\n├── screens/\n│   ├── dashboard/\n│   ├── assets/\n│   └── hydrotests/\n│\n└── main.dart\n```\n\nYou don't necessarily need exactly this architecture. The important thing is that **UI, business logic, API calls, and models aren't all mixed together**.\n\n---\n\n# 25. Questions I strongly expect them to ask\n\nPrepare these first.\n\n### Business understanding\n\n1. **Explain the assignment in your own words.**\n2. What is an asset?\n3. What is a hydrotest record?\n4. What is the relationship between an asset and hydrotest?\n5. How would you determine overdue?\n6. How would you determine due within 30 days?\n7. How would you handle duplicate asset IDs?\n\n### Flutter\n\n8. How would you build the UI?\n9. How would Flutter communicate with the backend?\n10. How do you call REST APIs in Flutter?\n11. How do you parse JSON?\n12. What is a Dart model?\n13. How do you manage state?\n14. Provider vs Riverpod vs Bloc?\n15. How do you handle loading/error/success states?\n16. How would you implement search/filter?\n17. How would you implement form validation?\n18. How would you handle file/report references?\n\n### Backend/API\n\n19. Difference between GET, POST and PATCH?\n20. What HTTP status codes would you return?\n21. What is REST API?\n22. How would you validate data?\n23. How would you handle duplicate records?\n24. How would you design the database?\n25. Why MongoDB/PostgreSQL?\n26. How do createdAt and updatedAt work?\n\n### Testing\n\n27. What test cases would you write?\n28. How would you test overdue logic?\n29. How would you test duplicate IDs?\n30. How would you test invalid dates?\n\n### Security\n\n31. Where would you store API/database credentials?\n32. Why shouldn't `.env` be committed?\n33. How would you handle uploaded files safely?\n\n---\n\n# 26. The most important thing for YOUR interview\n\nBecause you said the interview is **about your Flutter background**, don't spend the next few hours trying to become a FastAPI expert.\n\nInstead, prepare this chain:\n\n```text\nREQUIREMENT\n     ↓\nDATABASE\n     ↓\nREST API\n     ↓\nFLUTTER API SERVICE\n     ↓\nDART MODEL\n     ↓\nSTATE MANAGEMENT\n     ↓\nUI\n     ↓\nVALIDATION\n     ↓\nTESTING\n```\n\nIf they give you a requirement like:\n\n> \"Show all overdue hydrotests.\"\n\nYou should be able to explain:\n\n**Backend:**\n\n```text\nGET /api/hydrotests/assets?due=overdue\n```\n\nBackend determines:\n\n```text\nnextDueDate < today\n```\n\nreturns JSON.\n\n**Flutter:**\n\n```text\nAPI Service\n   ↓\nJSON\n   ↓\nHydrotest/Asset Model\n   ↓\nState Management\n   ↓\nListView\n```\n\nUI displays:\n\n```text\n⚠ AST-003\nOverdue\nDue: 20 Sep 2026\n```\n\nThat demonstrates that you understand **full-stack application flow**, even if your primary skill is Flutter.\n\n---\n\n# 27. One very strong answer to memorize\n\nIf they ask:\n\n> **\"How would you approach this assignment?\"**\n\nSay:\n\n> \"First, I would understand the workflow and identify the main entities, which are assets and hydrotest records. Then I would define the data model and validation rules, especially unique asset identifiers and date validation. I would expose REST APIs for creating, listing, updating and retrieving records, along with a summary API for dashboard counts. On the Flutter side, I would create screens for the dashboard, asset list, asset creation/editing, and hydrotest records. I would separate UI, state management, repositories and API services so the code remains maintainable. I would also add automated tests for validation, duplicate handling, due and overdue calculations, and API behavior. Finally, I would document the setup, assumptions and limitations and use only synthetic demo data.\"\n\n**This answer alone covers a huge part of their rubric.**\n\n---\n\n## Your priority before 8 PM\n\nI would prepare in this order:\n\n**Priority 1:** Flutter fundamentals  \n→ widgets, state, navigation, forms, validation, API calls, JSON/model, async/await\n\n**Priority 2:** This assignment  \n→ Asset → Hydrotest → Result → Next Due → Dashboard\n\n**Priority 3:** REST API  \n→ GET, POST, PATCH, status codes, JSON\n\n**Priority 4:** Database basics  \n→ tables/collections, relationships, unique IDs, timestamps\n\n**Priority 5:** Testing  \n→ unit tests + API tests + edge cases\n\n**Priority 6:** Security  \n→ `.env`, `.gitignore`, synthetic data\n\nIf you can confidently explain those six areas, **you don't need to know every line of a FastAPI/MongoDB implementation to have a good technical discussion.**",
+  {},
+  {
+    "_148": 932,
+    "_155": 1123,
+    "_54": 1124,
+    "_56": 1124,
+    "_159": 1125,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1126,
+    "_168": 169
+  },
+  "379bcc2d-9e40-4e51-a44d-2e2eea4590c5",
+  [
+    912
+  ],
+  {
+    "_453": 488,
+    "_166": 1128
+  },
+  1791181626.916358,
+  {
+    "_448": 449,
+    "_450": 1127
+  },
+  {
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 945,
+    "_189": 190,
+    "_191": 946,
+    "_193": 946,
+    "_194": 109,
+    "_66": 67,
+    "_196": 1121,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 1121,
+    "_155": 1132,
+    "_54": 1133,
+    "_56": 1133,
+    "_159": 1134,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1135,
+    "_168": 169
+  },
+  "6345ed20-6404-42ea-8eae-e42b8d307377",
+  [
+    932
+  ],
+  {
+    "_453": 488,
+    "_166": 1137
+  },
+  1791181626.913819,
+  {
+    "_448": 449,
+    "_450": 1136
+  },
+  {
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 945,
+    "_189": 190,
+    "_191": 946,
+    "_193": 946,
+    "_194": 109,
+    "_66": 67,
+    "_196": 1130,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 1130,
+    "_155": 1141,
+    "_54": 1142,
+    "_56": 1142,
+    "_159": 1143,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1144,
+    "_168": 169
+  },
+  "f246a64c-2a39-492d-aa26-4b65c9a41ade",
+  [
+    1121
+  ],
+  {
+    "_453": 454,
+    "_166": 1145
+  },
+  1791181626.913149,
+  {
+    "_448": 813,
+    "_814": 487
+  },
+  {
+    "_485": 34,
+    "_184": 185,
+    "_191": 946,
+    "_193": 946,
+    "_196": 1139,
+    "_199": 10,
+    "_812": 34
+  },
+  {},
+  {
+    "_148": 1139,
+    "_155": 1149,
+    "_54": 1150,
+    "_56": 1150,
+    "_159": 1151,
+    "_161": 162,
+    "_163": 34,
+    "_164": 466,
+    "_166": 1152,
+    "_168": 169
+  },
+  "e60b3ace-1dc3-4b5d-b213-bbf0cdfe4162",
+  [
+    1130
+  ],
+  {
+    "_453": 488,
+    "_166": 1154
+  },
+  1791181626.912297,
+  {
+    "_448": 449,
+    "_450": 1153
+  },
+  {
+    "_823": 34,
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 945,
+    "_189": 190,
+    "_191": 946,
+    "_193": 946,
+    "_194": 109,
+    "_66": 67,
+    "_196": 1147,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 1147,
+    "_155": 1158,
+    "_54": 1159,
+    "_56": 1159,
+    "_159": 1160,
+    "_161": 162,
+    "_163": 34,
+    "_164": 466,
+    "_166": 1161,
+    "_168": 169
+  },
+  "caf7e5de-d502-43f8-86a2-e14a0dcc26ca",
+  [
+    1139
+  ],
+  {
+    "_453": 488,
+    "_166": 1163
+  },
+  1791181626.911423,
+  {
+    "_448": 449,
+    "_450": 1162
+  },
+  {
+    "_833": 34,
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 945,
+    "_189": 190,
+    "_191": 946,
+    "_193": 946,
+    "_194": 109,
+    "_66": 67,
+    "_196": 1156,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 1156,
+    "_155": 1167,
+    "_54": 1168,
+    "_56": 1169,
+    "_159": 1170,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1171,
+    "_168": 169
+  },
+  "client-created-root",
+  [
+    1147
+  ],
+  {
+    "_453": 505,
+    "_166": 1177
+  },
+  1791181623.239,
+  1791181656.359557,
+  {
+    "_448": 449,
+    "_450": 1175
+  },
+  {
+    "_498": 1172,
+    "_187": 945,
+    "_500": -5,
+    "_191": 946,
+    "_193": 946,
+    "_845": 1173,
+    "_199": 10,
+    "_195": 14
+  },
+  {
+    "_501": 1174
+  },
+  {
+    "_454": 847
+  },
+  [],
+  [
+    1176
+  ],
+  "Candidate Technical Assignment\r\n\r\nHydrotesting Management &amp; Inspection Workflow\r\n\r\nAssessment: Take-home assignment | Suggested timebox: 5 calendar days (10–14 focused hours)\r\nSubmission: Git repository or ZIP, README/setup guide, tests, screenshots or a 3–5 minute demo. Use synthetic/demo\r\ndata only.\r\n\r\n1. Background and objective\r\n Build a small Hydrotesting Management module for tracking equipment/tank-related inspection or testing records,\r\nvalidity, supporting reports, and follow-up. This assignment evaluates your ability to translate a business workflow\r\ninto reliable, maintainable software.\r\n Objective: register an asset, record a hydrotest, track its result and validity, and identify tests due soon or overdue.\r\nThis is a demonstration task, not a request to access FuelFlux production systems.\r\n\r\n2. Required MVP functionality\r\n Asset register: create/list/update asset with asset ID, station/site, asset type, serial/reference number, test date,\r\nvalidity/next-due date, and status.\r\n Hydrotest record: link to an asset; capture test date, performed-by/provider, result (Pass/Fail/Pending), notes, and\r\nreport filename or safe demo file reference.\r\n Validation: required fields, valid dates, next-due date not earlier than test date, controlled status values, and useful\r\nerror messages.\r\n Dashboard/list: show total assets, valid tests, due within 30 days, overdue, failed, and pending records.\r\n Search/filter by station, asset type, status, and due-date range; sort by next-due date.\r\n Update records while preserving created/updated timestamps. Handle duplicate identifiers sensibly and explain the\r\nchosen rule.\r\n Provide a usable UI or API-only implementation with documented API examples; a simple working interface is\r\npreferred.\r\n\r\n3. Suggested stack and API contract\r\n Suggested, not mandatory: Python + FastAPI, MongoDB or another documented database, and React/Next.js or a\r\nsimple UI. Keep credentials in environment variables; include .env.example with placeholders.\r\nMethod Example path Purpose\r\nPOST /api/hydrotests/assets Create asset\r\nGET /api/hydrotests/assets List/search assets\r\nPOST /api/hydrotests/records Record hydrotest\r\nGET /api/hydrotests/records/{id} Get record\r\nPATCH /api/hydrotests/records/{id} Update record\r\nGET /api/hydrotests/summary Dashboard counts/due items\r\n\r\n4. Demo data and deliverables\r\n Include seed data with at least 8 fictional assets and 12 fictional hydrotest records covering Pass, Fail, Pending,\r\ndue-soon, and overdue.\r\n\r\nFuelFlux | Candidate Technical Assessment | Confidential\r\n\r\n Submit source code, README with prerequisites/install/run steps/database setup/environment variables, data\r\nmodel/architecture notes, automated tests and command, screenshots/demo, and assumptions/limitations/next\r\nimprovements.\r\n Submission: Candidate name: ____________________ Repository/ZIP: ____________________ Date:\r\n__________ Demo link (optional): ____________________\r\n\r\n5. Evaluation rubric (100 points)\r\nArea Points What we assess\r\nWorkflow correctness 25 Create/update/list, statuses,\r\ndue/overdue rules, edge cases\r\nCode quality/architecture 20 Readable, modular, maintainable\r\n\r\nimplementation\r\nData model/validation 15 Relationships, validation,\r\ntimestamps, duplicate handling\r\nTesting/reliability 15 Meaningful tests, error handling,\r\n\r\nreproducibility\r\n\r\nUsability 10 Clear UI/API, filters, feedback\r\nDocumentation 10 Setup, assumptions, demo\r\nSecurity/data handling 5 No committed secrets; safe demo\r\n\r\ndata/file handling\r\n\r\n6. Rules and constraints\r\n Use only fictional/demo data. Do not access FuelFlux production credentials, databases, customer information, or\r\nsystems.\r\n No paid cloud services required; local execution is sufficient. Public deployment is optional and must contain no real\r\ndata or secrets.\r\n AI coding tools and documentation are permitted; disclose their use and be ready to explain and modify submitted\r\ncode.\r\n Do not copy another candidate&#39;s submission. Cite reused code, templates, or libraries.\r\n Where requirements are ambiguous, document assumptions rather than inventing company policy. \n\ntoday 8 pm is technical interviwe about flutter backgroung and company give this file what they try to say explain so i can prepare for that i you find key point related interview ",
+  {},
+  [
+    1156
+  ],
+  {
+    "_148": 1165,
+    "_153": 1718
+  },
+  {
+    "_148": 1156,
+    "_149": 1708,
+    "_151": 1165,
+    "_153": 1709
+  },
+  {
+    "_148": 1147,
+    "_149": 1701,
+    "_151": 1156,
+    "_153": 1702
+  },
+  {
+    "_148": 1139,
+    "_149": 1694,
+    "_151": 1147,
+    "_153": 1695
+  },
+  {
+    "_148": 1130,
+    "_149": 1688,
+    "_151": 1139,
+    "_153": 1689
+  },
+  {
+    "_148": 1121,
+    "_149": 1681,
+    "_151": 1130,
+    "_153": 1682
+  },
+  {
+    "_148": 932,
+    "_149": 1674,
+    "_151": 1121,
+    "_153": 1675
+  },
+  {
+    "_148": 912,
+    "_149": 1576,
+    "_151": 932,
+    "_153": 1577
+  },
+  {
+    "_148": 903,
+    "_149": 1566,
+    "_151": 912,
+    "_153": 1567
+  },
+  {
+    "_148": 894,
+    "_149": 1559,
+    "_151": 903,
+    "_153": 1560
+  },
+  {
+    "_148": 886,
+    "_149": 1552,
+    "_151": 894,
+    "_153": 1553
+  },
+  {
+    "_148": 877,
+    "_149": 1546,
+    "_151": 886,
+    "_153": 1547
+  },
+  {
+    "_148": 853,
+    "_149": 1539,
+    "_151": 877,
+    "_153": 1540
+  },
+  {
+    "_148": 837,
+    "_149": 1524,
+    "_151": 853,
+    "_153": 1525
+  },
+  {
+    "_148": 827,
+    "_149": 1514,
+    "_151": 837,
+    "_153": 1515
+  },
+  {
+    "_148": 817,
+    "_149": 1507,
+    "_151": 827,
+    "_153": 1508
+  },
+  {
+    "_148": 806,
+    "_149": 1500,
+    "_151": 817,
+    "_153": 1501
+  },
+  {
+    "_148": 797,
+    "_149": 1494,
+    "_151": 806,
+    "_153": 1495
+  },
+  {
+    "_148": 744,
+    "_149": 1487,
+    "_151": 797,
+    "_153": 1488
+  },
+  {
+    "_148": 731,
+    "_149": 1458,
+    "_151": 744,
+    "_153": 1459
+  },
+  {
+    "_148": 722,
+    "_149": 1449,
+    "_151": 731,
+    "_153": 1450
+  },
+  {
+    "_148": 563,
+    "_149": 1442,
+    "_151": 722,
+    "_153": 1443
+  },
+  {
+    "_148": 550,
+    "_149": 1359,
+    "_151": 563,
+    "_153": 1360
+  },
+  {
+    "_148": 541,
+    "_149": 1350,
+    "_151": 550,
+    "_153": 1351
+  },
+  {
+    "_148": 508,
+    "_149": 1343,
+    "_151": 541,
+    "_153": 1344
+  },
+  {
+    "_148": 491,
+    "_149": 1323,
+    "_151": 508,
+    "_153": 1324
+  },
+  {
+    "_148": 479,
+    "_149": 1314,
+    "_151": 491,
+    "_153": 1315
+  },
+  {
+    "_148": 457,
+    "_149": 1307,
+    "_151": 479,
+    "_153": 1308
+  },
+  {
+    "_148": 152,
+    "_149": 1301,
+    "_151": 457,
+    "_153": 1302
+  },
+  {
+    "_148": 81,
+    "_149": 1209,
+    "_151": 152,
+    "_153": 1210
+  },
+  {
+    "_148": 81,
+    "_155": 1211,
+    "_54": 157,
+    "_56": 158,
+    "_159": 1212,
+    "_161": 162,
+    "_163": 34,
+    "_164": 165,
+    "_166": 1213,
+    "_168": 169,
+    "_170": 171
+  },
+  [],
+  {
+    "_453": 454,
+    "_166": 1300
+  },
+  {
+    "_448": 449,
+    "_450": 1299
+  },
+  {
+    "_172": 1214,
+    "_174": 34,
+    "_175": 1215,
+    "_177": 1216,
+    "_179": 109,
+    "_180": 1217,
+    "_182": 1218,
+    "_184": 185,
+    "_186": 34,
+    "_187": 188,
+    "_189": 190,
+    "_191": 192,
+    "_193": 192,
+    "_194": 109,
+    "_66": 67,
+    "_195": 34,
+    "_196": 152,
+    "_197": 1219,
+    "_199": 10
+  },
+  {
+    "_50": 444,
+    "_445": 1298
+  },
+  [],
+  [],
+  {
+    "_210": 1221,
+    "_212": 1222,
+    "_214": 1223,
+    "_216": 1224,
+    "_218": 1225,
+    "_220": 1226,
+    "_222": 1227,
+    "_224": 1228,
+    "_226": 1229,
+    "_228": 1230,
+    "_230": 1231,
+    "_232": 1232,
+    "_234": 1233,
+    "_236": 1234,
+    "_238": 1235,
+    "_240": 1236,
+    "_242": 1237,
+    "_244": 1238,
+    "_246": 1239,
+    "_248": 1240,
+    "_250": 1241,
+    "_252": 1242,
+    "_254": 1243,
+    "_256": 1244,
+    "_258": 1245,
+    "_260": 1246,
+    "_262": 1247,
+    "_264": 1248,
+    "_266": 1249,
+    "_268": 1250,
+    "_270": 1251,
+    "_272": 1252,
+    "_274": 1253,
+    "_276": 1254,
+    "_278": 1255,
+    "_280": 1256,
+    "_282": 1257,
+    "_284": 1258,
+    "_286": 1259,
+    "_288": 1260,
+    "_290": 1261,
+    "_292": 1262,
+    "_294": 1263,
+    "_296": 1264,
+    "_298": 1265,
+    "_300": 1266,
+    "_302": 1267,
+    "_304": 1268,
+    "_306": 1269,
+    "_308": 1270,
+    "_310": 1271,
+    "_312": 1272,
+    "_314": 1273,
+    "_316": 1274,
+    "_318": 1275,
+    "_320": 1276,
+    "_322": 1277,
+    "_324": 1278,
+    "_326": 1279,
+    "_328": 1280,
+    "_330": 1281,
+    "_332": 1282,
+    "_334": 1283,
+    "_336": 1284,
+    "_338": 1285,
+    "_340": 1286,
+    "_342": 1287,
+    "_344": 1288,
+    "_346": 1289,
+    "_348": 1290,
+    "_350": 1291,
+    "_352": 1292,
+    "_354": 1293,
+    "_356": 1294,
+    "_358": 1295,
+    "_360": 1296,
+    "_362": 1297
+  },
+  [],
+  [
+    1220
+  ],
+  {
+    "_50": 201,
+    "_202": 203,
+    "_204": 205,
+    "_206": 207,
+    "_47": 203,
+    "_208": 209
+  },
+  {
+    "_148": 443,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 442,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 441,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 440,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 439,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 438,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 437,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 436,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 435,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 434,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 433,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 432,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 431,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 430,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 429,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 428,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 427,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 426,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 425,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 424,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 423,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 422,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 421,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 420,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 419,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 418,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 417,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 416,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 415,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 414,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 413,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 412,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 411,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 410,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 409,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 408,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 407,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 406,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 405,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 404,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 403,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 402,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 401,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 400,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 399,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 398,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 397,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 396,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 395,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 394,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 393,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 392,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 391,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 390,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 389,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 388,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 387,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 386,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 385,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 384,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 383,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 382,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 381,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 380,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 379,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 378,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 377,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 376,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 375,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 374,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 373,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 372,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 371,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 370,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 369,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 368,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 364,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  [
+    447
+  ],
+  [
+    452
+  ],
+  {},
+  {
+    "_148": 152,
+    "_155": 1303,
+    "_54": 460,
+    "_56": 460,
+    "_159": 1304,
+    "_161": 162,
+    "_163": 14,
+    "_164": 165,
+    "_166": 1305,
+    "_168": 169
+  },
+  [
+    81
+  ],
+  {
+    "_453": 454,
+    "_166": 1306
+  },
+  {
+    "_448": 475,
+    "_159": 476
+  },
+  {
+    "_463": 464,
+    "_465": 466,
+    "_467": 468,
+    "_469": 470,
+    "_471": 472,
+    "_184": 185,
+    "_186": 14,
+    "_187": 188,
+    "_189": 190,
+    "_191": 192,
+    "_193": 192,
+    "_179": 109,
+    "_194": 109,
+    "_66": 67,
+    "_195": 14,
+    "_196": 473,
+    "_474": 34,
+    "_199": 10
+  },
+  {},
+  {
+    "_148": 457,
+    "_155": 1309,
+    "_54": 482,
+    "_56": 482,
+    "_159": 1310,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1311,
+    "_168": 169
+  },
+  [
+    152
+  ],
+  {
+    "_453": 488,
+    "_166": 1313
+  },
+  {
+    "_448": 449,
+    "_450": 1312
+  },
+  {
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 188,
+    "_189": 190,
+    "_191": 192,
+    "_193": 192,
+    "_194": 109,
+    "_66": 67,
+    "_196": 479,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 479,
+    "_155": 1316,
+    "_54": 494,
+    "_56": 495,
+    "_159": 1317,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1318,
+    "_168": 169
+  },
+  [
+    457
+  ],
+  {
+    "_453": 505,
+    "_166": 1322
+  },
+  {
+    "_448": 449,
+    "_450": 1321
+  },
+  {
+    "_498": 1319,
+    "_187": 188,
+    "_500": -5,
+    "_191": 192,
+    "_193": 192,
+    "_199": 10,
+    "_195": 14
+  },
+  {
+    "_501": 1320
+  },
+  [],
+  [
+    504
+  ],
+  {},
+  {
+    "_148": 491,
+    "_155": 1325,
+    "_54": 511,
+    "_56": 512,
+    "_159": 1326,
+    "_161": 162,
+    "_163": 34,
+    "_164": 165,
+    "_166": 1327,
+    "_168": 169,
+    "_170": 171
+  },
+  [
+    479
+  ],
+  {
+    "_453": 454,
+    "_166": 1342
+  },
+  {
+    "_448": 449,
+    "_450": 1341
+  },
+  {
+    "_172": 1328,
+    "_174": 34,
+    "_175": 1329,
+    "_177": 1330,
+    "_179": 109,
+    "_180": 1331,
+    "_182": 1332,
+    "_184": 185,
+    "_186": 34,
+    "_187": 520,
+    "_189": 190,
+    "_191": 521,
+    "_193": 521,
+    "_194": 109,
+    "_66": 67,
+    "_195": 34,
+    "_196": 508,
+    "_199": 10
+  },
+  {
+    "_50": 444,
+    "_445": 1340
+  },
+  [],
+  [],
+  {
+    "_210": 1333,
+    "_212": 1334,
+    "_214": 1335,
+    "_216": 1336,
+    "_218": 1337,
+    "_220": 1338,
+    "_222": 1339
+  },
+  [],
+  {
+    "_148": 535,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 534,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 533,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 532,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 531,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 530,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 529,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  [
+    447
+  ],
+  [
+    538
+  ],
+  {},
+  {
+    "_148": 508,
+    "_155": 1345,
+    "_54": 544,
+    "_56": 544,
+    "_159": 1346,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1347,
+    "_168": 169
+  },
+  [
+    491
+  ],
+  {
+    "_453": 488,
+    "_166": 1349
+  },
+  {
+    "_448": 449,
+    "_450": 1348
+  },
+  {
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 520,
+    "_189": 190,
+    "_191": 521,
+    "_193": 521,
+    "_194": 109,
+    "_66": 67,
+    "_196": 541,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 541,
+    "_155": 1352,
+    "_54": 553,
+    "_56": 554,
+    "_159": 1353,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1354,
+    "_168": 169
+  },
+  [
+    508
+  ],
+  {
+    "_453": 505,
+    "_166": 1358
+  },
+  {
+    "_448": 449,
+    "_450": 1357
+  },
+  {
+    "_498": 1355,
+    "_187": 520,
+    "_500": -5,
+    "_191": 521,
+    "_193": 521,
+    "_199": 10,
+    "_195": 14
+  },
+  {
+    "_501": 1356
+  },
+  [],
+  [
+    560
+  ],
+  {},
+  {
+    "_148": 550,
+    "_155": 1361,
+    "_54": 566,
+    "_56": 567,
+    "_159": 1362,
+    "_161": 162,
+    "_163": 34,
+    "_164": 165,
+    "_166": 1363,
+    "_168": 169,
+    "_170": 171
+  },
+  [
+    541
+  ],
+  {
+    "_453": 454,
+    "_166": 1441
+  },
+  {
+    "_448": 449,
+    "_450": 1440
+  },
+  {
+    "_172": 1364,
+    "_174": 34,
+    "_175": 1365,
+    "_177": 1366,
+    "_179": 109,
+    "_180": 1367,
+    "_182": 1368,
+    "_184": 185,
+    "_186": 34,
+    "_187": 575,
+    "_189": 190,
+    "_191": 576,
+    "_193": 576,
+    "_194": 109,
+    "_66": 67,
+    "_195": 34,
+    "_196": 563,
+    "_199": 10
+  },
+  {
+    "_50": 444,
+    "_445": 1439
+  },
+  [],
+  [],
+  {
+    "_210": 1369,
+    "_212": 1370,
+    "_214": 1371,
+    "_216": 1372,
+    "_218": 1373,
+    "_220": 1374,
+    "_222": 1375,
+    "_224": 1376,
+    "_226": 1377,
+    "_228": 1378,
+    "_230": 1379,
+    "_232": 1380,
+    "_234": 1381,
+    "_236": 1382,
+    "_238": 1383,
+    "_240": 1384,
+    "_242": 1385,
+    "_244": 1386,
+    "_246": 1387,
+    "_248": 1388,
+    "_250": 1389,
+    "_252": 1390,
+    "_254": 1391,
+    "_256": 1392,
+    "_258": 1393,
+    "_260": 1394,
+    "_262": 1395,
+    "_264": 1396,
+    "_266": 1397,
+    "_268": 1398,
+    "_270": 1399,
+    "_272": 1400,
+    "_274": 1401,
+    "_276": 1402,
+    "_278": 1403,
+    "_280": 1404,
+    "_282": 1405,
+    "_284": 1406,
+    "_286": 1407,
+    "_288": 1408,
+    "_290": 1409,
+    "_292": 1410,
+    "_294": 1411,
+    "_296": 1412,
+    "_298": 1413,
+    "_300": 1414,
+    "_302": 1415,
+    "_304": 1416,
+    "_306": 1417,
+    "_308": 1418,
+    "_310": 1419,
+    "_312": 1420,
+    "_314": 1421,
+    "_316": 1422,
+    "_318": 1423,
+    "_320": 1424,
+    "_322": 1425,
+    "_324": 1426,
+    "_326": 1427,
+    "_328": 1428,
+    "_330": 1429,
+    "_332": 1430,
+    "_334": 1431,
+    "_336": 1432,
+    "_338": 1433,
+    "_340": 1434,
+    "_342": 1435,
+    "_344": 1436,
+    "_346": 1437,
+    "_348": 1438
+  },
+  [],
+  {
+    "_148": 716,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 715,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 714,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 713,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 712,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 711,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 710,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 709,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 708,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 707,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 706,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 705,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 704,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 703,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 702,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 701,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 700,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 699,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 698,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 697,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 696,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 695,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 694,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 693,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 692,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 691,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 690,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 689,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 688,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 687,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 686,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 685,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 684,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 683,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 682,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 681,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 680,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 679,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 678,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 677,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 676,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 675,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 674,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 673,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 672,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 671,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 670,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 669,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 668,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 667,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 666,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 665,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 664,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 663,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 662,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 661,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 660,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 659,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 658,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 657,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 656,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 655,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 654,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 653,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 652,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 651,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 650,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 649,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 648,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 647,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  [
+    447
+  ],
+  [
+    719
+  ],
+  {},
+  {
+    "_148": 563,
+    "_155": 1444,
+    "_54": 725,
+    "_56": 725,
+    "_159": 1445,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1446,
+    "_168": 169
+  },
+  [
+    550
+  ],
+  {
+    "_453": 488,
+    "_166": 1448
+  },
+  {
+    "_448": 449,
+    "_450": 1447
+  },
+  {
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 575,
+    "_189": 190,
+    "_191": 576,
+    "_193": 576,
+    "_194": 109,
+    "_66": 67,
+    "_196": 722,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 722,
+    "_155": 1451,
+    "_54": 734,
+    "_56": 735,
+    "_159": 1452,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1453,
+    "_168": 169
+  },
+  [
+    563
+  ],
+  {
+    "_453": 505,
+    "_166": 1457
+  },
+  {
+    "_448": 449,
+    "_450": 1456
+  },
+  {
+    "_498": 1454,
+    "_187": 575,
+    "_500": -5,
+    "_191": 576,
+    "_193": 576,
+    "_199": 10,
+    "_195": 14
+  },
+  {
+    "_501": 1455
+  },
+  [],
+  [
+    741
+  ],
+  {},
+  {
+    "_148": 731,
+    "_155": 1460,
+    "_54": 747,
+    "_56": 748,
+    "_159": 1461,
+    "_161": 162,
+    "_163": 34,
+    "_164": 165,
+    "_166": 1462,
+    "_168": 169,
+    "_170": 171
+  },
+  [
+    722
+  ],
+  {
+    "_453": 454,
+    "_166": 1486
+  },
+  {
+    "_448": 449,
+    "_450": 1485
+  },
+  {
+    "_172": 1463,
+    "_174": 34,
+    "_175": 1464,
+    "_197": 1465,
+    "_177": 1466,
+    "_179": 109,
+    "_180": 1467,
+    "_182": 1468,
+    "_184": 185,
+    "_186": 34,
+    "_187": 757,
+    "_189": 190,
+    "_191": 758,
+    "_193": 758,
+    "_194": 109,
+    "_66": 67,
+    "_195": 34,
+    "_196": 744,
+    "_199": 10
+  },
+  {
+    "_50": 444,
+    "_445": 1484
+  },
+  [],
+  [
+    1481
+  ],
+  [],
+  {
+    "_210": 1469,
+    "_212": 1470,
+    "_214": 1471,
+    "_216": 1472,
+    "_218": 1473,
+    "_220": 1474,
+    "_222": 1475,
+    "_224": 1476,
+    "_226": 1477,
+    "_228": 1478,
+    "_230": 1479,
+    "_232": 1480
+  },
+  [],
+  {
+    "_148": 782,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 781,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 780,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 779,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 778,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 777,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 776,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 775,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 774,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 773,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 772,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 771,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_202": 784,
+    "_785": -5,
+    "_204": 466,
+    "_206": 786,
+    "_62": 1482,
+    "_788": 1483,
+    "_47": -5,
+    "_208": -5,
+    "_50": 790,
+    "_791": 14
+  },
+  [],
+  [],
+  [
+    447
+  ],
+  [
+    794
+  ],
+  {},
+  {
+    "_148": 744,
+    "_155": 1489,
+    "_54": 800,
+    "_56": 800,
+    "_159": 1490,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1491,
+    "_168": 169
+  },
+  [
+    731
+  ],
+  {
+    "_453": 488,
+    "_166": 1493
+  },
+  {
+    "_448": 449,
+    "_450": 1492
+  },
+  {
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 757,
+    "_189": 190,
+    "_191": 758,
+    "_193": 758,
+    "_194": 109,
+    "_66": 67,
+    "_196": 797,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 797,
+    "_155": 1496,
+    "_54": 809,
+    "_56": 809,
+    "_159": 1497,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1498,
+    "_168": 169
+  },
+  [
+    744
+  ],
+  {
+    "_453": 454,
+    "_166": 1499
+  },
+  {
+    "_448": 813,
+    "_814": 487
+  },
+  {
+    "_485": 34,
+    "_184": 185,
+    "_191": 758,
+    "_193": 758,
+    "_196": 806,
+    "_199": 10,
+    "_812": 34
+  },
+  {},
+  {
+    "_148": 806,
+    "_155": 1502,
+    "_54": 820,
+    "_56": 820,
+    "_159": 1503,
+    "_161": 162,
+    "_163": 34,
+    "_164": 466,
+    "_166": 1504,
+    "_168": 169
+  },
+  [
+    797
+  ],
+  {
+    "_453": 488,
+    "_166": 1506
+  },
+  {
+    "_448": 449,
+    "_450": 1505
+  },
+  {
+    "_823": 34,
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 757,
+    "_189": 190,
+    "_191": 758,
+    "_193": 758,
+    "_194": 109,
+    "_66": 67,
+    "_196": 817,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 817,
+    "_155": 1509,
+    "_54": 830,
+    "_56": 830,
+    "_159": 1510,
+    "_161": 162,
+    "_163": 34,
+    "_164": 466,
+    "_166": 1511,
+    "_168": 169
+  },
+  [
+    806
+  ],
+  {
+    "_453": 488,
+    "_166": 1513
+  },
+  {
+    "_448": 449,
+    "_450": 1512
+  },
+  {
+    "_833": 34,
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 757,
+    "_189": 190,
+    "_191": 758,
+    "_193": 758,
+    "_194": 109,
+    "_66": 67,
+    "_196": 827,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 827,
+    "_155": 1516,
+    "_54": 840,
+    "_56": 841,
+    "_159": 1517,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1518,
+    "_168": 169
+  },
+  [
+    817
+  ],
+  {
+    "_453": 505,
+    "_166": 1523
+  },
+  {
+    "_448": 449,
+    "_450": 1522
+  },
+  {
+    "_498": 1519,
+    "_187": 757,
+    "_500": -5,
+    "_191": 758,
+    "_193": 758,
+    "_845": 1520,
+    "_199": 10,
+    "_195": 14
+  },
+  {
+    "_501": 1521
+  },
+  {
+    "_454": 847
+  },
+  [],
+  [
+    850
+  ],
+  {},
+  {
+    "_148": 837,
+    "_155": 1526,
+    "_54": 856,
+    "_56": 857,
+    "_159": 1527,
+    "_161": 162,
+    "_163": 34,
+    "_164": 165,
+    "_166": 1528,
+    "_168": 169,
+    "_170": 171
+  },
+  [
+    827
+  ],
+  {
+    "_453": 454,
+    "_166": 1538
+  },
+  {
+    "_448": 449,
+    "_450": 1537
+  },
+  {
+    "_172": 1529,
+    "_174": 34,
+    "_175": 1530,
+    "_197": 1531,
+    "_177": 1532,
+    "_179": 109,
+    "_864": 865,
+    "_180": 1533,
+    "_182": 1534,
+    "_184": 185,
+    "_186": 34,
+    "_187": 868,
+    "_189": 190,
+    "_191": 869,
+    "_193": 869,
+    "_194": 109,
+    "_66": 67,
+    "_195": 34,
+    "_196": 853,
+    "_199": 10
+  },
+  {
+    "_50": 444,
+    "_445": 1536
+  },
+  [],
+  [],
+  [],
+  {
+    "_210": 1535
+  },
+  [],
+  {
+    "_148": 871,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  [
+    447
+  ],
+  [
+    874
+  ],
+  {},
+  {
+    "_148": 853,
+    "_155": 1541,
+    "_54": 880,
+    "_159": 1542,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1543,
+    "_168": 169
+  },
+  [
+    837
+  ],
+  {
+    "_453": 488,
+    "_166": 1545
+  },
+  {
+    "_448": 449,
+    "_450": 1544
+  },
+  {
+    "_485": 34,
+    "_179": 109,
+    "_864": 865,
+    "_184": 185,
+    "_187": 868,
+    "_189": 190,
+    "_191": 869,
+    "_193": 869,
+    "_194": 109,
+    "_66": 67,
+    "_196": 877,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 877,
+    "_155": 1548,
+    "_54": 889,
+    "_159": 1549,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1550,
+    "_168": 169
+  },
+  [
+    853
+  ],
+  {
+    "_453": 454,
+    "_166": 1551
+  },
+  {
+    "_448": 813,
+    "_814": 487
+  },
+  {
+    "_485": 34,
+    "_184": 185,
+    "_191": 869,
+    "_193": 869,
+    "_196": 886,
+    "_199": 10,
+    "_812": 34
+  },
+  {},
+  {
+    "_148": 886,
+    "_155": 1554,
+    "_54": 897,
+    "_159": 1555,
+    "_161": 162,
+    "_163": 34,
+    "_164": 466,
+    "_166": 1556,
+    "_168": 169
+  },
+  [
+    877
+  ],
+  {
+    "_453": 488,
+    "_166": 1558
+  },
+  {
+    "_448": 449,
+    "_450": 1557
+  },
+  {
+    "_823": 34,
+    "_485": 34,
+    "_179": 109,
+    "_864": 865,
+    "_184": 185,
+    "_187": 868,
+    "_189": 190,
+    "_191": 869,
+    "_193": 869,
+    "_194": 109,
+    "_66": 67,
+    "_196": 894,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 894,
+    "_155": 1561,
+    "_54": 906,
+    "_159": 1562,
+    "_161": 162,
+    "_163": 34,
+    "_164": 466,
+    "_166": 1563,
+    "_168": 169
+  },
+  [
+    886
+  ],
+  {
+    "_453": 488,
+    "_166": 1565
+  },
+  {
+    "_448": 449,
+    "_450": 1564
+  },
+  {
+    "_833": 34,
+    "_485": 34,
+    "_179": 109,
+    "_864": 865,
+    "_184": 185,
+    "_187": 868,
+    "_189": 190,
+    "_191": 869,
+    "_193": 869,
+    "_194": 109,
+    "_66": 67,
+    "_196": 903,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 903,
+    "_155": 1568,
+    "_54": 915,
+    "_56": 916,
+    "_159": 1569,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1570,
+    "_168": 169
+  },
+  [
+    894
+  ],
+  {
+    "_453": 505,
+    "_166": 1575
+  },
+  {
+    "_448": 449,
+    "_450": 1574
+  },
+  {
+    "_498": 1571,
+    "_187": 868,
+    "_500": -5,
+    "_191": 869,
+    "_193": 869,
+    "_864": 865,
+    "_920": 1572,
+    "_922": 837,
+    "_199": 10,
+    "_195": 14
+  },
+  {
+    "_501": 1573
+  },
+  {
+    "_50": 923,
+    "_923": 924,
+    "_925": 926,
+    "_864": 865,
+    "_60": 98
+  },
+  [],
+  [
+    929
+  ],
+  {},
+  {
+    "_148": 912,
+    "_155": 1578,
+    "_54": 935,
+    "_56": 936,
+    "_159": 1579,
+    "_161": 162,
+    "_163": 34,
+    "_164": 165,
+    "_166": 1580,
+    "_168": 169,
+    "_170": 171
+  },
+  [
+    903
+  ],
+  {
+    "_453": 454,
+    "_166": 1673
+  },
+  {
+    "_448": 449,
+    "_450": 1672
+  },
+  {
+    "_172": 1581,
+    "_174": 34,
+    "_175": 1582,
+    "_197": 1583,
+    "_177": 1584,
+    "_179": 109,
+    "_180": 1585,
+    "_182": 1586,
+    "_184": 185,
+    "_186": 34,
+    "_187": 945,
+    "_189": 190,
+    "_191": 946,
+    "_193": 946,
+    "_194": 109,
+    "_66": 67,
+    "_195": 34,
+    "_196": 932,
+    "_199": 10
+  },
+  {
+    "_50": 444,
+    "_445": 1671
+  },
+  [],
+  [
+    1668
+  ],
+  [],
+  {
+    "_210": 1587,
+    "_212": 1588,
+    "_214": 1589,
+    "_216": 1590,
+    "_218": 1591,
+    "_220": 1592,
+    "_222": 1593,
+    "_224": 1594,
+    "_226": 1595,
+    "_228": 1596,
+    "_230": 1597,
+    "_232": 1598,
+    "_234": 1599,
+    "_236": 1600,
+    "_238": 1601,
+    "_240": 1602,
+    "_242": 1603,
+    "_244": 1604,
+    "_246": 1605,
+    "_248": 1606,
+    "_250": 1607,
+    "_252": 1608,
+    "_254": 1609,
+    "_256": 1610,
+    "_258": 1611,
+    "_260": 1612,
+    "_262": 1613,
+    "_264": 1614,
+    "_266": 1615,
+    "_268": 1616,
+    "_270": 1617,
+    "_272": 1618,
+    "_274": 1619,
+    "_276": 1620,
+    "_278": 1621,
+    "_280": 1622,
+    "_282": 1623,
+    "_284": 1624,
+    "_286": 1625,
+    "_288": 1626,
+    "_290": 1627,
+    "_292": 1628,
+    "_294": 1629,
+    "_296": 1630,
+    "_298": 1631,
+    "_300": 1632,
+    "_302": 1633,
+    "_304": 1634,
+    "_306": 1635,
+    "_308": 1636,
+    "_310": 1637,
+    "_312": 1638,
+    "_314": 1639,
+    "_316": 1640,
+    "_318": 1641,
+    "_320": 1642,
+    "_322": 1643,
+    "_324": 1644,
+    "_326": 1645,
+    "_328": 1646,
+    "_330": 1647,
+    "_332": 1648,
+    "_334": 1649,
+    "_336": 1650,
+    "_338": 1651,
+    "_340": 1652,
+    "_342": 1653,
+    "_344": 1654,
+    "_346": 1655,
+    "_348": 1656,
+    "_350": 1657,
+    "_352": 1658,
+    "_354": 1659,
+    "_356": 1660,
+    "_358": 1661,
+    "_360": 1662,
+    "_362": 1663,
+    "_1024": 1664,
+    "_1026": 1665,
+    "_1028": 1666,
+    "_1030": 1667
+  },
+  [],
+  {
+    "_148": 1112,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1111,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1110,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1109,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1108,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1107,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1106,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1105,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1104,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1103,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1102,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1101,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1100,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1099,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1098,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1097,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1096,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1095,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1094,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1093,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1092,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1091,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1090,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1089,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1088,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1087,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1086,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1085,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1084,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1083,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1082,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1081,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1080,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1079,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1078,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1077,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1076,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1075,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1074,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1073,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1072,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1071,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1070,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1069,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1068,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1067,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1066,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1065,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1064,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1063,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1062,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1061,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1060,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1059,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1058,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1057,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1056,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1055,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1054,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1053,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1052,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1051,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1050,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1049,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1048,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1047,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1046,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1045,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1044,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1043,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1042,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1041,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1040,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1039,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1038,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1037,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1036,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1035,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1034,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1033,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_148": 1032,
+    "_365": 14,
+    "_366": 14,
+    "_367": -5
+  },
+  {
+    "_202": 784,
+    "_785": -5,
+    "_204": 466,
+    "_206": 786,
+    "_62": 1669,
+    "_788": 1670,
+    "_47": -5,
+    "_208": -5,
+    "_50": 790,
+    "_791": 14
+  },
+  [],
+  [],
+  [
+    447
+  ],
+  [
+    1118
+  ],
+  {},
+  {
+    "_148": 932,
+    "_155": 1676,
+    "_54": 1124,
+    "_56": 1124,
+    "_159": 1677,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1678,
+    "_168": 169
+  },
+  [
+    912
+  ],
+  {
+    "_453": 488,
+    "_166": 1680
+  },
+  {
+    "_448": 449,
+    "_450": 1679
+  },
+  {
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 945,
+    "_189": 190,
+    "_191": 946,
+    "_193": 946,
+    "_194": 109,
+    "_66": 67,
+    "_196": 1121,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 1121,
+    "_155": 1683,
+    "_54": 1133,
+    "_56": 1133,
+    "_159": 1684,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1685,
+    "_168": 169
+  },
+  [
+    932
+  ],
+  {
+    "_453": 488,
+    "_166": 1687
+  },
+  {
+    "_448": 449,
+    "_450": 1686
+  },
+  {
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 945,
+    "_189": 190,
+    "_191": 946,
+    "_193": 946,
+    "_194": 109,
+    "_66": 67,
+    "_196": 1130,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 1130,
+    "_155": 1690,
+    "_54": 1142,
+    "_56": 1142,
+    "_159": 1691,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1692,
+    "_168": 169
+  },
+  [
+    1121
+  ],
+  {
+    "_453": 454,
+    "_166": 1693
+  },
+  {
+    "_448": 813,
+    "_814": 487
+  },
+  {
+    "_485": 34,
+    "_184": 185,
+    "_191": 946,
+    "_193": 946,
+    "_196": 1139,
+    "_199": 10,
+    "_812": 34
+  },
+  {},
+  {
+    "_148": 1139,
+    "_155": 1696,
+    "_54": 1150,
+    "_56": 1150,
+    "_159": 1697,
+    "_161": 162,
+    "_163": 34,
+    "_164": 466,
+    "_166": 1698,
+    "_168": 169
+  },
+  [
+    1130
+  ],
+  {
+    "_453": 488,
+    "_166": 1700
+  },
+  {
+    "_448": 449,
+    "_450": 1699
+  },
+  {
+    "_823": 34,
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 945,
+    "_189": 190,
+    "_191": 946,
+    "_193": 946,
+    "_194": 109,
+    "_66": 67,
+    "_196": 1147,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 1147,
+    "_155": 1703,
+    "_54": 1159,
+    "_56": 1159,
+    "_159": 1704,
+    "_161": 162,
+    "_163": 34,
+    "_164": 466,
+    "_166": 1705,
+    "_168": 169
+  },
+  [
+    1139
+  ],
+  {
+    "_453": 488,
+    "_166": 1707
+  },
+  {
+    "_448": 449,
+    "_450": 1706
+  },
+  {
+    "_833": 34,
+    "_485": 34,
+    "_179": 109,
+    "_184": 185,
+    "_187": 945,
+    "_189": 190,
+    "_191": 946,
+    "_193": 946,
+    "_194": 109,
+    "_66": 67,
+    "_196": 1156,
+    "_199": 10,
+    "_195": 14
+  },
+  [
+    487
+  ],
+  {},
+  {
+    "_148": 1156,
+    "_155": 1710,
+    "_54": 1168,
+    "_56": 1169,
+    "_159": 1711,
+    "_161": 162,
+    "_164": 165,
+    "_166": 1712,
+    "_168": 169
+  },
+  [
+    1147
+  ],
+  {
+    "_453": 505,
+    "_166": 1717
+  },
+  {
+    "_448": 449,
+    "_450": 1716
+  },
+  {
+    "_498": 1713,
+    "_187": 945,
+    "_500": -5,
+    "_191": 946,
+    "_193": 946,
+    "_845": 1714,
+    "_199": 10,
+    "_195": 14
+  },
+  {
+    "_501": 1715
+  },
+  {
+    "_454": 847
+  },
+  [],
+  [
+    1176
+  ],
+  {},
+  [
+    1156
+  ],
+  "GLOBAL",
+  "https://www.statefarm.com",
+  "https://docs.google.com/document/d/",
+  "https://www.progressive.com",
+  "https://github.com/openclaw/openclaw",
+  "https://www.apple.com/",
+  "https://www.openai.com",
+  "dd",
+  {
+    "_1740": 1741,
+    "_1742": 1743
+  },
+  "disablePrefetch",
+  "shouldPrefetchAccount",
+  "shouldPrefetchUser",
+  "shouldPrefetchSystemHints",
+  "manageRootRouteStylesheet",
+  "mobileWebHandoffEnabled",
+  "promoteCss",
+  "disableSSR",
+  "stripModulepreloadImports",
+  "paidCampaignAppRedirect",
+  "statsigGateEvaluationsPromise",
+  [
+    "P",
+    1739
+  ],
+  "traceId",
+  "12371152971511371898",
+  "traceTime",
+  1791183161231
+]
