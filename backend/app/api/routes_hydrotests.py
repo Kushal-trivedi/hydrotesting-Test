@@ -1,7 +1,7 @@
 import json
 import shutil
 from pathlib import Path
-from typing import List, Optional
+
 from fastapi import APIRouter, Depends, HTTPException, UploadFile, File
 from fastapi.responses import FileResponse
 from sqlalchemy.orm import Session
@@ -13,23 +13,51 @@ from app.models.hydrotest import HydrotestRecord
 from app.models.document import Document
 from app.models.audit import AuditLog
 from app.schemas.hydrotest import (
-    HydrotestCreate, HydrotestUpdate, HydrotestResponse, CertificateVerificationResult
+    HydrotestCreate,
+    HydrotestUpdate,
+    HydrotestResponse,
+    CertificateVerificationResult,
 )
 from app.services.hydrotest_service import ExternalHydrotestService
 
+
 router = APIRouter(prefix="/hydrotests", tags=["Hydrotests"])
 
+
 @router.post("", response_model=HydrotestResponse, status_code=201)
-def record_hydrotest(payload: HydrotestCreate, db: Session = Depends(get_db)):
-    asset = db.query(Asset).filter(Asset.id == payload.asset_id).first()
+def record_hydrotest(
+    payload: HydrotestCreate,
+    db: Session = Depends(get_db)
+):
+    asset = (
+        db.query(Asset)
+        .filter(Asset.id == payload.asset_id)
+        .first()
+    )
+
     if not asset:
-        raise HTTPException(status_code=404, detail=f"Asset with ID {payload.asset_id} does not exist.")
+        raise HTTPException(
+            status_code=404,
+            detail=f"Asset with ID {payload.asset_id} does not exist."
+        )
+
+    # Assignment requirement:
+    # next_due_date must not be earlier than test_date.
+    if payload.next_due_date < payload.test_date:
+        raise HTTPException(
+            status_code=422,
+            detail="Next due date cannot be earlier than the test date."
+        )
 
     data = payload.model_dump()
+
+    # If cylinder number is not provided in the hydrotest,
+    # use the cylinder number already stored on the asset.
     if not data.get("cylinder_number") and asset.cylinder_number:
         data["cylinder_number"] = asset.cylinder_number
 
     new_test = HydrotestRecord(**data)
+
     db.add(new_test)
     db.commit()
     db.refresh(new_test)
@@ -46,51 +74,125 @@ def record_hydrotest(payload: HydrotestCreate, db: Session = Depends(get_db)):
             "certificate_number": new_test.certificate_number
         })
     )
+
     db.add(audit)
     db.commit()
 
     return new_test
 
+
 @router.get("/{hydrotest_id}", response_model=HydrotestResponse)
-def get_hydrotest(hydrotest_id: int, db: Session = Depends(get_db)):
-    record = db.query(HydrotestRecord).filter(HydrotestRecord.id == hydrotest_id).first()
+def get_hydrotest(
+    hydrotest_id: int,
+    db: Session = Depends(get_db)
+):
+    record = (
+        db.query(HydrotestRecord)
+        .filter(HydrotestRecord.id == hydrotest_id)
+        .first()
+    )
+
     if not record:
-        raise HTTPException(status_code=404, detail=f"Hydrotest record {hydrotest_id} not found.")
+        raise HTTPException(
+            status_code=404,
+            detail=f"Hydrotest record {hydrotest_id} not found."
+        )
+
     return record
 
+
 @router.put("/{hydrotest_id}", response_model=HydrotestResponse)
-def update_hydrotest(hydrotest_id: int, payload: HydrotestUpdate, db: Session = Depends(get_db)):
-    record = db.query(HydrotestRecord).filter(HydrotestRecord.id == hydrotest_id).first()
+def update_hydrotest(
+    hydrotest_id: int,
+    payload: HydrotestUpdate,
+    db: Session = Depends(get_db)
+):
+    record = (
+        db.query(HydrotestRecord)
+        .filter(HydrotestRecord.id == hydrotest_id)
+        .first()
+    )
+
     if not record:
-        raise HTTPException(status_code=404, detail=f"Hydrotest record {hydrotest_id} not found.")
+        raise HTTPException(
+            status_code=404,
+            detail=f"Hydrotest record {hydrotest_id} not found."
+        )
 
     update_dict = payload.model_dump(exclude_unset=True)
-    for k, v in update_dict.items():
-        setattr(record, k, v)
+
+    # ---------------------------------------------------------
+    # DATE VALIDATION
+    # ---------------------------------------------------------
+    # For a partial update, combine the new value with the
+    # existing value stored in the database.
+    final_test_date = update_dict.get(
+        "test_date",
+        record.test_date
+    )
+
+    final_next_due_date = update_dict.get(
+        "next_due_date",
+        record.next_due_date
+    )
+
+    # Assignment requirement:
+    # next_due_date must not be earlier than test_date.
+    if final_next_due_date < final_test_date:
+        raise HTTPException(
+            status_code=422,
+            detail="Next due date cannot be earlier than the test date."
+        )
+
+    # Apply only fields supplied by the client.
+    for key, value in update_dict.items():
+        setattr(record, key, value)
 
     db.commit()
     db.refresh(record)
+
     return record
 
-@router.post("/{hydrotest_id}/verify", response_model=CertificateVerificationResult)
-def verify_certificate(hydrotest_id: int, db: Session = Depends(get_db)):
+
+@router.post(
+    "/{hydrotest_id}/verify",
+    response_model=CertificateVerificationResult
+)
+def verify_certificate(
+    hydrotest_id: int,
+    db: Session = Depends(get_db)
+):
     """Verifies hydrotest certificate against authorized external registry."""
-    record = db.query(HydrotestRecord).filter(HydrotestRecord.id == hydrotest_id).first()
+
+    record = (
+        db.query(HydrotestRecord)
+        .filter(HydrotestRecord.id == hydrotest_id)
+        .first()
+    )
+
     if not record:
-        raise HTTPException(status_code=404, detail=f"Hydrotest record {hydrotest_id} not found.")
+        raise HTTPException(
+            status_code=404,
+            detail=f"Hydrotest record {hydrotest_id} not found."
+        )
 
     # Call external verification service
     res = ExternalHydrotestService.verify_certificate(
         certificate_number=record.certificate_number,
-        cylinder_number=record.cylinder_number or (record.asset.cylinder_number if record.asset else None),
+        cylinder_number=(
+            record.cylinder_number
+            or (record.asset.cylinder_number if record.asset else None)
+        ),
         test_date=record.test_date,
         result=record.result,
         performed_by=record.performed_by
     )
+
     res.hydrotest_id = record.id
 
-    # Update database record verification status non-blockingly
+    # Update database record verification status
     record.verification_status = res.verification_status
+
     record.verification_payload = json.dumps({
         "authority": res.authority_name,
         "is_match": res.is_match,
@@ -98,6 +200,7 @@ def verify_certificate(hydrotest_id: int, db: Session = Depends(get_db)):
         "matched_records": res.matched_records,
         "message": res.message
     })
+
     db.commit()
 
     # Audit log
@@ -105,12 +208,17 @@ def verify_certificate(hydrotest_id: int, db: Session = Depends(get_db)):
         entity_type="HYDROTEST",
         entity_id=record.id,
         action="VERIFICATION",
-        changes=json.dumps({"status": res.verification_status, "certificate": record.certificate_number})
+        changes=json.dumps({
+            "status": res.verification_status,
+            "certificate": record.certificate_number
+        })
     )
+
     db.add(audit)
     db.commit()
 
     return res
+
 
 @router.post("/{hydrotest_id}/upload-document")
 async def upload_document(
@@ -118,12 +226,23 @@ async def upload_document(
     file: UploadFile = File(...),
     db: Session = Depends(get_db)
 ):
-    """Uploads inspection report / certificate document"""
-    record = db.query(HydrotestRecord).filter(HydrotestRecord.id == hydrotest_id).first()
+    """Uploads inspection report / certificate document."""
+
+    record = (
+        db.query(HydrotestRecord)
+        .filter(HydrotestRecord.id == hydrotest_id)
+        .first()
+    )
+
     if not record:
-        raise HTTPException(status_code=404, detail=f"Hydrotest record {hydrotest_id} not found.")
+        raise HTTPException(
+            status_code=404,
+            detail=f"Hydrotest record {hydrotest_id} not found."
+        )
 
     target_dir = settings.DOCUMENT_STORAGE_DIR
+    target_dir.mkdir(parents=True, exist_ok=True)
+
     safe_filename = f"hydrotest_{hydrotest_id}_{file.filename}"
     file_path = target_dir / safe_filename
 
@@ -131,6 +250,7 @@ async def upload_document(
         shutil.copyfileobj(file.file, buffer)
 
     file_size = file_path.stat().st_size
+
     doc = Document(
         hydrotest_record_id=hydrotest_id,
         filename=safe_filename,
@@ -139,9 +259,13 @@ async def upload_document(
         file_size=file_size,
         file_path=str(file_path)
     )
+
     db.add(doc)
+
     record.report_filename = safe_filename
+
     db.commit()
+    db.refresh(doc)
 
     return {
         "success": True,
@@ -151,21 +275,54 @@ async def upload_document(
         "size_bytes": file_size
     }
 
+
 @router.get("/{hydrotest_id}/document")
-def get_document(hydrotest_id: int, db: Session = Depends(get_db)):
-    """Downloads or views uploaded hydrotest certificate"""
-    doc = db.query(Document).filter(Document.hydrotest_record_id == hydrotest_id).order_by(Document.id.desc()).first()
+def get_document(
+    hydrotest_id: int,
+    db: Session = Depends(get_db)
+):
+    """Downloads or views uploaded hydrotest certificate."""
+
+    doc = (
+        db.query(Document)
+        .filter(Document.hydrotest_record_id == hydrotest_id)
+        .order_by(Document.id.desc())
+        .first()
+    )
+
     if not doc:
-        # Check if record has a report_filename referencing demo certificate
-        rec = db.query(HydrotestRecord).filter(HydrotestRecord.id == hydrotest_id).first()
+        # Check if record has a report_filename
+        # referencing a demo certificate.
+        rec = (
+            db.query(HydrotestRecord)
+            .filter(HydrotestRecord.id == hydrotest_id)
+            .first()
+        )
+
         if rec and rec.report_filename:
             path = settings.DOCUMENT_STORAGE_DIR / rec.report_filename
+
             if path.exists():
-                return FileResponse(path, filename=rec.report_filename)
-        raise HTTPException(status_code=404, detail="No certificate document found for this hydrotest.")
+                return FileResponse(
+                    path,
+                    filename=rec.report_filename
+                )
+
+        raise HTTPException(
+            status_code=404,
+            detail="No certificate document found for this hydrotest."
+        )
 
     path = Path(doc.file_path)
-    if not path.exists():
-        raise HTTPException(status_code=404, detail="Certificate document file not found on server disk.")
 
-    return FileResponse(path, media_type=doc.mime_type, filename=doc.original_name)
+    if not path.exists():
+        raise HTTPException(
+            status_code=404,
+            detail="Certificate document file not found on server disk."
+        )
+
+    return FileResponse(
+        path,
+        media_type=doc.mime_type,
+        filename=doc.original_name
+    )

@@ -1,0 +1,26 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# SQLite temporary files
+*.db-wal
+*.db-shm
+
+# Logs
+*.log
+
+# Frontend dependencies and build output
+node_modules/
+
+# Editor and operating system files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

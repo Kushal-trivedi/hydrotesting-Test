@@ -1,5 +1,5 @@
 from datetime import datetime, timezone
-from sqlalchemy import Column, Integer, String, DateTime
+from sqlalchemy import Column, Integer, String, DateTime, Boolean
 from sqlalchemy.orm import relationship
 from app.database import Base
 
@@ -11,7 +11,9 @@ class Site(Base):
     name = Column(String(150), nullable=False)
     city = Column(String(100), nullable=False)
     state = Column(String(100), nullable=False, default="Gujarat")
+    is_active = Column(Boolean, default=True, nullable=False)
     created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
     updated_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc), nullable=False)
 
     assets = relationship("Asset", back_populates="site", cascade="all, delete-orphan")
+    users = relationship("User", secondary="user_stations", back_populates="stations")

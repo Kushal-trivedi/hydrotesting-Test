@@ -6,14 +6,22 @@ from fastapi.responses import JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 
 from app.config import settings
-from app.database import engine, Base
+from app.database import engine, Base, migrate_schema, SessionLocal
+from app.core.seeds import seed_permanent_accounts
 import app.models  # Register all models
 from app.api.router import api_router
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Ensure database tables exist
+    # Ensure database tables exist and schema is up to date
     Base.metadata.create_all(bind=engine)
+    migrate_schema(engine)
+    # Ensure permanent Admin and Operator accounts are always active
+    db = SessionLocal()
+    try:
+        seed_permanent_accounts(db)
+    finally:
+        db.close()
     yield
 
 app = FastAPI(
@@ -23,10 +31,18 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# Enable CORS for React Vite frontend and local tools
+# Enable CORS for React Vite frontend and credentials (cookies/tokens)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "http://localhost:8000",
+        "http://127.0.0.1:8000",
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+    ],
+    allow_origin_regex=r"https?://(localhost|127\.0\.0\.1)(:\d+)?",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -1,10 +1,11 @@
 import re
 import httpx
-from typing import Optional
 from app.config import settings
 from app.schemas.verification import VehicleDetails, VehicleLookupResponse
 
-# Pre-seeded realistic VAHAN mock registry
+
+# Synthetic/demo vehicle registry used only for assignment testing.
+# These are fictional/demo records and are NOT live VAHAN data.
 MOCK_VEHICLE_DATABASE = {
     "GJ01AB1234": {
         "make": "Maruti Suzuki",
@@ -78,75 +79,109 @@ MOCK_VEHICLE_DATABASE = {
     }
 }
 
+
 class ExternalVehicleService:
+
     @staticmethod
     def normalize_plate(plate: str) -> str:
-        """Strip spaces, dashes and uppercase"""
+        """Strip spaces, dashes and convert to uppercase."""
         return re.sub(r"[^A-Za-z0-9]", "", plate).upper()
 
     @classmethod
     async def lookup_vehicle(cls, vehicle_number: str) -> VehicleLookupResponse:
         cleaned_plate = cls.normalize_plate(vehicle_number)
-        
+
         # Indian license plate basic syntax validation
-        if not re.match(r"^[A-Z]{2}[0-9]{1,2}[A-Z]{0,3}[0-9]{1,4}$", cleaned_plate):
+        if not re.match(
+            r"^[A-Z]{2}[0-9]{1,2}[A-Z]{0,3}[0-9]{1,4}$",
+            cleaned_plate
+        ):
             return VehicleLookupResponse(
                 success=False,
                 data=None,
                 source="SYNTAX_VALIDATOR",
-                message=f"Invalid vehicle registration plate format: '{vehicle_number}'. Example: 'GJ01AB1234'"
+                message=(
+                    f"Invalid vehicle registration plate format: "
+                    f"'{vehicle_number}'. Example: 'GJ01AB1234'"
+                )
             )
 
-        # 1. If configured to call real live external API
+        # 1. Live external vehicle API
+        # Enabled only when a real API URL is configured and
+        # MOCK_EXTERNAL_APIS is False.
         if settings.VEHICLE_API_URL and not settings.MOCK_EXTERNAL_APIS:
             try:
                 headers = {}
+
                 if settings.VEHICLE_API_KEY:
-                    headers["Authorization"] = f"Bearer {settings.VEHICLE_API_KEY}"
-                
+                    headers["Authorization"] = (
+                        f"Bearer {settings.VEHICLE_API_KEY}"
+                    )
+
                 async with httpx.AsyncClient(timeout=4.0) as client:
                     resp = await client.get(
                         f"{settings.VEHICLE_API_URL.rstrip('/')}/lookup/{cleaned_plate}",
                         headers=headers
                     )
-                    if resp.status_code == 200:
-                        payload = resp.json()
-                        details = VehicleDetails(
-                            vehicle_number=cleaned_plate,
-                            make=payload.get("make", "Unknown"),
-                            model=payload.get("model", "Unknown"),
-                            fuel_type=payload.get("fuel_type", "Unknown"),
-                            is_cng="CNG" in payload.get("fuel_type", "").upper(),
-                            registration_date=payload.get("registration_date"),
-                            fitness_valid_upto=payload.get("fitness_valid_upto"),
-                            owner_category=payload.get("owner_category"),
-                            rto_location=payload.get("rto_location")
+
+                if resp.status_code == 200:
+                    payload = resp.json()
+
+                    details = VehicleDetails(
+                        vehicle_number=cleaned_plate,
+                        make=payload.get("make", "Unknown"),
+                        model=payload.get("model", "Unknown"),
+                        fuel_type=payload.get("fuel_type", "Unknown"),
+                        is_cng="CNG" in payload.get("fuel_type", "").upper(),
+                        registration_date=payload.get("registration_date"),
+                        fitness_valid_upto=payload.get("fitness_valid_upto"),
+                        owner_category=payload.get("owner_category"),
+                        rto_location=payload.get("rto_location")
+                    )
+
+                    return VehicleLookupResponse(
+                        success=True,
+                        data=details,
+                        source="VAHAN_LIVE_API",
+                        message="Vehicle data retrieved from configured live vehicle API."
+                    )
+
+                if resp.status_code == 404:
+                    return VehicleLookupResponse(
+                        success=False,
+                        data=None,
+                        source="VAHAN_LIVE_API",
+                        message=(
+                            f"Vehicle registration '{cleaned_plate}' "
+                            "was not found in the live vehicle registry."
                         )
-                        return VehicleLookupResponse(
-                            success=True,
-                            data=details,
-                            source="VAHAN_LIVE_API",
-                            message="Vehicle verified via National VAHAN Registry API."
-                        )
-                    elif resp.status_code == 404:
-                        return VehicleLookupResponse(
-                            success=False,
-                            data=None,
-                            source="VAHAN_LIVE_API",
-                            message=f"Vehicle registration '{cleaned_plate}' not found in live registry."
-                        )
-            except (httpx.RequestError, httpx.TimeoutException):
-                # Graceful fallback: Do not crash!
+                    )
+
                 return VehicleLookupResponse(
                     success=False,
                     data=None,
                     source="VAHAN_LIVE_API",
-                    message="Vehicle service temporarily unavailable. Please try again later or enter details manually."
+                    message=(
+                        f"Vehicle service returned HTTP "
+                        f"{resp.status_code}. Please try again later."
+                    )
                 )
 
-        # 2. Mock database lookup
+            except (httpx.RequestError, httpx.TimeoutException):
+                return VehicleLookupResponse(
+                    success=False,
+                    data=None,
+                    source="VAHAN_LIVE_API",
+                    message=(
+                        "Vehicle service is temporarily unavailable. "
+                        "Please try again later or use the demo registry."
+                    )
+                )
+
+        # 2. Synthetic/demo registry lookup
         if cleaned_plate in MOCK_VEHICLE_DATABASE:
             raw = MOCK_VEHICLE_DATABASE[cleaned_plate]
+
             details = VehicleDetails(
                 vehicle_number=cleaned_plate,
                 make=raw["make"],
@@ -158,31 +193,32 @@ class ExternalVehicleService:
                 owner_category=raw["owner_category"],
                 rto_location=raw["rto_location"]
             )
-            cng_label = "Confirmed CNG vehicle." if raw["is_cng"] else "Non-CNG fuel detected."
+
+            cng_label = (
+                "CNG vehicle identified in demo registry."
+                if raw["is_cng"]
+                else "Non-CNG vehicle identified in demo registry."
+            )
+
             return VehicleLookupResponse(
                 success=True,
                 data=details,
-                source="VAHAN_REGISTRY_SANDBOX",
-                message=f"Vehicle verified successfully. {cng_label}"
+                source="DEMO_SYNTHETIC_REGISTRY",
+                message=(
+                    f"Vehicle found in the synthetic demo registry. "
+                    f"{cng_label}"
+                )
             )
 
-        # Fallback simulation for any validly formatted plate in demo environment
-        state_code = cleaned_plate[:2]
-        rto_num = cleaned_plate[2:4]
-        simulated = VehicleDetails(
-            vehicle_number=cleaned_plate,
-            make="Maruti Suzuki / OEM Retrofit",
-            model="Commercial CNG Utility",
-            fuel_type="CNG / Petrol",
-            is_cng=True,
-            registration_date="2022-05-10",
-            fitness_valid_upto="2037-05-09",
-            owner_category="Commercial Transport",
-            rto_location=f"RTO Region {state_code}-{rto_num}"
-        )
+        # 3. Unknown vehicle in demo mode
+        # IMPORTANT:
+        # Never invent or simulate vehicle information for an unknown plate.
         return VehicleLookupResponse(
-            success=True,
-            data=simulated,
-            source="VAHAN_SIMULATION_SANDBOX",
-            message="Vehicle verified via VAHAN sandbox simulation. Confirmed CNG fuel system."
+            success=False,
+            data=None,
+            source="DEMO_SYNTHETIC_REGISTRY",
+            message=(
+                f"Vehicle registration '{cleaned_plate}' was not found "
+                "in the demo registry."
+            )
         )

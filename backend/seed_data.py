@@ -1,7 +1,7 @@
-import os
 import json
-from datetime import date, timedelta, datetime, timezone
+from datetime import date, timedelta
 from pathlib import Path
+
 from app.config import settings
 from app.database import engine, SessionLocal, Base
 from app.models.site import Site
@@ -10,48 +10,144 @@ from app.models.hydrotest import HydrotestRecord
 from app.models.document import Document
 from app.models.audit import AuditLog
 
-def create_sample_pdf(filepath: Path, cert_number: str, asset_id: str, result: str):
-    """Creates a sample dummy PDF certificate file for viewing/downloading"""
-    content = f"""%PDF-1.4
-1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
-2 0 obj << /Type /Pages /Kids [3 0 R] /Count 1 >> endobj
-3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >> endobj
-4 0 obj << /Length 200 >> stream
-BT
-/F1 24 Tf
-100 700 Td
-(OFFICIAL HYDROSTATIC TEST CERTIFICATE) Tj
-/F1 14 Tf
-0 -40 Td
-(Certificate No: {cert_number}) Tj
-0 -25 Td
-(Asset ID: {asset_id}) Tj
-0 -25 Td
-(Inspection Result: {result}) Tj
-0 -25 Td
-(Authorized Testing Agency - PESO Accredited Hub) Tj
-ET
-endstream
-endobj
-5 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
-xref
-0 6
-0000000000 65535 f 
-0000000009 00000 n 
-0000000058 00000 n 
-0000000115 00000 n 
-0000000261 00000 n 
-0000000514 00000 n 
-trailer << /Size 6 /Root 1 0 R >>
-startxref
-585
-%%EOF
-"""
-    with open(filepath, "w", encoding="latin-1") as f:
-        f.write(content)
+
+def _escape_pdf_text(value: str) -> str:
+    """
+    Escape characters that have special meaning inside a PDF text string.
+    """
+    return (
+        str(value)
+        .replace("\\", "\\\\")
+        .replace("(", "\\(")
+        .replace(")", "\\)")
+    )
+
+
+def create_sample_pdf(
+    filepath: Path,
+    cert_number: str,
+    asset_id: str,
+    result: str,
+):
+    """
+    Creates a synthetic/demo PDF report.
+
+    IMPORTANT:
+    This is NOT an official PESO certificate.
+    It is only demonstration data for the FuelFlux assignment.
+    """
+
+    lines = [
+        "DEMO HYDROSTATIC TEST REPORT",
+        "SYNTHETIC DATA - NOT AN OFFICIAL CERTIFICATE",
+        f"Certificate No: {cert_number}",
+        f"Asset ID: {asset_id}",
+        f"Inspection Result: {result}",
+        "Demo Testing Laboratory",
+        "FuelFlux Assignment Demonstration",
+    ]
+
+    commands = [
+        "BT",
+        "/F1 20 Tf",
+        "72 720 Td",
+        f"({_escape_pdf_text(lines[0])}) Tj",
+        "/F1 11 Tf",
+    ]
+
+    y_positions = [680, 650, 620, 590, 560, 530]
+
+    for index, line in enumerate(lines[1:]):
+        commands.append(f"0 -{30 if index == 0 else 30} Td")
+        commands.append(f"({_escape_pdf_text(line)}) Tj")
+
+    commands.append("ET")
+
+    stream = "\n".join(commands) + "\n"
+    stream_bytes = stream.encode("latin-1", errors="replace")
+
+    objects = []
+
+    # 1 - Catalog
+    objects.append(
+        "<< /Type /Catalog /Pages 2 0 R >>"
+    )
+
+    # 2 - Pages
+    objects.append(
+        "<< /Type /Pages /Kids [3 0 R] /Count 1 >>"
+    )
+
+    # 3 - Page
+    objects.append(
+        "<< /Type /Page "
+        "/Parent 2 0 R "
+        "/MediaBox [0 0 612 792] "
+        "/Contents 4 0 R "
+        "/Resources << /Font << /F1 5 0 R >> >> >>"
+    )
+
+    # 4 - Content stream
+    objects.append(
+        f"<< /Length {len(stream_bytes)} >>\n"
+        f"stream\n"
+        f"{stream}"
+        f"endstream"
+    )
+
+    # 5 - Font
+    objects.append(
+        "<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>"
+    )
+
+    pdf = bytearray(b"%PDF-1.4\n")
+    offsets = [0]
+
+    for object_number, object_body in enumerate(objects, start=1):
+        offsets.append(len(pdf))
+
+        pdf.extend(
+            f"{object_number} 0 obj\n".encode("latin-1")
+        )
+        pdf.extend(
+            object_body.encode("latin-1", errors="replace")
+        )
+        pdf.extend(b"\nendobj\n")
+
+    xref_offset = len(pdf)
+
+    pdf.extend(
+        f"xref\n0 {len(objects) + 1}\n".encode("latin-1")
+    )
+
+    pdf.extend(
+        b"0000000000 65535 f \n"
+    )
+
+    for offset in offsets[1:]:
+        pdf.extend(
+            f"{offset:010d} 00000 n \n".encode("latin-1")
+        )
+
+    pdf.extend(
+        (
+            f"trailer\n"
+            f"<< /Size {len(objects) + 1} /Root 1 0 R >>\n"
+            f"startxref\n"
+            f"{xref_offset}\n"
+            f"%%EOF\n"
+        ).encode("latin-1")
+    )
+
+    with open(filepath, "wb") as file:
+        file.write(pdf)
+
 
 def seed():
     print("Rebuilding database schema...")
+
+    # This seed script intentionally rebuilds the local
+    # synthetic/demo database from scratch.
     Base.metadata.drop_all(bind=engine)
     Base.metadata.create_all(bind=engine)
 
@@ -59,358 +155,537 @@ def seed():
     upload_dir.mkdir(parents=True, exist_ok=True)
 
     db = SessionLocal()
+
     try:
         today = date.today()
+
         print(f"Current reference date: {today}")
 
-        # 1. Create Sites
+        # ==========================================================
+        # 1. CREATE SITES
+        # ==========================================================
+
         sites = [
-            Site(code="STN-AHD-01", name="Ahmedabad Central CNG Station", city="Ahmedabad", state="Gujarat"),
-            Site(code="STN-SRT-02", name="Surat Hazira Port Gas Terminal", city="Surat", state="Gujarat"),
-            Site(code="STN-RJK-03", name="Rajkot Ring Road Inspection Hub", city="Rajkot", state="Gujarat"),
-            Site(code="STN-VAD-04", name="Vadodara Express Corridor Hub", city="Vadodara", state="Gujarat"),
+            Site(
+                code="STN-AHD-01",
+                name="Ahmedabad Demo CNG Station",
+                city="Ahmedabad",
+                state="Gujarat",
+            ),
+            Site(
+                code="STN-SRT-02",
+                name="Surat Demo Gas Station",
+                city="Surat",
+                state="Gujarat",
+            ),
+            Site(
+                code="STN-RJK-03",
+                name="Rajkot Demo Inspection Hub",
+                city="Rajkot",
+                state="Gujarat",
+            ),
+            Site(
+                code="STN-VAD-04",
+                name="Vadodara Demo Gas Hub",
+                city="Vadodara",
+                state="Gujarat",
+            ),
         ]
+
         db.add_all(sites)
         db.commit()
-        for s in sites:
-            db.refresh(s)
-        print(f"Seeded {len(sites)} stations.")
 
-        # 2. Create Assets with all 5 compliance states
+        for site in sites:
+            db.refresh(site)
+
+        print(f"Seeded {len(sites)} demo stations.")
+
+        # ==========================================================
+        # 2. CREATE ASSETS
+        #
+        # Total assets = 9
+        #
+        # Compliance coverage:
+        #   VALID       = 2
+        #   DUE_SOON    = 2
+        #   OVERDUE     = 2
+        #   FAILED      = 1
+        #   PENDING     = 2
+        #
+        # Total hydrotests = 12
+        # ==========================================================
+
         assets_data = [
+
+            # ------------------------------------------------------
             # 1. VALID - Stationary Cascade
+            # ------------------------------------------------------
             {
                 "asset": Asset(
                     asset_id="CNG-CAS-AHD-001",
                     site_id=sites[0].id,
                     asset_type="CASCADE_STORAGE",
                     serial_number="SN-CAS-99401",
-                    manufacturer="Bharat Heavy Tanks Ltd",
-                    model="Casc-Type1 3000L Bank",
+                    manufacturer="Demo Heavy Tanks Ltd",
+                    model="Cascade Type-1 3000L Bank",
                     capacity_liters=3000.0,
                     installation_date=today - timedelta(days=700),
                     cylinder_number="BNK-AHD-C1-88",
-                    status="ACTIVE"
+                    status="ACTIVE",
                 ),
                 "tests": [
+                    # Historical test
+                    {
+                        "test_date": today - timedelta(days=2500),
+                        "next_due_date": today - timedelta(days=675),
+                        "result": "PASS",
+                        "performed_by": "Demo Pressure Testing Lab",
+                        "cert": "DEMO-AHD-2020-0001",
+                        "verification": "NOT_VERIFIED",
+                        "test_p": 340.0,
+                        "work_p": 250.0,
+                        "notes": "Historical demonstration test record.",
+                    },
+
+                    # Current/latest test
                     {
                         "test_date": today - timedelta(days=650),
-                        "next_due_date": today - timedelta(days=650) + timedelta(days=1825),
+                        "next_due_date": today
+                        - timedelta(days=650)
+                        + timedelta(days=1825),
                         "result": "PASS",
-                        "performed_by": "Gujarat Gas Testing Agency #4",
-                        "cert": "PESO-GJ-2024-8841",
-                        "verification": "VERIFIED",
+                        "performed_by": "Demo Pressure Testing Lab",
+                        "cert": "DEMO-AHD-2026-8841",
+                        "verification": "NOT_VERIFIED",
                         "test_p": 350.0,
                         "work_p": 250.0,
-                        "notes": "Hydraulic expansion within 4% limit. Approved."
-                    }
-                ]
+                        "notes": "Synthetic demonstration test. Result PASS.",
+                    },
+                ],
             },
+
+            # ------------------------------------------------------
             # 2. VALID - Vehicle CNG Cylinder
+            # ------------------------------------------------------
             {
                 "asset": Asset(
                     asset_id="CNG-VEH-AHD-002",
                     site_id=sites[0].id,
                     asset_type="VEHICLE_CYLINDER",
                     serial_number="SN-CYL-88219",
-                    manufacturer="Everest Kanto Cylinder Ltd (EKC)",
-                    model="ISO 11439 Type 1 CNG-1",
+                    manufacturer="Demo Cylinder Manufacturing Ltd",
+                    model="Type 1 CNG 60L",
                     capacity_liters=60.0,
                     installation_date=today - timedelta(days=400),
                     cylinder_number="CYL-88219",
                     vehicle_number="GJ01AB1234",
-                    vehicle_make="Maruti Suzuki",
-                    vehicle_model="WagonR 1.0 LXI CNG",
+                    vehicle_make="Demo Motors",
+                    vehicle_model="Demo Hatchback CNG",
                     vehicle_fuel_type="CNG / Petrol",
                     vehicle_verified=True,
-                    status="ACTIVE"
+                    status="ACTIVE",
                 ),
                 "tests": [
-                    # Prior test 3 years ago
+                    # Older historical test
+                    {
+                        "test_date": today - timedelta(days=2200),
+                        "next_due_date": today - timedelta(days=375),
+                        "result": "PASS",
+                        "performed_by": "Demo CNG Testing Hub",
+                        "cert": "DEMO-AHD-2020-0022",
+                        "verification": "NOT_VERIFIED",
+                        "test_p": 330.0,
+                        "work_p": 200.0,
+                        "notes": "Historical synthetic test record.",
+                    },
+
+                    # Previous test
                     {
                         "test_date": today - timedelta(days=1100),
-                        "next_due_date": today - timedelta(days=1100) + timedelta(days=1095),
+                        "next_due_date": today
+                        - timedelta(days=1100)
+                        + timedelta(days=1095),
                         "result": "PASS",
-                        "performed_by": "Gujarat Gas Testing Hub",
-                        "cert": "PESO-GJ-2021-0022",
-                        "verification": "VERIFIED",
+                        "performed_by": "Demo CNG Testing Hub",
+                        "cert": "DEMO-AHD-2023-0022",
+                        "verification": "NOT_VERIFIED",
                         "test_p": 335.0,
                         "work_p": 200.0,
-                        "notes": "Initial cylinder certification."
+                        "notes": "Previous synthetic cylinder certification record.",
                     },
+
                     # Latest test
                     {
                         "test_date": today - timedelta(days=100),
-                        "next_due_date": today - timedelta(days=100) + timedelta(days=1095), # Due in ~995 days
+                        "next_due_date": today
+                        - timedelta(days=100)
+                        + timedelta(days=1095),
                         "result": "PASS",
-                        "performed_by": "Adani Total Gas Inspection Hub",
-                        "cert": "PESO-GJ-2023-1102",
-                        "verification": "VERIFIED",
+                        "performed_by": "Demo Gas Inspection Center",
+                        "cert": "DEMO-AHD-2026-1102",
+                        "verification": "NOT_VERIFIED",
                         "test_p": 340.0,
                         "work_p": 200.0,
-                        "notes": "Retest pass. No external pitting or corrosion."
-                    }
-                ]
+                        "notes": "Latest synthetic retest passed successfully.",
+                    },
+                ],
             },
-            # 3. DUE_SOON - Vehicle CNG Cylinder (Due in 12 days)
+
+            # ------------------------------------------------------
+            # 3. DUE SOON - Vehicle CNG Cylinder
+            # ------------------------------------------------------
             {
                 "asset": Asset(
                     asset_id="CNG-VEH-SRT-003",
                     site_id=sites[1].id,
                     asset_type="VEHICLE_CYLINDER",
                     serial_number="SN-CYL-77402",
-                    manufacturer="Everest Kanto Cylinder Ltd (EKC)",
-                    model="CNG Type-1 65L Auto",
+                    manufacturer="Demo Cylinder Manufacturing Ltd",
+                    model="Type-1 65L CNG",
                     capacity_liters=65.0,
                     installation_date=today - timedelta(days=1083),
                     cylinder_number="CYL-77402",
                     vehicle_number="GJ05EF9012",
-                    vehicle_make="Tata Motors",
-                    vehicle_model="Tiago iCNG XT",
+                    vehicle_make="Demo Motors",
+                    vehicle_model="Demo Compact CNG",
                     vehicle_fuel_type="CNG / Petrol",
                     vehicle_verified=True,
-                    status="ACTIVE"
+                    status="ACTIVE",
                 ),
                 "tests": [
                     {
                         "test_date": today - timedelta(days=1083),
-                        "next_due_date": today + timedelta(days=12), # DUE IN 12 DAYS
+                        "next_due_date": today + timedelta(days=12),
                         "result": "PASS",
-                        "performed_by": "Surat District Testing Corp",
-                        "cert": "PESO-GJ-2023-9912",
+                        "performed_by": "Demo Surat Testing Laboratory",
+                        "cert": "DEMO-SRT-2026-9912",
                         "verification": "NOT_VERIFIED",
                         "test_p": 335.0,
                         "work_p": 200.0,
-                        "notes": "Hydrostatic stretch test passed. Follow-up due soon."
+                        "notes": "Synthetic test passed. Follow-up due soon.",
                     }
-                ]
+                ],
             },
-            # 4. DUE_SOON - Station Dispenser Buffer (Due in 24 days)
+
+            # ------------------------------------------------------
+            # 4. DUE SOON - Station Dispenser Buffer
+            # ------------------------------------------------------
             {
                 "asset": Asset(
                     asset_id="CNG-BUF-VAD-004",
                     site_id=sites[3].id,
                     asset_type="DISPENSER_BUFFER",
                     serial_number="SN-BUF-33910",
-                    manufacturer="Linde Engineering",
+                    manufacturer="Demo Pressure Equipment Ltd",
                     model="500L Fast-Fill Buffer Vessel",
                     capacity_liters=500.0,
                     installation_date=today - timedelta(days=1801),
                     cylinder_number="BUF-VAD-B2",
-                    status="ACTIVE"
+                    status="ACTIVE",
                 ),
                 "tests": [
                     {
                         "test_date": today - timedelta(days=1801),
-                        "next_due_date": today + timedelta(days=24), # DUE IN 24 DAYS
+                        "next_due_date": today + timedelta(days=24),
                         "result": "PASS",
-                        "performed_by": "Vadodara Industrial Pressure Labs",
-                        "cert": "PESO-VAD-2021-7781",
-                        "verification": "VERIFIED",
+                        "performed_by": "Demo Vadodara Industrial Lab",
+                        "cert": "DEMO-VAD-2026-7781",
+                        "verification": "NOT_VERIFIED",
                         "test_p": 375.0,
                         "work_p": 250.0,
-                        "notes": "Buffer cylinder inspection valid."
+                        "notes": "Synthetic buffer vessel inspection valid and due soon.",
                     }
-                ]
+                ],
             },
-            # 5. OVERDUE - Commercial Cab Cylinder (Overdue by 15 days)
+
+            # ------------------------------------------------------
+            # 5. OVERDUE - Commercial Cab Cylinder
+            # ------------------------------------------------------
             {
                 "asset": Asset(
                     asset_id="CNG-VEH-RJK-005",
                     site_id=sites[2].id,
                     asset_type="VEHICLE_CYLINDER",
                     serial_number="SN-CYL-11045",
-                    manufacturer="Rama Cylinders Ltd",
+                    manufacturer="Demo Cylinder Manufacturing Ltd",
                     model="Type-1 Light Cylinder 55L",
                     capacity_liters=55.0,
                     installation_date=today - timedelta(days=1110),
                     cylinder_number="CYL-11045",
                     vehicle_number="GJ06GH3456",
-                    vehicle_make="Bajaj Auto",
-                    vehicle_model="Maxima C CNG Cargo Auto",
+                    vehicle_make="Demo Auto",
+                    vehicle_model="Demo Cargo CNG",
                     vehicle_fuel_type="CNG",
                     vehicle_verified=True,
-                    status="ACTIVE"
+                    status="ACTIVE",
                 ),
                 "tests": [
                     {
                         "test_date": today - timedelta(days=1110),
-                        "next_due_date": today - timedelta(days=15), # OVERDUE BY 15 DAYS
+                        "next_due_date": today - timedelta(days=15),
                         "result": "PASS",
-                        "performed_by": "Indraprastha Gas Cylinder Testing Unit",
-                        "cert": "PESO-DL-2021-9944",
-                        "verification": "VERIFIED",
+                        "performed_by": "Demo Rajkot Cylinder Testing Unit",
+                        "cert": "DEMO-RJK-2026-9944",
+                        "verification": "NOT_VERIFIED",
                         "test_p": 330.0,
                         "work_p": 200.0,
-                        "notes": "Expired! Needs immediate hydrotest testing."
+                        "notes": "Synthetic test is overdue. Follow-up action required.",
                     }
-                ]
+                ],
             },
-            # 6. OVERDUE - Cascade Storage (Overdue by 45 days)
+
+            # ------------------------------------------------------
+            # 6. OVERDUE - Cascade Storage
+            # ------------------------------------------------------
             {
                 "asset": Asset(
                     asset_id="CNG-CAS-SRT-006",
                     site_id=sites[1].id,
                     asset_type="CASCADE_STORAGE",
                     serial_number="SN-CAS-55120",
-                    manufacturer="Euro India Cylinders",
+                    manufacturer="Demo Storage Systems",
                     model="High Pressure 4500L Storage",
                     capacity_liters=4500.0,
                     installation_date=today - timedelta(days=1870),
                     cylinder_number="CAS-SRT-04",
-                    status="ACTIVE"
+                    status="ACTIVE",
                 ),
                 "tests": [
                     {
                         "test_date": today - timedelta(days=1870),
-                        "next_due_date": today - timedelta(days=45), # OVERDUE BY 45 DAYS
+                        "next_due_date": today - timedelta(days=45),
                         "result": "PASS",
-                        "performed_by": "Surat Safety Authority",
-                        "cert": "PESO-SRT-2019-3321",
+                        "performed_by": "Demo Surat Pressure Lab",
+                        "cert": "DEMO-SRT-2026-3321",
                         "verification": "NOT_VERIFIED",
                         "test_p": 350.0,
                         "work_p": 250.0,
-                        "notes": "Critical: Cascade overdue for re-certification."
+                        "notes": "Synthetic cascade record is overdue for re-testing.",
                     }
-                ]
+                ],
             },
-            # 7. FAILED - Bus Cylinder (Pressure decay & permanent expansion failure)
+
+            # ------------------------------------------------------
+            # 7. FAILED - Bus Cylinder
+            # ------------------------------------------------------
             {
                 "asset": Asset(
                     asset_id="CNG-VEH-AHD-007",
                     site_id=sites[0].id,
                     asset_type="VEHICLE_CYLINDER",
                     serial_number="SN-CYL-90012",
-                    manufacturer="Everest Kanto Cylinder Ltd (EKC)",
+                    manufacturer="Demo Cylinder Manufacturing Ltd",
                     model="Type-1 120L Commercial",
                     capacity_liters=120.0,
                     installation_date=today - timedelta(days=365),
                     cylinder_number="CYL-90012",
                     vehicle_number="GJ27JK7890",
-                    vehicle_make="Tata Motors",
-                    vehicle_model="Starbus CNG 32 Seater",
+                    vehicle_make="Demo Bus Manufacturer",
+                    vehicle_model="Demo CNG Bus",
                     vehicle_fuel_type="CNG",
                     vehicle_verified=True,
-                    status="ACTIVE"
+                    status="ACTIVE",
                 ),
                 "tests": [
                     {
                         "test_date": today - timedelta(days=20),
-                        "next_due_date": today - timedelta(days=20), # FAILED
+                        "next_due_date": today - timedelta(days=20),
                         "result": "FAIL",
-                        "performed_by": "Mahanagar Gas Hydro Testing Center",
-                        "cert": "PESO-MH-2024-4450",
-                        "verification": "VERIFIED",
+                        "performed_by": "Demo Vehicle Cylinder Laboratory",
+                        "cert": "DEMO-AHD-2026-4450",
+                        "verification": "NOT_VERIFIED",
                         "test_p": 320.0,
                         "work_p": 200.0,
-                        "notes": "FAILED TEST: Permanent volumetric expansion exceeded 10% limit. Cylinder rejected from service."
+                        "notes": "Synthetic failed test. Asset requires follow-up and review.",
                     }
-                ]
+                ],
             },
-            # 8. PENDING - Newly Commissioned Asset (No hydrotests performed yet)
+
+            # ------------------------------------------------------
+            # 8. PENDING - Newly Commissioned Asset
+            # ------------------------------------------------------
             {
                 "asset": Asset(
                     asset_id="CNG-PIP-VAD-008",
                     site_id=sites[3].id,
                     asset_type="PIPELINE_HEADER",
                     serial_number="SN-PIP-44810",
-                    manufacturer="Welspun Corp",
+                    manufacturer="Demo Pipeline Systems",
                     model="High Pressure 8-inch Manifold",
                     capacity_liters=800.0,
                     installation_date=today - timedelta(days=5),
                     cylinder_number="PIP-HDR-01",
-                    status="ACTIVE"
+                    status="ACTIVE",
                 ),
-                "tests": [] # NO TESTS YET -> PENDING COMPLIANCE
+                "tests": [],
             },
-            # 9. PENDING - Vehicle with Pending test status
+
+            # ------------------------------------------------------
+            # 9. PENDING - Vehicle with Pending Test
+            # ------------------------------------------------------
             {
                 "asset": Asset(
                     asset_id="CNG-VEH-RJK-009",
                     site_id=sites[2].id,
                     asset_type="VEHICLE_CYLINDER",
                     serial_number="SN-CYL-66104",
-                    manufacturer="Rama Cylinders Ltd",
+                    manufacturer="Demo Cylinder Manufacturing Ltd",
                     model="Type-1 60L",
                     capacity_liters=60.0,
                     installation_date=today - timedelta(days=30),
                     cylinder_number="CYL-66104",
                     vehicle_number="DL01XY9876",
-                    vehicle_make="Maruti Suzuki",
-                    vehicle_model="Eeco 5 STR AC CNG",
+                    vehicle_make="Demo Motors",
+                    vehicle_model="Demo Utility CNG",
                     vehicle_fuel_type="CNG / Petrol",
                     vehicle_verified=True,
-                    status="ACTIVE"
+                    status="ACTIVE",
                 ),
                 "tests": [
+                    # Historical test
                     {
-                        "test_date": today - timedelta(days=2),
-                        "next_due_date": today + timedelta(days=1095),
-                        "result": "PENDING", # TEST PENDING
-                        "performed_by": "Rajkot Testing Facility",
-                        "cert": "PEND-RJK-2026-001",
+                        "test_date": today - timedelta(days=1200),
+                        "next_due_date": today - timedelta(days=105),
+                        "result": "PASS",
+                        "performed_by": "Demo Rajkot Testing Facility",
+                        "cert": "DEMO-RJK-2023-0009",
                         "verification": "NOT_VERIFIED",
                         "test_p": 330.0,
                         "work_p": 200.0,
-                        "notes": "Cylinder submitted for test. Water jacket immersion in progress."
-                    }
-                ]
-            }
+                        "notes": "Historical synthetic hydrotest record.",
+                    },
+
+                    # Latest pending test
+                    {
+                        "test_date": today - timedelta(days=2),
+                        "next_due_date": today + timedelta(days=1095),
+                        "result": "PENDING",
+                        "performed_by": "Demo Rajkot Testing Facility",
+                        "cert": "DEMO-RJK-2026-0009",
+                        "verification": "NOT_VERIFIED",
+                        "test_p": 330.0,
+                        "work_p": 200.0,
+                        "notes": "Synthetic record. Test process is currently pending.",
+                    },
+                ],
+            },
         ]
 
-        # Insert assets and test records
+        # ==========================================================
+        # 3. INSERT ASSETS + HYDROTESTS + DOCUMENTS
+        # ==========================================================
+
+        total_hydrotests = 0
+        total_documents = 0
+
         for item in assets_data:
+
             asset = item["asset"]
+
             db.add(asset)
             db.commit()
             db.refresh(asset)
 
-            for t in item["tests"]:
-                # Generate sample certificate file
-                filename = f"certificate_{t['cert']}.pdf"
+            for test in item["tests"]:
+
+                # --------------------------------------------------
+                # Generate synthetic demo PDF
+                # --------------------------------------------------
+
+                filename = f"certificate_{test['cert']}.pdf"
                 pdf_path = upload_dir / filename
-                create_sample_pdf(pdf_path, t["cert"], asset.asset_id, t["result"])
 
-                rec = HydrotestRecord(
-                    asset_id=asset.id,
-                    test_date=t["test_date"],
-                    performed_by=t["performed_by"],
-                    result=t["result"],
-                    test_pressure_bar=t["test_p"],
-                    working_pressure_bar=t["work_p"],
-                    next_due_date=t["next_due_date"],
-                    certificate_number=t["cert"],
-                    cylinder_number=asset.cylinder_number,
-                    notes=t["notes"],
-                    report_filename=filename,
-                    verification_status=t["verification"],
-                    verification_payload=json.dumps({"seeded": True, "cert": t["cert"]})
+                create_sample_pdf(
+                    pdf_path,
+                    test["cert"],
+                    asset.asset_id,
+                    test["result"],
                 )
-                db.add(rec)
-                db.commit()
-                db.refresh(rec)
 
-                # Add document reference
-                doc = Document(
-                    hydrotest_record_id=rec.id,
+                # --------------------------------------------------
+                # Create Hydrotest Record
+                # --------------------------------------------------
+
+                record = HydrotestRecord(
+                    asset_id=asset.id,
+                    test_date=test["test_date"],
+                    performed_by=test["performed_by"],
+                    result=test["result"],
+                    test_pressure_bar=test["test_p"],
+                    working_pressure_bar=test["work_p"],
+                    next_due_date=test["next_due_date"],
+                    certificate_number=test["cert"],
+                    cylinder_number=asset.cylinder_number,
+                    notes=test["notes"],
+                    report_filename=filename,
+                    verification_status=test["verification"],
+                    verification_payload=json.dumps(
+                        {
+                            "seeded": True,
+                            "synthetic": True,
+                            "cert": test["cert"],
+                            "source": "DEMO_DATA",
+                        }
+                    ),
+                )
+
+                db.add(record)
+                db.commit()
+                db.refresh(record)
+
+                total_hydrotests += 1
+
+                # --------------------------------------------------
+                # Create Document Reference
+                # --------------------------------------------------
+
+                document = Document(
+                    hydrotest_record_id=record.id,
                     filename=filename,
-                    original_name=f"{t['cert']}_Report.pdf",
+                    original_name=f"{test['cert']}_Demo_Report.pdf",
                     mime_type="application/pdf",
                     file_size=pdf_path.stat().st_size,
-                    file_path=str(pdf_path)
+                    file_path=str(pdf_path),
                 )
-                db.add(doc)
+
+                db.add(document)
                 db.commit()
 
-        print(f"Successfully seeded {len(assets_data)} assets across all 5 compliance states:")
-        print(" - VALID (2 assets)")
-        print(" - DUE_SOON (2 assets)")
-        print(" - OVERDUE (2 assets)")
-        print(" - FAILED (1 asset)")
-        print(" - PENDING (2 assets)")
+                total_documents += 1
+
+        # ==========================================================
+        # 4. FINAL SUMMARY
+        # ==========================================================
+
+        print()
+        print("=" * 60)
+        print("DEMO DATABASE SEED COMPLETED")
+        print("=" * 60)
+
+        print(f"Sites:           {len(sites)}")
+        print(f"Assets:          {len(assets_data)}")
+        print(f"Hydrotests:      {total_hydrotests}")
+        print(f"Documents:       {total_documents}")
+
+        print()
+        print("Compliance coverage:")
+        print(" - VALID      (2 assets)")
+        print(" - DUE_SOON   (2 assets)")
+        print(" - OVERDUE    (2 assets)")
+        print(" - FAILED     (1 asset)")
+        print(" - PENDING    (2 assets)")
+
+        print()
+        print("All generated certificates are:")
+        print(" - DEMO DATA")
+        print(" - SYNTHETIC")
+        print(" - NOT OFFICIAL PESO CERTIFICATES")
+
+        print("=" * 60)
 
     finally:
         db.close()
+
 
 if __name__ == "__main__":
     seed()

@@ -30,6 +30,7 @@ class Asset(Base):
     # Operational status: ACTIVE, INACTIVE, RETIRED
     status = Column(String(30), default="ACTIVE", nullable=False, index=True)
 
+    created_by = Column(Integer, nullable=True)
     created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), nullable=False)
     updated_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), onupdate=lambda: datetime.now(timezone.utc), nullable=False)
 

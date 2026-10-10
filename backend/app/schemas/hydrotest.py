@@ -1,6 +1,8 @@
 from datetime import date, datetime
 from typing import Optional, Any
-from pydantic import BaseModel, ConfigDict, Field
+
+from pydantic import BaseModel, ConfigDict, Field, model_validator
+
 
 class HydrotestBase(BaseModel):
     test_date: date
@@ -14,8 +16,18 @@ class HydrotestBase(BaseModel):
     notes: Optional[str] = None
     report_filename: Optional[str] = None
 
+    @model_validator(mode="after")
+    def validate_date_order(self):
+        if self.next_due_date < self.test_date:
+            raise ValueError(
+                "Next due date cannot be earlier than the test date."
+            )
+        return self
+
+
 class HydrotestCreate(HydrotestBase):
     asset_id: int
+
 
 class HydrotestUpdate(BaseModel):
     test_date: Optional[date] = None
@@ -29,6 +41,7 @@ class HydrotestUpdate(BaseModel):
     notes: Optional[str] = None
     report_filename: Optional[str] = None
 
+
 class HydrotestResponse(HydrotestBase):
     id: int
     asset_id: int
@@ -38,6 +51,7 @@ class HydrotestResponse(HydrotestBase):
     updated_at: datetime
 
     model_config = ConfigDict(from_attributes=True)
+
 
 class CertificateVerificationResult(BaseModel):
     hydrotest_id: int
